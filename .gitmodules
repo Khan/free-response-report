@@ -1,0 +1,3 @@
+[submodule "wonder-blocks"]
+	path = wonder-blocks
+	url = https://github.com/Khan/wonder-blocks.git

@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@khanacademy/wonder-blocks-core": "^1.0.4",
+    "@khanacademy/wonder-blocks-color": "./wonder-blocks/packages/wonder-blocks-color/dist",
+    "@khanacademy/wonder-blocks-core": "./wonder-blocks/packages/wonder-blocks-core/dist",
+    "@khanacademy/wonder-blocks-grid": "./wonder-blocks/packages/wonder-blocks-grid/dist",
+    "@khanacademy/wonder-blocks-spacing": "./wonder-blocks/packages/wonder-blocks-spacing/dist",
+    "@khanacademy/wonder-blocks-typography": "./wonder-blocks/packages/wonder-blocks-typography/dist",
     "@types/aphrodite": "^0.5.10",
+    "@types/idyll-ast": "^1.3.0",
     "@types/react-router-dom": "^4.3.0",
     "aphrodite": "^2.2.2",
+    "flow": "^0.2.3",
     "idyll-apparatus-component": "^1.0.3",
+    "idyll-ast": "^1.5.1",
     "idyll-components": "^3.0.8",
     "idyll-document": "^2.11.1",
     "raw-loader": "^0.5.1",
@@ -17,9 +24,16 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "preinstall": "git submodule update --init --recursive && (cd wonder-blocks; yarn install; yarn run build:all)",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.77.0"
   }
 }

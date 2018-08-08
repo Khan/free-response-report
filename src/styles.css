@@ -1,1 +1,17 @@
 /* Put your custom CSS here! */
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr{
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+h1,h2,h3 {
+    margin-top: 1.5em;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
