@@ -2,19 +2,19 @@
 # yarn lockfile v1
 
 
-"@khanacademy/wonder-blocks-color@./wonder-blocks/packages/wonder-blocks-color/dist":
+"@khanacademy/wonder-blocks-color@file:./wonder-blocks/packages/wonder-blocks-color/dist":
   version "0.0.0"
 
-"@khanacademy/wonder-blocks-core@./wonder-blocks/packages/wonder-blocks-core/dist":
+"@khanacademy/wonder-blocks-core@file:./wonder-blocks/packages/wonder-blocks-core/dist":
   version "0.0.0"
 
-"@khanacademy/wonder-blocks-grid@./wonder-blocks/packages/wonder-blocks-grid/dist":
+"@khanacademy/wonder-blocks-grid@file:./wonder-blocks/packages/wonder-blocks-grid/dist":
   version "0.0.0"
 
-"@khanacademy/wonder-blocks-spacing@./wonder-blocks/packages/wonder-blocks-spacing/dist":
+"@khanacademy/wonder-blocks-spacing@file:./wonder-blocks/packages/wonder-blocks-spacing/dist":
   version "0.0.0"
 
-"@khanacademy/wonder-blocks-typography@./wonder-blocks/packages/wonder-blocks-typography/dist":
+"@khanacademy/wonder-blocks-typography@file:./wonder-blocks/packages/wonder-blocks-typography/dist":
   version "0.0.0"
 
 "@types/aphrodite@^0.5.10":

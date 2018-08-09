@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import IdyllDocument from "idyll-document";
 import * as builtInComponents from "idyll-components";
 
@@ -20,16 +20,16 @@ const styles = StyleSheet.create({
   },
 
   titleContainer: {
-    marginBottom: 32,
+    marginBottom: 32
   },
 
   authors: {
     opacity: 0.66,
-    marginBottom: 2,
+    marginBottom: 2
   },
 
   authorsDisclaimer: {
-    opacity: 0.32,
+    opacity: 0.32
   },
 
   logoContainer: {
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
 
   heroContainer: {
     marginTop: 96,
-    height: 486,
+    height: 486
   },
 
   heroImage: {
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     background: "url(/heading.png) no-repeat",
     backgroundSize: "1079px 470px",
     backgroundPosition: "top center",
-    zIndex: -1,
+    zIndex: -1
   },
 
   heroBanner: {
@@ -64,15 +64,26 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 0,
     width: "100%",
-    marginTop: -56,
+    marginTop: -56
   },
 
   heroTitle: {
-    marginBottom: "0.5em",
+    marginBottom: "0.5em"
   },
 
-  abstract: {
+  abstractContainer: {
+    marginBottom: 32,
+    position: "absolute",
+    width: "100%",
+    left: 0,
+    paddingBottom: 24,
+    borderBottom: `1px solid ${color.offBlack16}`
+  },
+  
+  abstractSizingContainer: {
     position: "relative",
+    width: "100vw",
+    visibility: "hidden",
   }
 });
 
@@ -92,18 +103,37 @@ const Title = ({ title, authors }) => (
     <div className={css(styles.heroContainer)}>
       <div className={css(styles.heroImage)} />
       <div className={css(textStyles.Title, styles.heroTitle)}>{title}</div>
-      <div className={css(styles.authors, textStyles.LabelMedium)}>{authors}</div>
-      <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>(authors listed alphabetically)</div>
+      <div className={css(styles.authors, textStyles.LabelMedium)}>
+        {authors}
+      </div>
+      <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>
+        (authors listed alphabetically)
+      </div>
     </div>
     <div className={css(styles.heroBanner)} />
   </div>
 );
 
 const Abstract = ({ children }) => (
-  <div className={css(styles.abstract)}>
-  {children}
+  <Fragment>
+  <div className={css(styles.abstractContainer)}>
+    <Row style={styles.noPosition}>
+      <Cell largeCols={2} mediumCols={2} smallCols={0} />
+      <Cell largeCols={8} mediumCols={4} smallCols={4}>
+        {children}
+      </Cell>
+    </Row>
   </div>
-)
+  <div className={css(styles.abstractContainer, styles.abstractSizingContainer)}>
+    <Row style={styles.noPosition}>
+      <Cell largeCols={2} mediumCols={2} smallCols={0} />
+      <Cell largeCols={8} mediumCols={4} smallCols={4}>
+        {children}
+      </Cell>
+    </Row>
+  </div>
+  </Fragment>
+);
 
 const Aside = ({ children }) => (
   <div
@@ -111,7 +141,7 @@ const Aside = ({ children }) => (
     className={css(textStyles.Footnote)}
   >
     <Row style={styles.noPosition}>
-      <Cell largeCols={8} mediumCols={8} smallCols={4} />
+      <Cell largeCols={8} mediumCols={5} smallCols={4} />
       <Cell largeCols={4} mediumCols={4} smallCols={0}>
         {children}
       </Cell>
@@ -178,7 +208,7 @@ const Document = ({ documents }) => (
       <Row style={styles.noPosition}>
         <Cell
           largeCols={8}
-          mediumCols={8}
+          mediumCols={5}
           smallCols={4}
           style={styles.noPosition}
         >
@@ -191,6 +221,7 @@ const Document = ({ documents }) => (
             }}
           />
         </Cell>
+        <Cell largeCols={4} mediumCols={3} smallCols={0}></Cell>
       </Row>
     </MediaLayout>
   </div>

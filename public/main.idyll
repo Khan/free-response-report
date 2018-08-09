@@ -3,9 +3,11 @@
   authors:"Nick Barr, Scott Farrar, Brian Johnsrud, May-Li Khoe, Andy Matuschak, Tabitha Yong"
 /]
 
+[Abstract]
 Online learning platforms help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but we also want students to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. How might we help students develop complex reasoning skills online through rich, open-ended activities with rapid feedback?
 
 In early 2017, Khan Academy began exploring how we might bring writing, drawing, and other free response activities to online learning platforms. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution. Our system offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
+[/Abstract]
 
 # 1. The problem
 

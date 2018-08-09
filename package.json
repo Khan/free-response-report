@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@khanacademy/wonder-blocks-color": "./wonder-blocks/packages/wonder-blocks-color/dist",
-    "@khanacademy/wonder-blocks-core": "./wonder-blocks/packages/wonder-blocks-core/dist",
-    "@khanacademy/wonder-blocks-grid": "./wonder-blocks/packages/wonder-blocks-grid/dist",
-    "@khanacademy/wonder-blocks-spacing": "./wonder-blocks/packages/wonder-blocks-spacing/dist",
-    "@khanacademy/wonder-blocks-typography": "./wonder-blocks/packages/wonder-blocks-typography/dist",
+    "@khanacademy/wonder-blocks-color": "file:./wonder-blocks/packages/wonder-blocks-color/dist",
+    "@khanacademy/wonder-blocks-core": "file:./wonder-blocks/packages/wonder-blocks-core/dist",
+    "@khanacademy/wonder-blocks-grid": "file:./wonder-blocks/packages/wonder-blocks-grid/dist",
+    "@khanacademy/wonder-blocks-spacing": "file:./wonder-blocks/packages/wonder-blocks-spacing/dist",
+    "@khanacademy/wonder-blocks-typography": "file:./wonder-blocks/packages/wonder-blocks-typography/dist",
     "@types/aphrodite": "^0.5.10",
     "@types/idyll-ast": "^1.3.0",
     "@types/react-router-dom": "^4.3.0",
@@ -24,7 +24,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "preinstall": "git submodule update --init --recursive && (cd wonder-blocks; yarn install; yarn run build:all)",
+    "preinstall": "(cd wonder-blocks; yarn install; yarn run build:all)",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
