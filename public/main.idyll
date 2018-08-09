@@ -117,21 +117,22 @@ But assessing a skill is different from developing a skill.
 
 As a concrete example, here’s one slice of the [SAT’s writing rubric for "analysis":](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay)
 
-<table>
-  <tr>
-    <td>1/4</td>
-    <td>2/4</td>
-    <td>3/4</td>
-    <td>4/4</td>
-  </tr>
-  <tr>
-    <td>Offers little or no analysis or ineffective analysis of the source text and demonstrates little or no understanding of the analytic task.</td>
-    <td>Offers limited analysis of the source text and demonstrates only partial understanding of the analytical task.</td>
-    <td>Offers an effective analysis of the source text and demonstrates an understanding of the analytical task.</td>
-    <td>Offers an insightful analysis of the source text and demonstrates a sophisticated understanding of the analytical task.</td>
-  </tr>
-</table>
-
+[AcrossAllColumns]
+[RawTable]
+  [tr]
+    [td][strong]1/4 points[/strong][/td]
+    [td][strong]2/4 points[/strong][/td]
+    [td][strong]3/4 points[/strong][/td]
+    [td][strong]4/4 points[/strong][/td]
+  [/tr]
+  [tr]
+    [td]Offers little or no analysis or ineffective analysis of the source text and demonstrates little or no understanding of the analytic task.[/td]
+    [td]Offers limited analysis of the source text and demonstrates only partial understanding of the analytical task.[/td]
+    [td]Offers an effective analysis of the source text and demonstrates an understanding of the analytical task.[/td]
+    [td]Offers an insightful analysis of the source text and demonstrates a sophisticated understanding of the analytical task.[/td]
+  [/tr]
+[/RawTable]
+[/AcrossAllColumns]
 
 Imagine that you scored 2 points, but you want to build your analytical skills so that you’ll earn 3 points next time. What should you do? It’s not at all clear how to proceed.
 

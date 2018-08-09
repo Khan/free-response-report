@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import IdyllDocument from "idyll-document";
 import * as builtInComponents from "idyll-components";
 
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     position: "relative",
     top: -6,
     height: 0,
-    overflow: "visible",
+    overflow: "visible"
     /*["::before"]: {
       content: '", "'
     },
@@ -146,6 +146,22 @@ const styles = StyleSheet.create({
   citationContainer: {
     opacity: 0.66,
     marginBottom: 8
+  },
+
+  table: {
+    borderSpacing: 16,
+    borderCollapse: "separate",
+    margin: -16,
+    marginBottom: "calc(1rem - 16px)",
+  },
+
+  tableCell: {
+    display: "table-cell",
+    padding: 0,
+    verticalAlign: "top",
+    [mobileQuery]: {
+      hyphens: "auto",
+    }
   }
 });
 
@@ -228,34 +244,50 @@ const Citation = ({ number, children }) => (
   </div>
 );
 
-const CitationRef = ({ number, children, hidden }) => (
-  !hidden && <div className={css(styles.citationNumber)}>{number}</div>
-);
+const CitationRef = ({ number, children, hidden }) =>
+  !hidden && <div className={css(styles.citationNumber)}>{number}</div>;
 
 const InlineAside = ({ children }) => (
   <div className={css(textStyles.Footnote)}>{children}</div>
 );
 
-const TwoUpImage = ({ imageURL, children }) => {
-  const interior = (
-    <Row style={styles.noPosition}>
-      <Cell largeCols={6} mediumCols={4} smallCols={0}>
-        {children}
-      </Cell>
-      <Cell largeCols={6} mediumCols={4} smallCols={4}>
-        <img src={imageURL} className={css(styles.twoUpImage)} />
-      </Cell>
-    </Row>
-  );
-  return (
-    <MediaLayout>
-      <div className={css(styles.clearContainer)}>{interior}</div>
-      <div className={css(styles.clearContainer, styles.sizingContainerOuter)}>
-        <div className={css(styles.sizingContainerInner)}>{interior}</div>
-      </div>
-    </MediaLayout>
-  );
-};
+const ClearDisplay = ({ children }) => (
+  <MediaLayout>
+    <div className={css(styles.clearContainer)}>{children()}</div>
+    <div className={css(styles.clearContainer, styles.sizingContainerOuter)}>
+      <div className={css(styles.sizingContainerInner)}>{children()}</div>
+    </div>
+  </MediaLayout>
+);
+
+const AcrossAllColumns = ({ children }) => (
+  <ClearDisplay>
+    {() => (
+      <Row style={styles.noPosition}>
+        <Cell largeCols={12} mediumCols={8} smallCols={4}>
+          {children}
+        </Cell>
+      </Row>
+    )}
+  </ClearDisplay>
+);
+
+const RawTable = ({ children }) => <table className={css(styles.table)}>{children}</table>;
+
+const TwoUpImage = ({ imageURL, children }) => (
+  <ClearDisplay>
+    {() => (
+      <Row style={styles.noPosition}>
+        <Cell largeCols={6} mediumCols={4} smallCols={0}>
+          {children}
+        </Cell>
+        <Cell largeCols={6} mediumCols={4} smallCols={4}>
+          <img src={imageURL} className={css(styles.twoUpImage)} />
+        </Cell>
+      </Row>
+    )}
+  </ClearDisplay>
+);
 
 /*
    Configuration bits here!
@@ -267,10 +299,12 @@ const documentName = "main.idyll";
 const components = {
   ...builtInComponents,
   Abstract,
+  AcrossAllColumns,
   Aside,
   Citation,
   CitationRef,
   InlineAside,
+  RawTable,
   Title,
   TwoUpImage
   /* Add any custom components you want to use here. */
@@ -311,6 +345,11 @@ const postProcessor = inputAST => {
 
   transformedAST = ast.modifyNodesByName(transformedAST, "ul", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
+    return node;
+  });
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "td", node => {
+    node = ast.setProperty(node, "className", css(textStyles.Body, styles.tableCell));
     return node;
   });
 
