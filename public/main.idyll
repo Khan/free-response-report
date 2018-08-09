@@ -17,65 +17,50 @@ Of all the problems students will face in their lives as adults, the most challe
 “How should we most efficiently lay out the stalls in the school fair?”
 “How might we design an experiment to understand this fabric’s durability?”
 
-[Aside]
+[Aside][Citation]
  Chi, M. T. H., & Glaser, R. (1985). Problem-solving ability. In R. J. Sternberg (Ed.), Human abilities (pp. 227–250). New York: W. H. Freeman and Company.
-[/Aside]
+[/Citation][/Aside]
 
-There’s no simple set of rules that always yields a solution. These open-ended problems are "ill-defined," demanding heavy cognitive tasks like non-routine analysis, creative synthesis, or insightful transfer of outside ideas.
+There’s no simple set of rules that always yields a solution. These open-ended problems are "ill-defined,"[CitationRef /] demanding heavy cognitive tasks like non-routine analysis, creative synthesis, or insightful transfer of outside ideas.
 
 Today’s students don’t wait until adulthood to face open-ended problems. Every core subject’s curricular standards include key skills developed through these kinds of problems. For example:
 
-[Aside]
- http://www.corestandards.org/Math/Content/HSM/
-[/Aside]
+* In math, [the Common Core State Standards expect](http://www.corestandards.org/Math/Content/HSM/) high school students to develop modeling skills: "choosing and using appropriate mathematics and statistics to analyze empirical situations, to understand them better, and to improve decisions."
 
-* In math, the Common Core State Standards expect high school students to develop modeling skills: "choosing and using appropriate mathematics and statistics to analyze empirical situations, to understand them better, and to improve decisions."
-
-[Aside]
- http://www.corestandards.org/ELA-Literacy/CCRA/R/
-[/Aside]
-
-* In English language arts, the Common Core State Standards suggest that literary analysis skills are critical for college readiness. Students might need to "read closely to determine what the text says explicitly and to make logical inferences from it" and “cite specific textual evidence when writing or speaking to support conclusions drawn from the text.”
+* In English language arts, [the Common Core State Standards suggest]( http://www.corestandards.org/ELA-Literacy/CCRA/R/) that literary analysis skills are critical for college readiness. Students might need to "read closely to determine what the text says explicitly and to make logical inferences from it" and “cite specific textual evidence when writing or speaking to support conclusions drawn from the text.”
 
 * In history, the Common Core State Standards ask 11th and 12th graders to build skills like evaluating "authors' differing points of view on the same historical event or issue by assessing the authors' claims, reasoning, and evidence."
 
-[Aside]
- https://www.nap.edu/read/13165/chapter/7#60
-[/Aside]
-
-* In sciences, the Next Generation Science Standards expect graduating seniors to "plan experimental or field-research procedures, identifying relevant independent and dependent variables and, when appropriate, the need for controls."
+* In sciences, [the Next Generation Science Standards expect](https://www.nap.edu/read/13165/chapter/7#60) graduating seniors to "plan experimental or field-research procedures, identifying relevant independent and dependent variables and, when appropriate, the need for controls."
 
 [Aside]
- Corresponding to levels 3 and 4 on Webb’s Depth of Knowledge scale.
+Corresponding to levels 3 and 4 on Webb’s Depth of Knowledge scale. TODO: image of scale
 [/Aside]
 
 Complex reasoning skills like these require deep understanding. Typical problems involve strategic or extended thinking, asking students to combine factual, procedural, and conceptual knowledge in unfamiliar situations.
 
 [Aside]
- Hattie, J., & Timperley, H. (2016). The Power of Feedback. Review of Educational Research, 77(1), 81–112. http://doi.org/10.3102/003465430298487
-[/Aside]
-
-[Aside]
- The academic literature refers to right–wrong feedback as "knowledge of result." See: Shute, V. J. (2008). Focus on Formative Feedback. Review of Educational Research, 78(1), 153–189. http://doi.org/10.3102/0034654307313795
-[/Aside]
-
-To develop any type of skill, students need plenty of practice and feedback. If they’re learning a mathematical algorithm or factual knowledge, students can practice with straightforward fill-in-the-blank or multiple-choice questions. In many cases, simple right-vs-wrong feedback might be enough to guide students’ next steps—and that’s great, because online learning environments can generate that kind of feedback instantly. 
-
-[Aside]
+[Citation]
+Hattie, J., & Timperley, H. (2016). The Power of Feedback. Review of Educational Research, 77(1), 81–112. http://doi.org/10.3102/003465430298487
+[/Citation]
+[p]The academic literature refers to right–wrong feedback as "knowledge of result."[/p]
+[Citation]
  Schoenfeld, A. H. (2016). Learning to Think Mathematically: Problem Solving, Metacognition, and Sense Making in Mathematics (Reprint). Journal of Education, 196(2), 1–38. http://doi.org/10.1177/002205741619600202
+[/Citation]
+[Citation]
+ Xun, G. E., & Land, S. M. (2004). A conceptual framework for scaffolding ill-structured problem-solving processes using question prompts and peer interactions. Educational Technology Research and Development, 52(2), 5–22. http://doi.org/10.1007/BF02504836
+[/Citation]
 [/Aside]
 
-[Aside]
- Xun, G. E., & Land, S. M. (2004). A conceptual framework for scaffolding III-structured problem-solving processes using question prompts and peer interactions. Educational Technology Research and Development, 52(2), 5–22. http://doi.org/10.1007/BF02504836
-[/Aside]
+To develop any type of skill, students need plenty of practice and feedback[CitationRef /]. If they’re learning a mathematical algorithm or factual knowledge, students can practice with straightforward fill-in-the-blank or multiple-choice questions. In many cases, simple right-vs-wrong feedback might be enough to guide students’ next steps—and that’s great, because online learning environments can generate that kind of feedback instantly. 
 
-But when students practice complex reasoning skills like the ones we’ve described, they need complex *feedback*. Often the problems have no single "right" answer. Even when a problem has one “right” answer, simply being told what it is will rarely help students solve the next open-ended problem. For complex reasoning skills, students need feedback that facilitates sense-making—helping them elaborate, connect, and revise their ideas. Online platforms’ simpler tasks (multiple-choice, fill-in-the-blank, etc) capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place.
+But when students practice complex reasoning skills like the ones we’ve described, they need complex *feedback*. Often the problems have no single "right" answer. Even when a problem has one “right” answer, simply being told what it is will rarely help students solve the next open-ended problem. For complex reasoning skills, students need feedback that facilitates sense-making[CitationRef /]—helping them elaborate, connect, and revise their ideas[CitationRef /]. Online platforms’ simpler tasks (multiple-choice, fill-in-the-blank, etc) capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place.
 
-[Aside]
+[Aside][Citation]
  Shute, V. J. (2008). Focus on Formative Feedback. Review of Educational Research, 78(1), 153–189. http://doi.org/10.3102/0034654307313795
-[/Aside]
+[/Citation][/Aside]
 
-For complex reasoning skills, explicit scores are more helpful feedback for *evaluation*: when students (and teachers) want to verify that they have indeed reached the level of understanding they think they’ve reached. But to *develop* complex reasoning skills, we must facilitate richer feedback, which forces us to uncouple development-focused interactions from evaluation-focused interactions.
+For complex reasoning skills, explicit scores are more helpful feedback for *evaluation*: when students (and teachers) want to verify that they have indeed reached the level of understanding they think they’ve reached. But to *develop* complex reasoning skills, we must facilitate richer feedback, which forces us to uncouple development-focused interactions from evaluation-focused interactions[CitationRef /].
 
 Many students and teachers love that online learning platforms offer instant feedback, insightful reports, and an opportunity for individualized practice. Unfortunately, those features are only available for simpler, multiple-choice-like tasks, which we’ve just established can’t help students develop complex reasoning skills.
 
@@ -88,44 +73,45 @@ Let’s begin by examining how teachers structure practice and feedback to help 
 Current attempts at developing complex reasoning skills encounter a number of challenges.
 
 [Aside]
+[Citation]
  Stein, M. K., Engle, R. A., Smith, M. S., & Hughes, E. K. (2008). Orchestrating Productive Mathematical Discussions: Five Practices for Helping Teachers Move Beyond Show and Tell. Mathematical Thinking and Learning, 10(4), 313–340. http://doi.org/10.1080/10986060802229675
-[/Aside]
+[/Citation]
 
-[Aside]
+[Citation]
  Brookfield, Stephen D. Teaching for critical thinking: Tools and techniques to help students question their assumptions. John Wiley & Sons, 2011.
+[/Citation]
 [/Aside]
 
-Proficient educators with small class sizes orchestrate group discussions to develop complex skills. A quick vignette illustrates how that might look:
+Proficient educators with small class sizes orchestrate group discussions to develop complex skills[CitationRef /][CitationRef /]. A quick vignette illustrates how that might look:
 
 The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion, emphasizing key concepts and connecting them to broader ideas.
 
 At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate reliably. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Because the facilitated discussion mostly involves the teacher and a sequence of individual speakers, many students may not be terribly engaged during that segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
 
-[Aside]
+[Aside][Citation]
  Brookfield, S. D., & Preskill, S. (2012). Discussion as a way of teaching. John Wiley & Sons.
-[/Aside]
+[/Citation]
 
-[Aside]
+[Citation]
  Christopher, M. M., Thomas, J. A., & Runnels, M. K. T. (2010). Raising the bar: Encouraging high level thinking in online discussion forums. Roeper Review, 26(3), 166–171. http://doi.org/10.1080/02783190409554262
-[/Aside]
+[/Citation]
 
-[Aside]
+[Citation]
  Mazzolini, M., & Maddison, S. (2007). When to jump in: The role of the instructor in online discussion forums. Computers & Education, 49(2), 193–213. http://doi.org/10.1016/j.compedu.2005.06.011
-[/Aside]
+[/Citation]
 
-Some teachers try to mitigate these challenges through online forum software. This environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because these systems have no structure to shape discussion pedagogically, they often fail to help students think more deeply—even when teachers intervene with occasional replies.
-
-[Aside]
  One teacher we visited gestured to a huge stack of papers he’d just finished reading. "I have 196 students. That’s 16 hours right there."
 [/Aside]
 
+Some teachers try to mitigate these challenges through online forum software[CitationRef /]. This environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because these systems have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
+
 Another way learners might develop complex skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours, so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve totally forgotten about their project.
 
-[Aside]
+[Aside][Citation]
  Kulkarni, C. E., Bernstein, M. S., & Klemmer, S. R. (2015). PeerStudio: Rapid Peer Feedback Emphasizes Revision and Improves Performance. the Second (2015) ACM Conference (pp. 75–84). New York, New York, USA: ACM. http://doi.org/10.1145/2724660.2724670
-[/Aside]
+[/Citation][/Aside]
 
-Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is that each student grades a couple other students’ work (typically using a rubric), then later receives a grade of their own from their peers. Systems like [PeerStudio](https://www.peerstudio.org/) have established methods for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives. 
+Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is that each student grades a couple other students’ work (typically using a rubric), then later receives a grade of their own from their peers. Systems like [PeerStudio](https://www.peerstudio.org/) have established methods[CitationRef /] for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives. 
 
 But assessing a skill is different from developing a skill. 
 
@@ -171,53 +157,55 @@ Our ideas began as simple paper prototypes, and blossomed into classroom pilots 
 
 There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and underlying framework.
 
+[TwoUpImage imageURL:"images/write.png"]
 ## Write: responding to open-ended problems
-
-![image alt text](image_0.png)
 
 Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/): accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
 
-## Respond: engaging with others’ ideas
+[/TwoUpImage]
 
-![image alt text](image_1.png)
+[TwoUpImage imageURL:"images/respond.png"]
+## Respond: engaging with others’ ideas
 
 Once students have written an answer of their own, we help them develop their thinking by facilitating structured interactions with others’ ideas. The pedagogical principle is that students build their understanding of the skill by effortfully engaging with peers’ or experts’ use of that skill. To quote one middle school math student from our pilot:
 
 Seeing someone else’s work helped me realize how theirs was wrong—then I realized they did the same thing I did! Then I went back and fixed my work.
 
+[/TwoUpImage]
+
+[TwoUpImage imageURL:"images/revise.png"]
 ## Revise: refining ideas and assessing development
 
-![image alt text](image_2.png)
+Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned. The revision step offers students an opportunity to review and integrate new insights they’ve gained from the activity into what they already understand. Students can revise their work as many times as they like. Teachers and students together bound the activity’s duration and decide when to move on; revision is an opportunity to submit *another* draft—not a "final" draft.[CitationRef hidden:true /]
 
-[Aside]
- Fitzgerald, J. (1987). Research on Revision in Writing. Review of Educational Research, 57(4), 481–506. http://doi.org/10.3102/00346543057004481
-[/Aside]
+[Citation]Fitzgerald, J. (1987). Research on Revision in Writing. Review of Educational Research, 57(4), 481–506. http://doi.org/10.3102/00346543057004481
+[/Citation]
 
-Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned. The revision step offers students an opportunity to review and integrate new insights they’ve gained from the activity into what they already understand. Students can revise their work as many times as they like. Teachers and students together bound the activity’s duration and decide when to move on; revision is an opportunity to submit *another* draft—not a "final" draft.
+[/TwoUpImage]
 
 # 4. Core features
 
 ## Scaffolding peer interactions with sentence starters
 
-[Aside]
+[Aside][Citation]
  Bruner, J. S. (1983). Child’s talk: Learning to use language. New York: Norton.
-[/Aside]
+[/Citation][/Aside]
 
-*"Where before there was a spectator, let there now be a participant." —Jerome Bruner*
+[em]"Where before there was a spectator, let there now be a participant." —Jerome Bruner[CitationRef /][/em]
 
-[Aside]
+[Aside][Citation]
  Stein, M. K., Engle, R. A., Smith, M. S., & Hughes, E. K. (2008). Orchestrating Productive Mathematical Discussions: Five Practices for Helping Teachers Move Beyond Show and Tell. Mathematical Thinking and Learning, 10(4), 313–340. http://doi.org/10.1080/10986060802229675
-[/Aside]
+[/Citation][/Aside]
 
-In a good classroom discussion, students don’t listen passively to their peer’s ideas: they respond, elaborate, and synthesize them. The teacher asks probing questions, igniting conversation between students that highlights connections and clarifies conceptions. Mary Kay Stein and her collaborators depict the opportunity:
+In a good classroom discussion, students don’t listen passively to their peer’s ideas: they respond, elaborate, and synthesize them. The teacher asks probing questions, igniting conversation between students that highlights connections and clarifies conceptions. Mary Kay Stein and her collaborators depict the opportunity[CitationRef /]:
 
 Sometimes two students find that they agree with each other. At other times, their ways of reasoning may differ, but both are correct. This experience provides an opportunity to find out how two different pathways can lead to the same understanding or solution. Finally, students can find that their reasoning differs from that of other students and that they disagree on a fundamental idea or a solution to a problem, thus revealing the need to figure out whose reasoning is correct. All of these scenarios offer opportunities for students to enhance their understanding…
 
-[Aside]
+[Aside][Citation]
  Xun, G. E., & Land, S. M. (2004). A conceptual framework for scaffolding III-structured problem-solving processes using question prompts and peer interactions. Educational Technology Research and Development, 52(2), 5–22.
-[/Aside]
+[/Citation][/Aside]
 
-We experimented with a variety of structures which might push students to participate in thoughtful ways with peers’ and experts’ ideas. With open-ended questions like the ones we’re asking, students wrestle simultaneously with many different concepts, so it’s important that we offer some structured scaffolds to help guide their interactions. Xun Ge and Susan Land suggest that we can help students by asking "elaborative questions" like “Why is X important?” or “How does X affect Y?”. These types of questions “elicit explanatory responses and high-level thinking elaboration, and thus are effective in facilitating knowledge building of learners of various age groups.”
+We experimented with a variety of structures which might push students to participate in thoughtful ways with peers’ and experts’ ideas. With open-ended questions like the ones we’re asking, students wrestle simultaneously with many different concepts, so it’s important that we offer some structured scaffolds to help guide their interactions. Xun Ge and Susan Land suggest that we can help students by asking "elaborative questions" like “Why is X important?” or “How does X affect Y?”. These types of questions “elicit explanatory responses and high-level thinking elaboration, and thus are effective in facilitating knowledge building of learners of various age groups.”[CitationRef /]
 
 These activities are meant to support specific complex reasoning skills, so we try to help students engage with others’ responses through the lens of those skills. We write elaborative questions which prompt students to do something with their peer’s answer which might reinforce procedural or conceptual knowledge relevant to the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to think about their peer’s claims through the lenses like the absence of alternative explanations.
 
@@ -236,7 +224,7 @@ We frame peer interactions as a *challenge for the explicit benefit of the respo
 In our pilots, we had the most success when exposing students both to their classmates’ ideas and also to expert-curated model work.
 
 [Aside]
- See also Nick’s blog post on more opportunities specific to model work.
+See also [our blog post](http://klr.tumblr.com/post/174644368643/curated-work-can-help-develop-student) elaborating futher on opportunities specific to model work.
 [/Aside]
 
 Model work allows more control. For instance, we can make sure that students see great work—possibly even annotating it to call out what’s particularly strong:
@@ -247,11 +235,11 @@ We can also use model work to [scaffold](https://docs.google.com/document/d/1Jzx
 
 By contrast, peer work is a bit of a lottery. The student might see some interesting ideas, or they might see nonsense. But peer work is *alive:* it situates the exchange of ideas in a social context which creates meaning for the whole activity. Interaction with peer work also creates the possibility for students *receiving* interesting personal feedback from those peers.
 
-[Aside]
+[Aside][Citation]
  Okita, S. Y., Bailenson, J., & Schwartz, D. L. (2008). The mere belief of social interaction improves learning. Proceedings of the 8th International Conference on International Conference for the Learning Sciences, 2, 132–139.
-[/Aside]
+[/Citation][/Aside]
 
-We wanted a social context to pervade the experience so that students would engage more deeply. We were inspired in part by Sandra Okita and colleagues’ memorably-named paper, "The mere belief of social interaction improves learning," documenting a randomized controlled trial in which students who believed they were learning in a social context performed significantly better on a post-test.
+We wanted a social context to pervade the experience so that students would engage more deeply. We were inspired in part by Sandra Okita and colleagues’ memorably-named paper, "The mere belief of social interaction improves learning,"[CitationRef /] documenting a randomized controlled trial in which students who believed they were learning in a social context performed significantly better on a post-test.
 
 Our observations in the pilot data and teachers’ responses in our interviews all suggest that the act of *writing* responses to peer work is usually more directly helpful than *receiving* those responses from others. Even if the responses they receive from peers aren’t terribly helpful, it’s still quite important for engagement for students to receive those replies. Students tell us they take the activity more seriously because they know their classmates will be reading them.
 
@@ -259,11 +247,11 @@ As we changed the interface in various ways to make the social presence of class
 
 In our pilots, we’ve presented students with a mix of peer work and model work—usually one example of each. The proportion could be a knob we make available to the teacher, or to the activity creator, to the student themselves, or even to an algorithm, which might emphasize model work for struggling students.
 
-[Aside]
+[Aside][Citation]
  Vygotsky, L. S. (1934/1987). The collected works of L. S. Vygotsky. (Eds). R. Rieber & A. Carton. NY: Plenum.
-[/Aside]
+[/Citation][/Aside]
 
-Whether it’s peer work or model work, working with others’ ideas allows learners to access their [zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development): the region just outside of what they can achieve on their own. Lev Vygotsky put it best: "What a child is able to do in collaboration today he will be able to do independently tomorrow."
+Whether it’s peer work or model work, working with others’ ideas allows learners to access their [zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development): the region just outside of what they can achieve on their own. Lev Vygotsky put it best[CitationRef /]: "What a child is able to do in collaboration today he will be able to do independently tomorrow."
 
 ## Matchmaking
 
@@ -285,11 +273,11 @@ Besides the deeper interactions involving sentence starters, we gave students si
 
 One important question here has been: should students remain anonymous, or not? We’ve heard conflicting answers from teachers and students. The reality is probably fluid and context-sensitive. For instance, students tell us they’re more comfortable writing critical feedback (and receiving it!) when they know they’re anonymous. Many teachers have told us that anonymity can help avoid abusive or disruptive situations. On the other hand, some teachers have noted that sometimes de-anonymizing can imbue a helpful sense of accountability and responsibility.
 
-[Aside]
+[Aside][Citation]
  Slavin, R. E., 1996. (1996). Research on cooperative learning and achievement: What we know, what we need to know. Contemporary Educational Psychology, 21, 43–69.
-[/Aside]
+[/Citation][/Aside]
 
-We hope that as we continue improving the structured discourse we foster in these activities, we’ll help students build important metacognitive skills while they build topical reasoning skills: giving and receiving feedback, interpreting others’ ideas, revising work iteratively.
+We hope that as we continue improving the structured discourse we foster in these activities, we’ll help students build important metacognitive skills while they build topical reasoning skills[CitationRef /]: giving and receiving feedback, interpreting others’ ideas, revising work iteratively.
 
 The social environment lives on once the activity’s nominally over. We invite students to continue the conversation indefinitely if they like—we thought of this phase like an afterparty. We saw some of our pilot students take us up on that offer, interacting with each others’ ideas long after their class was over.
 
@@ -414,56 +402,3 @@ These activities didn’t seem to reliably help many students. We learned from e
 When we asked teachers about the most valuable parts of our reports, they emphasized the value of seeing exactly how students revised their work. Student reflections came up occasionally but didn’t seem to offer much insight to teachers.
 
 For our most recent pilots, then, we’ve retired the reflection prompts in favor of revision, which appears to be both more helpful to students and more insightful for teachers. We’re still interested in experimenting more with reflection for shorter activities, in which a revision step might feel excessive or too time-consuming.
-
-# Chopping block
-
-### (from "Journey" section)
-
-In early 2017, Khan Academy began exploring how we might bring writing, drawing, and other free response activities to online learning platforms. As we started this project, we pursued a shifting handful of distinct yet related problems. It took months of exploration before we understood the core ideas that connected them.
-
-![image alt text](image_7.png)
-
-That exploration took the shape of a spiral: refining the question, exploring the landscape of past work, conducting user research, generating concepts, testing our ideas—then looping back around again. Throughout, we collaborated with educators who were generous with their time and expertise. We interviewed more than 50 experts in math, physics, and the humanities. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms, exposing students to a broader set of ideas and people.
-
-Our ideas began as simple paper prototypes, and blossomed into classroom pilots that we ran with more than 600 students across the country. This constant iteration led us to design a number of important features within the activity framework. Those are described in detail below.
-
-## Many modes of expression
-
-### From brainstorms to full essays
-
-{illustrated spectrum of student work from brainstorm to full essay}
-
-Complex problems like the ones we’ve been discussing can be explored at many different levels of depth. Say we’re pondering the primary causes of structural inequality. At one end of the spectrum, we might jot fragmentary thoughts on sticky notes; at the other, we might write a lengthy essay. For most of our pilots, we focused on helping students develop their skills through exercises targeting an intermediate fidelity—call it "paragraph-length thinking." This seemed to represent a solid balance between breadth and depth.
-
-We’re ultimately interested in helping students develop their ideas all the way from early brainstorms to lengthy, thoroughly-considered expressions like essays.
-
-On the lower-fidelity side of this spectrum, we’re inspired by teachers’ use of graphic organizers:
-
-{todo examples of three graphic organizers}
-
-To support students in gathering their thoughts, a class could make multiple rounds through the activity flow we’ve described. In a first round, students could generate ideas to fill structures like these graphic organizers, getting their rough thoughts out on paper. Then they’d engage with classmates’ brainstorms and revise their own ideas, before using all the thoughts they’d seen to author a stronger paragraph-length response.
-
-{todo: illustration? diagram? Photos of our early sketches?}
-
-On the higher-fidelity side of the spectrum, extra rounds could scaffold students to expand their paragraph-length ideas into a complete essay. After a class uses a round of our activity to generate a few sentences summarizing their argument, they could use the same types of structured peer interactions to expand each of their main ideas into its own paragraph, connecting them into a deeper narrative.
-
-{todo: illustration? Diagram? Photos of our early sketches?}
-
-The activities we ran still required time and expertise from the Khan Academy content team. And more research is necessary to confirm whether activity creation can be as flexible in subjects beyond History. But we are hopeful that these pilots point a way toward scalable activity creation that removes another burden from teachers while still empowering them to tailor free response questions to be relevant to their classes.
-
-## Opportunities and limitations of NLP
-
-* What’s the state of the research? 
-
-* Can’t NLP just do this? If not, are we 1 year off? 10? Why?
-
-* NLP for evaluation vs development
-
-* NLP as a teacher aid? Highlighting key phrases, matching work, positing an evaluation?
-
-* NLP as its own kind of icebreaker (I think the thesis is here, do you agree?)
-
-* Impact of NLP on student agency? Engagement? Motivation? (recall the social pressure box in pedagogy…)
-
-* What does our dream world look like, algorithms permitting? 
-

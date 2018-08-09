@@ -10,6 +10,8 @@ import { styles as textStyles } from "@khanacademy/wonder-blocks-typography";
 import color from "@khanacademy/wonder-blocks-color";
 import { StyleSheet, css } from "aphrodite";
 
+const mobileQuery = "@media (max-width: 767px)";
+
 const styles = StyleSheet.create({
   noPosition: {
     position: "unset"
@@ -38,12 +40,22 @@ const styles = StyleSheet.create({
     left: "50%",
     transform: "translate(-50%, 0)",
     margin: "0 auto",
-    textAlign: "center"
+    textAlign: "center",
+
+    [mobileQuery]: {
+      left: 16,
+      top: 24,
+      transform: "unset",
+      margin: "0"
+    }
   },
 
   heroContainer: {
     marginTop: 96,
-    height: 486
+    height: 486,
+    [mobileQuery]: {
+      marginTop: 72
+    }
   },
 
   heroImage: {
@@ -55,7 +67,10 @@ const styles = StyleSheet.create({
     background: "url(/heading.png) no-repeat",
     backgroundSize: "1079px 470px",
     backgroundPosition: "top center",
-    zIndex: -1
+    zIndex: -1,
+    [mobileQuery]: {
+      backgroundPosition: "top left"
+    }
   },
 
   heroBanner: {
@@ -71,11 +86,14 @@ const styles = StyleSheet.create({
     marginBottom: "0.5em"
   },
 
-  abstractContainer: {
-    marginBottom: 32,
+  clearContainer: {
     position: "absolute",
     width: "100%",
-    left: 0,
+    left: 0
+  },
+
+  abstractContainer: {
+    marginBottom: 32,
     paddingBottom: 24,
     borderBottom: `1px solid ${color.offBlack16}`
   },
@@ -89,6 +107,45 @@ const styles = StyleSheet.create({
 
   sizingContainerInner: {
     width: "100vw"
+  },
+
+  twoUpImage: {
+    marginTop: 36,
+    width: "100%",
+    borderRadius: 4,
+    border: `1px solid ${color.offBlack16}`
+  },
+
+  citationNumber: {
+    fontSize: "70%",
+    display: "inline-block",
+    position: "relative",
+    top: -6,
+    height: 0,
+    overflow: "visible",
+    /*["::before"]: {
+      content: '", "'
+    },
+    [":first-of-type"]: {
+      ["::before"]: {
+        content: "unset"
+      }
+    }*/
+  },
+
+  asideCitation: {
+    fontSize: "80%",
+    position: "absolute",
+    display: "inline-block",
+    marginLeft: -24 - 4,
+    width: 24,
+    textAlign: "right",
+    marginTop: -4
+  },
+
+  citationContainer: {
+    opacity: 0.66,
+    marginBottom: 8
   }
 });
 
@@ -121,7 +178,7 @@ const Title = ({ title, authors }) => (
 
 const Abstract = ({ children }) => (
   <MediaLayout>
-    <div className={css(styles.abstractContainer)}>
+    <div className={css(styles.abstractContainer, styles.clearContainer)}>
       <Row style={styles.noPosition}>
         <Cell largeCols={2} mediumCols={1} smallCols={0} />
         <Cell largeCols={8} mediumCols={6} smallCols={4}>
@@ -129,7 +186,13 @@ const Abstract = ({ children }) => (
         </Cell>
       </Row>
     </div>
-    <div className={css(styles.abstractContainer, styles.sizingContainerOuter)}>
+    <div
+      className={css(
+        styles.abstractContainer,
+        styles.clearContainer,
+        styles.sizingContainerOuter
+      )}
+    >
       <div className={css(styles.sizingContainerInner)}>
         <Row style={styles.noPosition}>
           <Cell largeCols={2} mediumCols={1} smallCols={0} />
@@ -158,6 +221,42 @@ const Aside = ({ children }) => (
   </div>
 );
 
+const Citation = ({ number, children }) => (
+  <div className={css(textStyles.Footnote, styles.citationContainer)}>
+    <div className={css(styles.asideCitation)}>{number}</div>
+    {children}
+  </div>
+);
+
+const CitationRef = ({ number, children, hidden }) => (
+  !hidden && <div className={css(styles.citationNumber)}>{number}</div>
+);
+
+const InlineAside = ({ children }) => (
+  <div className={css(textStyles.Footnote)}>{children}</div>
+);
+
+const TwoUpImage = ({ imageURL, children }) => {
+  const interior = (
+    <Row style={styles.noPosition}>
+      <Cell largeCols={6} mediumCols={4} smallCols={0}>
+        {children}
+      </Cell>
+      <Cell largeCols={6} mediumCols={4} smallCols={4}>
+        <img src={imageURL} className={css(styles.twoUpImage)} />
+      </Cell>
+    </Row>
+  );
+  return (
+    <MediaLayout>
+      <div className={css(styles.clearContainer)}>{interior}</div>
+      <div className={css(styles.clearContainer, styles.sizingContainerOuter)}>
+        <div className={css(styles.sizingContainerInner)}>{interior}</div>
+      </div>
+    </MediaLayout>
+  );
+};
+
 /*
    Configuration bits here!
    ========================
@@ -169,7 +268,11 @@ const components = {
   ...builtInComponents,
   Abstract,
   Aside,
-  Title
+  Citation,
+  CitationRef,
+  InlineAside,
+  Title,
+  TwoUpImage
   /* Add any custom components you want to use here. */
 };
 
@@ -178,33 +281,68 @@ const components = {
 const postProcessor = inputAST => {
   let transformedAST = inputAST;
 
-  transformedAST = ast.modifyNodesByName(inputAST, "p", node => {
+  let citationCount = 1;
+  transformedAST = ast.modifyNodesByName(transformedAST, "Citation", node => {
+    node = ast.setProperty(node, "number", citationCount);
+    citationCount++;
+    return node;
+  });
+
+  citationCount = 1;
+  transformedAST = ast.modifyNodesByName(
+    transformedAST,
+    "CitationRef",
+    node => {
+      node = ast.setProperty(node, "number", citationCount);
+      citationCount++;
+      return node;
+    }
+  );
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "p", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
     return node;
   });
 
-  transformedAST = ast.modifyNodesByName(inputAST, "ol", node => {
+  transformedAST = ast.modifyNodesByName(transformedAST, "ol", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
     return node;
   });
 
-  transformedAST = ast.modifyNodesByName(inputAST, "ul", node => {
+  transformedAST = ast.modifyNodesByName(transformedAST, "ul", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
     return node;
   });
 
-  transformedAST = ast.modifyNodesByName(inputAST, "h1", node => {
+  transformedAST = ast.modifyNodesByName(transformedAST, "h1", node => {
     node = ast.setProperty(node, "className", css(textStyles.HeadingLarge));
     return node;
   });
 
-  transformedAST = ast.modifyNodesByName(inputAST, "h2", node => {
+  transformedAST = ast.modifyNodesByName(transformedAST, "h2", node => {
     node = ast.setProperty(node, "className", css(textStyles.HeadingMedium));
     return node;
   });
 
-  transformedAST = ast.modifyNodesByName(inputAST, "h3", node => {
+  transformedAST = ast.modifyNodesByName(transformedAST, "h3", node => {
     node = ast.setProperty(node, "className", css(textStyles.HeadingSmall));
+    return node;
+  });
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "Aside", node => {
+    /*let modifier;
+    modifier = innerNode => {
+      if (typeof innerNode === "string") {
+        innerNode = ast.createNode("p", {}, innerNode);
+      } else {
+        innerNode = ast.modifyChildren(innerNode, modifier);
+      }
+      return innerNode;
+    };
+    node = ast.modifyChildren(node, modifier);*/
+    node[2] = ast.modifyNodesByName(node[2], "p", innerNode => {
+      return ast.setProperty(innerNode, "className", "");
+    });
     return node;
   });
 
