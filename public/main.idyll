@@ -216,6 +216,10 @@ These activities are meant to support specific complex reasoning skills, so we t
 
 In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?". These questions could access particularly focused ideas, but we felt an essential tension between the specificity of the question and the likelihood it would apply naturally to most peers’ answers. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
 
+[Aside]
+Many of our pilot iterations also used sentence starters to support reflection activities in the final phase of the activity. Students were asked to write a summary of their experience using prompts like “Now I want to review…,” “Prior to this activity, I’d assumed that…,” or “I was surprised to learn that….” Reviewing students' work and speaking with teachers, these reflection activities didn't seem to be as helpful as the other interactions we're discussing, so we've deemphasized them for now.
+[/Aside]
+
 We solved this problem by offering several prompts to students and asking them to choose. We framed the questions as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. All the teachers we interviewed immediately understood this framing.
 
 *{todo: image of sentence starters chooser UI, showing lots of sentence starters}*
@@ -401,15 +405,3 @@ In other words, their educational experience would look a lot like the experienc
 Like mathematicians, math students would notice and communicate patterns underlying and connecting systems. Like scientists, science students would form conjectures and design experiments. And like historians, history students would analyze original documents to interpret the processes of civilization.  
 
 We believe it’s possible for online learning platforms to support teachers and students in open-ended inquiry. We’re excited to have illustrated some possible paths with our experiments thus far, and we’re looking forward to developing these ideas further in future projects.
-
-# To be relocated
-
-### (from Experimenting with reflection writing activities)
-
-In addition to or instead of revision activities, many of our pilot iterations included explicit reflection activities. Our most recent ones used the same sentence starter mechanism as the peer responses, with stems like "Now I want to review…," “Prior to this activity, I’d assumed that…,” or “I was surprised to learn that….”
-
-These activities didn’t seem to reliably help many students. We learned from each iteration of our prototype through many means, but it was particularly helpful to actually read students’ work, including their revisions, reflections, and peer interactions. Typical responses didn’t suggest that reflection prompts were helping students much; one typical reply: "Now I want to review some more effects of industrialization."
-
-When we asked teachers about the most valuable parts of our reports, they emphasized the value of seeing exactly how students revised their work. Student reflections came up occasionally but didn’t seem to offer much insight to teachers.
-
-For our most recent pilots, then, we’ve retired the reflection prompts in favor of revision, which appears to be both more helpful to students and more insightful for teachers. We’re still interested in experimenting more with reflection for shorter activities, in which a revision step might feel excessive or too time-consuming.

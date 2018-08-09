@@ -432,7 +432,6 @@ const Document = ({ documents }) => (
             }}
           />
         </Cell>
-        <Cell largeCols={4} mediumCols={3} smallCols={0} />
       </Row>
     </MediaLayout>
   </div>
