@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React from "react";
 import IdyllDocument from "idyll-document";
 import * as builtInComponents from "idyll-components";
 
@@ -79,11 +79,16 @@ const styles = StyleSheet.create({
     paddingBottom: 24,
     borderBottom: `1px solid ${color.offBlack16}`
   },
-  
-  abstractSizingContainer: {
+
+  sizingContainerOuter: {
     position: "relative",
-    width: "100vw",
-    visibility: "hidden",
+    maxWidth: "100%",
+    overflowX: "hidden",
+    visibility: "hidden"
+  },
+
+  sizingContainerInner: {
+    width: "100vw"
   }
 });
 
@@ -115,24 +120,26 @@ const Title = ({ title, authors }) => (
 );
 
 const Abstract = ({ children }) => (
-  <Fragment>
-  <div className={css(styles.abstractContainer)}>
-    <Row style={styles.noPosition}>
-      <Cell largeCols={2} mediumCols={2} smallCols={0} />
-      <Cell largeCols={8} mediumCols={4} smallCols={4}>
-        {children}
-      </Cell>
-    </Row>
-  </div>
-  <div className={css(styles.abstractContainer, styles.abstractSizingContainer)}>
-    <Row style={styles.noPosition}>
-      <Cell largeCols={2} mediumCols={2} smallCols={0} />
-      <Cell largeCols={8} mediumCols={4} smallCols={4}>
-        {children}
-      </Cell>
-    </Row>
-  </div>
-  </Fragment>
+  <MediaLayout>
+    <div className={css(styles.abstractContainer)}>
+      <Row style={styles.noPosition}>
+        <Cell largeCols={2} mediumCols={1} smallCols={0} />
+        <Cell largeCols={8} mediumCols={6} smallCols={4}>
+          {children}
+        </Cell>
+      </Row>
+    </div>
+    <div className={css(styles.abstractContainer, styles.sizingContainerOuter)}>
+      <div className={css(styles.sizingContainerInner)}>
+        <Row style={styles.noPosition}>
+          <Cell largeCols={2} mediumCols={1} smallCols={0} />
+          <Cell largeCols={8} mediumCols={6} smallCols={4}>
+            {children}
+          </Cell>
+        </Row>
+      </div>
+    </div>
+  </MediaLayout>
 );
 
 const Aside = ({ children }) => (
@@ -140,12 +147,14 @@ const Aside = ({ children }) => (
     style={{ position: "absolute", width: "100%", zIndex: -1, left: 0 }}
     className={css(textStyles.Footnote)}
   >
-    <Row style={styles.noPosition}>
-      <Cell largeCols={8} mediumCols={5} smallCols={4} />
-      <Cell largeCols={4} mediumCols={4} smallCols={0}>
-        {children}
-      </Cell>
-    </Row>
+    <MediaLayout>
+      <Row style={styles.noPosition}>
+        <Cell largeCols={8} mediumCols={5} smallCols={4} />
+        <Cell largeCols={4} mediumCols={3} smallCols={0}>
+          {children}
+        </Cell>
+      </Row>
+    </MediaLayout>
   </div>
 );
 
@@ -221,7 +230,7 @@ const Document = ({ documents }) => (
             }}
           />
         </Cell>
-        <Cell largeCols={4} mediumCols={3} smallCols={0}></Cell>
+        <Cell largeCols={4} mediumCols={3} smallCols={0} />
       </Row>
     </MediaLayout>
   </div>
