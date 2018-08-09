@@ -21,6 +21,13 @@ const styles = StyleSheet.create({
     color: color.offBlack
   },
 
+  imageBlock: {
+    width: "100%",
+    marginBottom: "1rem",
+    borderRadius: 4,
+    border: `1px solid ${color.offBlack16}`
+  },
+
   titleContainer: {
     marginBottom: 32
   },
@@ -112,8 +119,6 @@ const styles = StyleSheet.create({
   twoUpImage: {
     marginTop: 36,
     width: "100%",
-    borderRadius: 4,
-    border: `1px solid ${color.offBlack16}`
   },
 
   citationNumber: {
@@ -274,7 +279,7 @@ const AcrossAllColumns = ({ children }) => (
 
 const RawTable = ({ children }) => <table className={css(styles.table)}>{children}</table>;
 
-const TwoUpImage = ({ imageURL, children }) => (
+const TwoUpImage = ({ imageURL, altText, children }) => (
   <ClearDisplay>
     {() => (
       <Row style={styles.noPosition}>
@@ -282,7 +287,7 @@ const TwoUpImage = ({ imageURL, children }) => (
           {children}
         </Cell>
         <Cell largeCols={6} mediumCols={4} smallCols={4}>
-          <img src={imageURL} className={css(styles.twoUpImage)} />
+          <img src={imageURL} alt={altText} className={css(styles.twoUpImage, styles.imageBlock)} />
         </Cell>
       </Row>
     )}
@@ -332,6 +337,11 @@ const postProcessor = inputAST => {
       return node;
     }
   );
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "img", node => {
+    node = ast.setProperty(node, "className", css(styles.imageBlock));
+    return node;
+  });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "p", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
