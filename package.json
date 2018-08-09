@@ -6,6 +6,7 @@
     "@khanacademy/wonder-blocks-color": "file:./wonder-blocks/packages/wonder-blocks-color/dist",
     "@khanacademy/wonder-blocks-core": "file:./wonder-blocks/packages/wonder-blocks-core/dist",
     "@khanacademy/wonder-blocks-grid": "file:./wonder-blocks/packages/wonder-blocks-grid/dist",
+    "@khanacademy/wonder-blocks-link": "file:./wonder-blocks/packages/wonder-blocks-link/dist",
     "@khanacademy/wonder-blocks-spacing": "file:./wonder-blocks/packages/wonder-blocks-spacing/dist",
     "@khanacademy/wonder-blocks-typography": "file:./wonder-blocks/packages/wonder-blocks-typography/dist",
     "@types/aphrodite": "^0.5.10",

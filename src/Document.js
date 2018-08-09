@@ -1,14 +1,13 @@
-import React, { Fragment } from "react";
-import IdyllDocument from "idyll-document";
+import ast from "idyll-ast";
 import * as builtInComponents from "idyll-components";
-
+import color from "@khanacademy/wonder-blocks-color";
+import IdyllDocument from "idyll-document";
+import Link from "@khanacademy/wonder-blocks-link";
+import React, { Fragment } from "react";
 import { MediaLayout } from "@khanacademy/wonder-blocks-core";
 import { Row, Cell } from "@khanacademy/wonder-blocks-grid";
-
-import ast from "idyll-ast";
-import { styles as textStyles } from "@khanacademy/wonder-blocks-typography";
-import color from "@khanacademy/wonder-blocks-color";
 import { StyleSheet, css } from "aphrodite";
+import { styles as textStyles } from "@khanacademy/wonder-blocks-typography";
 
 const mobileQuery = "@media (max-width: 767px)";
 
@@ -118,7 +117,7 @@ const styles = StyleSheet.create({
 
   twoUpImage: {
     marginTop: 36,
-    width: "100%",
+    width: "100%"
   },
 
   citationNumber: {
@@ -157,7 +156,7 @@ const styles = StyleSheet.create({
     borderSpacing: 16,
     borderCollapse: "separate",
     margin: -16,
-    marginBottom: "calc(1rem - 16px)",
+    marginBottom: "calc(1rem - 16px)"
   },
 
   tableCell: {
@@ -165,7 +164,7 @@ const styles = StyleSheet.create({
     padding: 0,
     verticalAlign: "top",
     [mobileQuery]: {
-      hyphens: "auto",
+      hyphens: "auto"
     }
   }
 });
@@ -277,7 +276,9 @@ const AcrossAllColumns = ({ children }) => (
   </ClearDisplay>
 );
 
-const RawTable = ({ children }) => <table className={css(styles.table)}>{children}</table>;
+const RawTable = ({ children }) => (
+  <table className={css(styles.table)}>{children}</table>
+);
 
 const TwoUpImage = ({ imageURL, altText, children }) => (
   <ClearDisplay>
@@ -287,7 +288,11 @@ const TwoUpImage = ({ imageURL, altText, children }) => (
           {children}
         </Cell>
         <Cell largeCols={6} mediumCols={4} smallCols={4}>
-          <img src={imageURL} alt={altText} className={css(styles.twoUpImage, styles.imageBlock)} />
+          <img
+            src={imageURL}
+            alt={altText}
+            className={css(styles.twoUpImage, styles.imageBlock)}
+          />
         </Cell>
       </Row>
     )}
@@ -309,6 +314,7 @@ const components = {
   Citation,
   CitationRef,
   InlineAside,
+  Link,
   RawTable,
   Title,
   TwoUpImage
@@ -338,6 +344,11 @@ const postProcessor = inputAST => {
     }
   );
 
+  transformedAST = ast.modifyNodesByName(transformedAST, "a", node => {
+    node[0] = "Link"
+    return node;
+  });
+
   transformedAST = ast.modifyNodesByName(transformedAST, "img", node => {
     node = ast.setProperty(node, "className", css(styles.imageBlock));
     return node;
@@ -359,7 +370,11 @@ const postProcessor = inputAST => {
   });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "td", node => {
-    node = ast.setProperty(node, "className", css(textStyles.Body, styles.tableCell));
+    node = ast.setProperty(
+      node,
+      "className",
+      css(textStyles.Body, styles.tableCell)
+    );
     return node;
   });
 
