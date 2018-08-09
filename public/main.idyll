@@ -350,9 +350,11 @@ We particularly enjoyed offering students the ability to draw freeform ink. For 
 
 For the freehand inking tool, we record students’ full gesture timing so that we could represent their process to others later. When we show others’ drawings to students in the interface, we depict that work as an animation—a more dynamic representation of a thought process. We noticed that many students were more engaged by others’ ideas when they were represented this way.
 
-![Animation of student handwriting on top of a mathematical diagram](images/animated_writing.gif)
+[Aside]
+We created early sketches of a large variety of input modes: speech, stickers, highlighting, and more. [This blog post](http://klr.tumblr.com/post/157770095858/feedback-is-a-gift) includes about on our experiments with other input modalities.
+[/Aside]
 
-We created early sketches of a large variety of input modes. [This blog post](http://klr.tumblr.com/post/157770095858/feedback-is-a-gift) includes more on our experiments here.
+![Animation of student handwriting on top of a mathematical diagram](images/animated_writing.gif)
 
 # 5. Designing for many contexts
 
