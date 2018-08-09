@@ -153,10 +153,14 @@ const styles = StyleSheet.create({
   },
 
   table: {
-    borderSpacing: 16,
+    borderSpacing: "32px 16px",
     borderCollapse: "separate",
-    margin: -16,
-    marginBottom: "calc(1rem - 16px)"
+    margin: "-16px -32px",
+    marginBottom: "calc(1rem - 16px)",
+    [mobileQuery]: {
+      margin: -16,
+      borderSpacing: 16, 
+    }
   },
 
   tableCell: {
