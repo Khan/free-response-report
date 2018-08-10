@@ -422,7 +422,7 @@ const Document = ({ documents }) => (
     <MediaLayout>
       <Row style={styles.noPosition}>
         <Cell
-          largeCols={8}
+          largeCols={7}
           mediumCols={5}
           smallCols={4}
           style={styles.noPosition}
