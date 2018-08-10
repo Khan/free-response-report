@@ -23,6 +23,9 @@ const styles = StyleSheet.create({
   imageBlock: {
     width: "100%",
     marginBottom: "1rem",
+  },
+  
+  imageBlockBorder: {
     borderRadius: 4,
     border: `1px solid ${color.offBlack16}`
   },
@@ -295,7 +298,7 @@ const TwoUpImage = ({ imageURL, altText, children }) => (
           <img
             src={imageURL}
             alt={altText}
-            className={css(styles.twoUpImage, styles.imageBlock)}
+            className={css(styles.twoUpImage, styles.imageBlock, styles.imageBlockBorder)}
           />
         </Cell>
       </Row>
@@ -354,7 +357,9 @@ const postProcessor = inputAST => {
   });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "img", node => {
-    node = ast.setProperty(node, "className", css(styles.imageBlock));
+    const hasBorder = !/-noborder/.test(ast.getProperty(node, "src"));
+    console.log(node, hasBorder, css(styles.imageBlock, hasBorder && styles.imageBlockBorder));
+    node = ast.setProperty(node, "className", css(styles.imageBlock, hasBorder && styles.imageBlockBorder));
     return node;
   });
 
