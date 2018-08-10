@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     left: 0,
     width: "100%",
     height: 470,
-    background: "url(/heading.png) no-repeat",
+    background: "url(images/heading.png) no-repeat",
     backgroundSize: "1079px 470px",
     backgroundPosition: "top center",
     zIndex: -1,

@@ -24,8 +24,10 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
+  "homepage": ".",
   "scripts": {
     "preinstall": "(cd wonder-blocks; yarn install; yarn run build:all)",
+    "deploy": "./deploy.sh",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
