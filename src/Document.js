@@ -1,14 +1,13 @@
-import React from "react";
-import IdyllDocument from "idyll-document";
+import ast from "idyll-ast";
 import * as builtInComponents from "idyll-components";
-
+import color from "@khanacademy/wonder-blocks-color";
+import IdyllDocument from "idyll-document";
+import Link from "@khanacademy/wonder-blocks-link";
+import React, { Fragment } from "react";
 import { MediaLayout } from "@khanacademy/wonder-blocks-core";
 import { Row, Cell } from "@khanacademy/wonder-blocks-grid";
-
-import ast from "idyll-ast";
-import { styles as textStyles } from "@khanacademy/wonder-blocks-typography";
-import color from "@khanacademy/wonder-blocks-color";
 import { StyleSheet, css } from "aphrodite";
+import { styles as textStyles } from "@khanacademy/wonder-blocks-typography";
 
 const mobileQuery = "@media (max-width: 767px)";
 
@@ -19,6 +18,13 @@ const styles = StyleSheet.create({
 
   root: {
     color: color.offBlack
+  },
+
+  imageBlock: {
+    width: "100%",
+    marginBottom: "1rem",
+    borderRadius: 4,
+    border: `1px solid ${color.offBlack16}`
   },
 
   titleContainer: {
@@ -111,9 +117,7 @@ const styles = StyleSheet.create({
 
   twoUpImage: {
     marginTop: 36,
-    width: "100%",
-    borderRadius: 4,
-    border: `1px solid ${color.offBlack16}`
+    width: "100%"
   },
 
   citationNumber: {
@@ -122,7 +126,7 @@ const styles = StyleSheet.create({
     position: "relative",
     top: -6,
     height: 0,
-    overflow: "visible",
+    overflow: "visible"
     /*["::before"]: {
       content: '", "'
     },
@@ -146,6 +150,26 @@ const styles = StyleSheet.create({
   citationContainer: {
     opacity: 0.66,
     marginBottom: 8
+  },
+
+  table: {
+    borderSpacing: "32px 16px",
+    borderCollapse: "separate",
+    margin: "-16px -32px",
+    marginBottom: "calc(1rem - 16px)",
+    [mobileQuery]: {
+      margin: -16,
+      borderSpacing: 16, 
+    }
+  },
+
+  tableCell: {
+    display: "table-cell",
+    padding: 0,
+    verticalAlign: "top",
+    [mobileQuery]: {
+      hyphens: "auto"
+    }
   }
 });
 
@@ -228,34 +252,56 @@ const Citation = ({ number, children }) => (
   </div>
 );
 
-const CitationRef = ({ number, children, hidden }) => (
-  !hidden && <div className={css(styles.citationNumber)}>{number}</div>
-);
+const CitationRef = ({ number, children, hidden }) =>
+  !hidden && <div className={css(styles.citationNumber)}>{number}</div>;
 
 const InlineAside = ({ children }) => (
   <div className={css(textStyles.Footnote)}>{children}</div>
 );
 
-const TwoUpImage = ({ imageURL, children }) => {
-  const interior = (
-    <Row style={styles.noPosition}>
-      <Cell largeCols={6} mediumCols={4} smallCols={0}>
-        {children}
-      </Cell>
-      <Cell largeCols={6} mediumCols={4} smallCols={4}>
-        <img src={imageURL} className={css(styles.twoUpImage)} />
-      </Cell>
-    </Row>
-  );
-  return (
-    <MediaLayout>
-      <div className={css(styles.clearContainer)}>{interior}</div>
-      <div className={css(styles.clearContainer, styles.sizingContainerOuter)}>
-        <div className={css(styles.sizingContainerInner)}>{interior}</div>
-      </div>
-    </MediaLayout>
-  );
-};
+const ClearDisplay = ({ children }) => (
+  <MediaLayout>
+    <div className={css(styles.clearContainer)}>{children()}</div>
+    <div className={css(styles.clearContainer, styles.sizingContainerOuter)}>
+      <div className={css(styles.sizingContainerInner)}>{children()}</div>
+    </div>
+  </MediaLayout>
+);
+
+const AcrossAllColumns = ({ children }) => (
+  <ClearDisplay>
+    {() => (
+      <Row style={styles.noPosition}>
+        <Cell largeCols={12} mediumCols={8} smallCols={4}>
+          {children}
+        </Cell>
+      </Row>
+    )}
+  </ClearDisplay>
+);
+
+const RawTable = ({ children }) => (
+  <table className={css(styles.table)}>{children}</table>
+);
+
+const TwoUpImage = ({ imageURL, altText, children }) => (
+  <ClearDisplay>
+    {() => (
+      <Row style={styles.noPosition}>
+        <Cell largeCols={6} mediumCols={4} smallCols={0}>
+          {children}
+        </Cell>
+        <Cell largeCols={6} mediumCols={4} smallCols={4}>
+          <img
+            src={imageURL}
+            alt={altText}
+            className={css(styles.twoUpImage, styles.imageBlock)}
+          />
+        </Cell>
+      </Row>
+    )}
+  </ClearDisplay>
+);
 
 /*
    Configuration bits here!
@@ -267,10 +313,13 @@ const documentName = "main.idyll";
 const components = {
   ...builtInComponents,
   Abstract,
+  AcrossAllColumns,
   Aside,
   Citation,
   CitationRef,
   InlineAside,
+  Link,
+  RawTable,
   Title,
   TwoUpImage
   /* Add any custom components you want to use here. */
@@ -299,6 +348,16 @@ const postProcessor = inputAST => {
     }
   );
 
+  transformedAST = ast.modifyNodesByName(transformedAST, "a", node => {
+    node[0] = "Link"
+    return node;
+  });
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "img", node => {
+    node = ast.setProperty(node, "className", css(styles.imageBlock));
+    return node;
+  });
+
   transformedAST = ast.modifyNodesByName(transformedAST, "p", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
     return node;
@@ -311,6 +370,15 @@ const postProcessor = inputAST => {
 
   transformedAST = ast.modifyNodesByName(transformedAST, "ul", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
+    return node;
+  });
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "td", node => {
+    node = ast.setProperty(
+      node,
+      "className",
+      css(textStyles.Body, styles.tableCell)
+    );
     return node;
   });
 
@@ -354,7 +422,7 @@ const Document = ({ documents }) => (
     <MediaLayout>
       <Row style={styles.noPosition}>
         <Cell
-          largeCols={8}
+          largeCols={7}
           mediumCols={5}
           smallCols={4}
           style={styles.noPosition}
@@ -368,7 +436,6 @@ const Document = ({ documents }) => (
             }}
           />
         </Cell>
-        <Cell largeCols={4} mediumCols={3} smallCols={0} />
       </Row>
     </MediaLayout>
   </div>

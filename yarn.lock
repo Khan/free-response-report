@@ -11,6 +11,9 @@
 "@khanacademy/wonder-blocks-grid@file:./wonder-blocks/packages/wonder-blocks-grid/dist":
   version "0.0.0"
 
+"@khanacademy/wonder-blocks-link@file:./wonder-blocks/packages/wonder-blocks-link/dist":
+  version "0.0.0"
+
 "@khanacademy/wonder-blocks-spacing@file:./wonder-blocks/packages/wonder-blocks-spacing/dist":
   version "0.0.0"
 
