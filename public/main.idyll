@@ -4,50 +4,58 @@
 /]
 
 [Abstract]
-Online learning platforms help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but we also want students to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. How might we help students develop complex reasoning skills online through rich, open-ended activities with rapid feedback?
+Online learning platforms help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. 
 
-In early 2017, Khan Academy began exploring how we might bring writing, drawing, and other free response activities to online learning platforms. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution. Our system offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
+*How might we help students develop complex reasoning skills online through rich, open-ended activities with rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution. 
+
+We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
+
 [/Abstract]
 
-# 1. The problem
+# 1. Rich activities require rich feedback 
 
-Of all the problems students will face in their lives as adults, the most challenging and meaningful have no straightforward answers. 
+[p]*"Since globalization, what's changed? What's stayed the same?"* [/p]
 
-"What are the most important causes of structural inequality?"
-“How should we most efficiently lay out the stalls in the school fair?”
-“How might we design an experiment to understand this fabric’s durability?”
+[p]*“How might we design an experiment to understand this fabric’s durability?”* [/p]
+
+[p]*"What are the most important causes of structural inequality?"*[/p]
 
 [Aside][Citation]
  Chi, M. T. H., & Glaser, R. (1985). Problem-solving ability. In R. J. Sternberg (Ed.), Human abilities (pp. 227–250). New York: W. H. Freeman and Company.
 [/Citation][/Aside]
 
-There’s no simple set of rules that always yields a solution. These open-ended problems are "ill-defined,"[CitationRef /] demanding heavy cognitive tasks like non-routine analysis, creative synthesis, or insightful transfer of outside ideas.
+The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined" [CitationRef /], and answering them requires complex reasoning skills like literary analysis, scientific experiment design, critical thinking, or mathematical modeling. 
 
-[Aside]
-Webb's Depth of Knowledge[CitationRef /] scale offers one useful way to describe levels of problem complexity. It contrasts high-complexity problems involving strategic and extended thinking (levels 3 and 4) with more routine problems involving recall and basic application of skills (levels 1 and 2). The present work focuses on levels 3 and 4.
-
-[Citation]
-Webb, N. L. (1999). Alignment of Science and Mathematics Standards and Assessments in Four States. Research Monograph No. 18. National Institute for Science Education, Madison WI.; Council of Chief State School Officers, Washington, DC.
-[/Citation]
-[/Aside]
-
-Today’s students don’t wait until adulthood to face open-ended problems. Every core subject’s curricular standards include key skills developed through these kinds of problems. For example:
+Such skills are included in every core subject's curricular standards. For example:
 
 * In math, [the Common Core State Standards expect](http://www.corestandards.org/Math/Content/HSM/) high school students to develop modeling skills: "choosing and using appropriate mathematics and statistics to analyze empirical situations, to understand them better, and to improve decisions."
 
 * In English language arts, [the Common Core State Standards suggest]( http://www.corestandards.org/ELA-Literacy/CCRA/R/) that literary analysis skills are critical for college readiness. Students might need to "read closely to determine what the text says explicitly and to make logical inferences from it" and “cite specific textual evidence when writing or speaking to support conclusions drawn from the text.”
 
+<<<<<<< HEAD
 * In history, [the Common Core State Standards ask](http://www.corestandards.org/ELA-Literacy/RH/11-12) students in 11th and 12th grades to build skills like evaluating "authors' differing points of view on the same historical event or issue by assessing the authors' claims, reasoning, and evidence."
+=======
+* In history, [the Common Core State Standards ask](http://www.corestandards.org/ELA-Literacy/RH/11-12/)  11th and 12th graders to build skills like evaluating "authors' differing points of view on the same historical event or issue by assessing the authors' claims, reasoning, and evidence."
+>>>>>>> shortie
 
 * In sciences, [the Next Generation Science Standards expect](https://www.nap.edu/read/13165/chapter/7#60) graduating seniors to "plan experimental or field-research procedures, identifying relevant independent and dependent variables and, when appropriate, the need for controls."
 
-Complex reasoning skills like these require deep understanding. Typical problems involve strategic or extended thinking, asking students to combine factual, procedural, and conceptual knowledge in unfamiliar situations.
+
 
 [Aside]
 [Citation]
 Hattie, J., & Timperley, H. (2016). The Power of Feedback. Review of Educational Research, 77(1), 81–112. http://doi.org/10.3102/003465430298487
 [/Citation]
-[p]The academic literature refers to right–wrong feedback as "knowledge of result."[/p]
+
+
+[Citation]
+The academic literature refers to right–wrong feedback as "knowledge of result." See: Shute, V. J. (2008). Focus on Formative Feedback. Review of Educational Research, 78(1), 153–189.
+[/Citation]
+[/Aside]
+
+When it comes to developing complex reasoning skills like these, students need plenty of practice and feedback[CitationRef /]. Here, simpler tasks like multiple-choice with right vs. wrong feedback [CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place. 
+
+[Aside]
 [Citation]
  Schoenfeld, A. H. (2016). Learning to Think Mathematically: Problem Solving, Metacognition, and Sense Making in Mathematics (Reprint). Journal of Education, 196(2), 1–38. http://doi.org/10.1177/002205741619600202
 [/Citation]
@@ -56,33 +64,18 @@ Hattie, J., & Timperley, H. (2016). The Power of Feedback. Review of Educational
 [/Citation]
 [/Aside]
 
-To develop any type of skill, students need plenty of practice and feedback[CitationRef /]. If they’re learning a mathematical algorithm or factual knowledge, students can practice with straightforward fill-in-the-blank or multiple-choice questions. In many cases, simple right-vs-wrong feedback might be enough to guide students’ next steps—and that’s great, because online learning environments can generate that kind of feedback instantly. 
+Instead, students need open-ended activities that ask them to explain and justify their ideas, then deliver feeback that facilitates sense-making[CitationRef /]—helping them elaborate, connect, and revise their ideas.[CitationRef /]
 
-But when students practice complex reasoning skills like the ones we’ve described, they need complex *feedback*. Often the problems have no single "right" answer. Even when a problem has one “right” answer, simply being told what it is will rarely help students solve the next open-ended problem. For complex reasoning skills, students need feedback that facilitates sense-making[CitationRef /]—helping them elaborate, connect, and revise their ideas[CitationRef /]. Online platforms’ simpler tasks (multiple-choice, fill-in-the-blank, etc) capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place.
-
-[Aside][Citation]
- Shute, V. J. (2008). Focus on Formative Feedback. Review of Educational Research, 78(1), 153–189. http://doi.org/10.3102/0034654307313795
-[/Citation][/Aside]
-
-For complex reasoning skills, explicit scores are more helpful feedback for *evaluation*: when students (and teachers) want to verify that they have indeed reached the level of understanding they think they’ve reached. But to *develop* complex reasoning skills, we must facilitate richer feedback, which forces us to uncouple development-focused interactions from evaluation-focused interactions[CitationRef /].
-
-Many students and teachers love that online learning platforms offer instant feedback, insightful reports, and an opportunity for individualized practice. Unfortunately, those features are only available for simpler, multiple-choice-like tasks, which we’ve just established can’t help students develop complex reasoning skills.
-
-So:* how might we bring what students and teachers love about online learning platforms to open-ended activities? *How might we offer instant feedback, insightful reports, and an opportunity for individualized practice—all in a way which integrates naturally into teachers’ lives?
-
-Let’s begin by examining how teachers structure practice and feedback to help their students develop complex reasoning skills today.
+Current attempts at facilitating open-eded activities encounter a number of challenges.
 
 # 2. Today’s solutions and their challenges
 
-Current attempts at developing complex reasoning skills encounter a number of challenges.
-
 [Aside]
 [Citation]
- Stein, M. K., Engle, R. A., Smith, M. S., & Hughes, E. K. (2008). Orchestrating Productive Mathematical Discussions: Five Practices for Helping Teachers Move Beyond Show and Tell. Mathematical Thinking and Learning, 10(4), 313–340. http://doi.org/10.1080/10986060802229675
+Stein, M. K., Engle, R. A., Smith, M. S., & Hughes, E. K. (2008). Orchestrating Productive Mathematical Discussions: Five Practices for Helping Teachers Move Beyond Show and Tell. Mathematical Thinking and Learning, 10(4), 313–340. http://doi.org/10.1080/10986060802229675
 [/Citation]
-
 [Citation]
- Brookfield, Stephen D. Teaching for critical thinking: Tools and techniques to help students question their assumptions. John Wiley & Sons, 2011.
+Brookfield, Stephen D. Teaching for critical thinking: Tools and techniques to help students question their assumptions. John Wiley & Sons, 2011.
 [/Citation]
 [/Aside]
 
@@ -90,36 +83,42 @@ Proficient educators with small class sizes orchestrate group discussions to dev
 
 The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion, emphasizing key concepts and connecting them to broader ideas.
 
-At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate reliably. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Because the facilitated discussion mostly involves the teacher and a sequence of individual speakers, many students may not be terribly engaged during that segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
+At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Because the facilitated discussion mostly involves the teacher and a sequence of individual speakers, many students may not be engaged during that segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
 
-[Aside][Citation]
- Brookfield, S. D., & Preskill, S. (2012). Discussion as a way of teaching. John Wiley & Sons.
-[/Citation]
-
+[Aside]
 [Citation]
- Christopher, M. M., Thomas, J. A., & Runnels, M. K. T. (2010). Raising the bar: Encouraging high level thinking in online discussion forums. Roeper Review, 26(3), 166–171. http://doi.org/10.1080/02783190409554262
+Brookfield, S. D., & Preskill, S. (2012). Discussion as a way of teaching. John Wiley & Sons.
 [/Citation]
-
 [Citation]
- Mazzolini, M., & Maddison, S. (2007). When to jump in: The role of the instructor in online discussion forums. Computers & Education, 49(2), 193–213. http://doi.org/10.1016/j.compedu.2005.06.011
+Christopher, M. M., Thomas, J. A., & Runnels, M. K. T. (2010). Raising the bar: Encouraging high level thinking in online discussion forums. Roeper Review, 26(3), 166–171. http://doi.org/10.1080/02783190409554262
 [/Citation]
-
- One teacher we visited gestured to a huge stack of papers he’d just finished reading. "I have 196 students. That’s 16 hours right there."
+[Citation]
+Mazzolini, M., & Maddison, S. (2007). When to jump in: The role of the instructor in online discussion forums. Computers & Education, 49(2), 193–213. http://doi.org/10.1016/j.compedu.2005.06.011
+[/Citation]
 [/Aside]
 
-Some teachers try to mitigate these challenges through online forum software[CitationRef /]. This environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because these systems have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
+Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because these systems have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
 
-Another way learners might develop complex skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours, so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve totally forgotten about their project.
+[Aside]
+[Citation]
+One teacher we visited gestured to a huge stack of papers he’d just finished reading. “I have 196 students. That’s 16 hours right there.”
+[/Citation]
+[/Aside]
 
-[Aside][Citation]
- Kulkarni, C. E., Bernstein, M. S., & Klemmer, S. R. (2015). PeerStudio: Rapid Peer Feedback Emphasizes Revision and Improves Performance. the Second (2015) ACM Conference (pp. 75–84). New York, New York, USA: ACM. http://doi.org/10.1145/2724660.2724670
-[/Citation][/Aside]
+Another way learners might develop complex skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours[CitationRef /], so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve totally forgotten about their project.
 
-Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is that each student grades a couple other students’ work (typically using a rubric), then later receives a grade of their own from their peers. Systems like [PeerStudio](https://www.peerstudio.org/) have established methods[CitationRef /] for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives. 
+[Aside]
+[Citation]
+Kulkarni, C. E., Bernstein, M. S., & Klemmer, S. R. (2015). PeerStudio: Rapid Peer Feedback Emphasizes Revision and Improves Performance. the Second (2015) ACM Conference (pp. 75–84). New York, New York, USA: ACM. http://doi.org/10.1145/2724660.2724670
+[/Citation]
+[/Aside]
 
-But assessing a skill is different from developing a skill. 
+Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is that each student grades a couple other students’ work (typically using a rubric), then later receives a grade of their own from their peers. Systems like [PeerStudio](https://www.peerstudio.org) have established methods[CitationRef /] for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives.
 
-As a concrete example, here’s one slice of the [SAT’s writing rubric for "analysis":](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay)
+But assessing a skill is different from developing a skill.
+
+As a concrete example, here's one slice of the [SAT's writing rubric for "analysis"](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay):
+
 
 [AcrossAllColumns]
 [RawTable]
@@ -137,6 +136,8 @@ As a concrete example, here’s one slice of the [SAT’s writing rubric for "an
   [/tr]
 [/RawTable]
 [/AcrossAllColumns]
+[p][/p]
+[p][/p]
 
 Imagine that you scored 2 points, but you want to build your analytical skills so that you’ll earn 3 points next time. What should you do? It’s not at all clear how to proceed.
 
@@ -148,7 +149,7 @@ Writing activities often feel heavy for both students and teachers; a better sol
 
 Classroom discussions often fail to involve all voices, and practice work often feels disposable; a better solution would show every student that their thoughts are *valued*.
 
-Practice activities and assessments can feel isolated or alienating; a better solution would carry the *social *energy and diverse ideas of classroom discussions.
+Practice activities and assessments can feel isolated or alienating; a better solution would carry the *social* energy and diverse ideas of classroom discussions.
 
 # 3. Our solution
 
