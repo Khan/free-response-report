@@ -155,6 +155,10 @@ const styles = StyleSheet.create({
     marginBottom: 8
   },
 
+  blockquote: {
+    marginLeft: 32,
+  },
+
   table: {
     borderSpacing: "32px 16px",
     borderCollapse: "separate",
@@ -365,6 +369,11 @@ const postProcessor = inputAST => {
 
   transformedAST = ast.modifyNodesByName(transformedAST, "p", node => {
     node = ast.setProperty(node, "className", css(textStyles.Body));
+    return node;
+  });
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "blockquote", node => {
+    node = ast.setProperty(node, "className", css(textStyles.Body, styles.blockquote));
     return node;
   });
 
