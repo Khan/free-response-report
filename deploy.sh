@@ -6,7 +6,7 @@ set -x
 yarn run build
 
 rm -rf /tmp/publish
-git clone --branch gh-pages git@github.com:Khan/free-response-report.git /tmp/publish
+git clone --branch gh-pages https://github.com/Khan/free-response-report.git /tmp/publish
 mkdir -p /tmp/publish/open-ended
 rsync -rv --exclude=.git ./build/ /tmp/publish/open-ended
 
