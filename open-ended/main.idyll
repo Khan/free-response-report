@@ -111,7 +111,7 @@ Kulkarni, C. E., Bernstein, M. S., & Klemmer, S. R. (2015). PeerStudio: Rapid Pe
 
 Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is that each student grades a couple other students’ work (typically using a rubric), then later receives a grade of their own from their peers. Systems like [PeerStudio](https://www.peerstudio.org) have established methods[CitationRef /] for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives.
 
-But assessing a skill is different from developing a skill.
+But *assessing* a skill is different from *developing* a skill.
 
 As a concrete example, here's one slice of the [SAT's writing rubric for "analysis"](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay):
 
@@ -305,6 +305,10 @@ We contended with a similar problem with the transition to the "revise" phase: s
 
 While the social engagement between students really does encourage students to participate more deeply, a social environment can also have a profoundly negative effect on students. Bullying or abuse can ruin the experience; an encounter with an apathetic peer can dampen one’s own excitement. Within our pilots, we relied on teachers to set social norms and moderate interactions, but we’ll need to develop systems to address these problems more seriously indeed as we scale up—particularly when opening the door to learners outside classrooms, which we’ll discuss later.
 
+[Aside]
+![screenshot of tooltip on thumbs down button](images/voting.png)
+[/Aside]
+
 Besides the deeper interactions involving sentence starters, we gave students simple reactions like "gold stars" (to give a peer props for great work) and “thumbs down” (to indicate that a response might need a teacher’s attention). Students used these interactions frequently as soon we introduced them. In the future, we’re excited to explore richer ways for students to respond to each other: stickers that can be placed contextually within a peer’s work; inline commenting; highlighters, perhaps with special meaning for each color.
 
 One important question here has been: should students remain anonymous, or not? We’ve heard conflicting answers from teachers and students. The reality is probably fluid and context-sensitive. For instance, students tell us they’re more comfortable writing critical feedback (and receiving it!) when they know they’re anonymous. Many teachers have told us that anonymity can help avoid abusive or disruptive situations. On the other hand, some teachers have noted that sometimes de-anonymizing can imbue a helpful sense of accountability and responsibility. We'll likely end up letting teachers choose on the fly.
@@ -337,9 +341,13 @@ The report has a few key features:
 
 Highlighted revisions make student thought highly visible and easy to engage with. For many teachers, the change in understanding between when the student began the activity and when they finished it is the thing they want to see first. Scanning over the report, they can quickly spot where students made significant changes (and where other students may have made more perfunctory changes).
 
+[Aside]
+![Screenshot of teacher report, zoomed in on students' votes and confidence measures](images/report-zoom.png)
+[/Aside]
+
 Voting (currently "gold stars" and “thumbs down”) draws teachers’ attention to responses which may merit more attention. The “gold star” might highlight students whose response to the prompt or reply to a peer might be interesting to share with the class, while the “thumbs down” mechanism can quickly surface students who might benefit from 1:1 support.
 
-Confidence, which students report privately, helps teachers follow up with particular students who may be challenged in ways that are not immediately visible from their response.
+Confidence, which students report privately by selecting an emoji after submitting their draft and each revision, helps teachers follow up with particular students who may be challenged in ways that are not immediately visible from their response. The sequence of students' confidence ratings are displayed next to their names in the report.
 
 We found that teachers use the report in multiple contexts. They use it in-class to monitor student participation. They skim it after class to ensure that students completed the activity, and to spot-check particular students’ responses. Pilot teachers tell us they’re not really interested in reading deeply into every students’ work in these kind of lightweight activities: they want some assurances that the activity will help students, they want to see that everyone actually completed it, and they want to focus on a few top highlights to steer their immediate actions.
 
@@ -377,6 +385,10 @@ While many of our pilots asked students to write prose in a text box, we also ex
 
 We particularly enjoyed offering students the ability to draw freeform ink. For math activities, we layered an interactive scratchpad on top of figures we provided so that students could show their thinking in context.
 
+[Aside]
+In this problem, students were asked to draw how they might find the area of this trapezoid.
+[/Aside]
+
 ![Handwritten student math on top of a mathematical diagram](images/handwriting.png)
 
 For the freehand inking tool, we record students’ full gesture timing so that we could represent their process to others later. When we show others’ drawings to students in the interface, we depict that work as an animation—a more dynamic representation of a thought process. We noticed that many students were more engaged by others’ ideas when they were represented this way.
@@ -397,7 +409,7 @@ Learn more about the process we used to identify teachers’ top challenges and 
 
 How might this change if open-ended activities were lighter, social, easier to run? When we showed teachers our prototype, they were full of ideas about how to use it. Teachers saw themselves running activities to preview a new topic; to check for understanding of the night’s reading; to run an end-of-class reflection; to practice essay-writing in smaller chunks. This diverse set of use cases inspired us to design a flexible system that can be run in-class or asynchronously at home; that can be as quick as a few minutes or take an hour; that can facilitate moderation but does not strictly require it.
 
-Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how such an online platform might be used to build bridges beyond classrooms, exposing students to a broader set of ideas and people. Interestingly, teachers shared this interest. With a common goal of setting their students up to become global citizens who can engage in civil discourse, many educators were eager for students to, as one teacher put it, "get out of their bubble."
+Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how such an online platform might be used to build bridges beyond classrooms, exposing students to a broader set of ideas and people. Interestingly, teachers shared this interest. With a common goal of setting their students up to become global citizens who can engage in civil discourse, many educators were eager for students to—as one teacher put it—"get out of their bubble."
 
 What follows is a summary of an observation we did with a pilot classroom (with names changed). Rather than being representative of a particular use case, it aims instead to illustrate how fluid classroom environments can be, and how the online platform accommodates them.
 
