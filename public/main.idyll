@@ -4,9 +4,9 @@
 /]
 
 [Abstract]
-Online learning platforms help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. 
+Online learning platforms like Khan Academy help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. 
 
-*How might we help students develop complex reasoning skills online through rich, open-ended activities with rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution. 
+*How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution. 
 
 We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
 
@@ -51,7 +51,9 @@ The academic literature refers to right–wrong feedback as "knowledge of result
 [/Citation]
 [/Aside]
 
-When it comes to developing complex reasoning skills like these, students need plenty of practice and feedback[CitationRef /]. Here, simpler tasks like multiple-choice with right vs. wrong feedback [CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place. 
+When it comes to developing complex reasoning skills like these, students need plenty of practice and feedback[CitationRef /].
+
+Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place. 
 
 [Aside]
 [Citation]
@@ -62,11 +64,13 @@ When it comes to developing complex reasoning skills like these, students need p
 [/Citation]
 [/Aside]
 
-Instead, students need open-ended activities that ask them to explain and justify their ideas, then deliver feeback that facilitates sense-making[CitationRef /]—helping them elaborate, connect, and revise their ideas.[CitationRef /]
+Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*, then deliver feeback that facilitates sense-making[CitationRef /]—helping them elaborate, connect, and revise their ideas.[CitationRef /]
 
-Current attempts at facilitating open-eded activities encounter a number of challenges.
+Current attempts at facilitating open-ended activities encounter a number of challenges.
 
 # 2. Today’s solutions and their challenges
+
+To inform our approach, we examined how teachers and students conduct open-ended activities both in classrooms and online today.
 
 [Aside]
 [Citation]
@@ -79,7 +83,7 @@ Brookfield, Stephen D. Teaching for critical thinking: Tools and techniques to h
 
 Proficient educators with small class sizes orchestrate group discussions to develop complex skills[CitationRef /][CitationRef /]. A quick vignette illustrates how that might look:
 
-The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion, emphasizing key concepts and connecting them to broader ideas.
+> The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion, emphasizing key concepts and connecting them to broader ideas.
 
 At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Because the facilitated discussion mostly involves the teacher and a sequence of individual speakers, many students may not be engaged during that segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
 
@@ -95,7 +99,7 @@ Mazzolini, M., & Maddison, S. (2007). When to jump in: The role of the instructo
 [/Citation]
 [/Aside]
 
-Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because these systems have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
+Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This _asynchronous_ environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because forums have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
 
 Another way learners might develop complex skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours[Aside]One teacher we visited gestured to a huge stack of papers he’d just finished reading. “I have 196 students. That’s 16 hours right there.”[/Aside], so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve totally forgotten about their project.
 
@@ -166,9 +170,13 @@ Now that our latest pilots have received glowing reviews from teachers and stude
 [TwoUpImage imageURL:"images/write.png"]
 ## Write: responding to open-ended problems
 
-Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/): accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
+Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/)[CitationRef /]: accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
 
 The student context varied a great deal across our pilots: some teachers conducted these activities in class; others assigned them as homework. Sometimes students used school-provided laptops; others used a mobile interface on their personal smartphones. The core of the experience remained the same in all these cases.
+
+[Citation]
+Resnick, M., & Silverman, B. (2005). Some reflections on designing construction kits for kids. Proceeding of the 2005 conference (pp. 117–122). New York, New York, USA: ACM. http://doi.org/10.1145/1109540.1109556
+[/Citation]
 
 [/TwoUpImage]
 
@@ -243,7 +251,7 @@ We frame peer interactions as a *challenge for the explicit benefit of the respo
 
 ## Peer work and model work
 
-In our pilots, we had the most success when exposing students both to their classmates’ ideas and also to expert-curated model work.
+We saw the most promising revisions in pilot students' work when we exposed them both to their classmates’ ideas and also to expert-curated model work.
 
 [Aside]
 See also [our blog post](http://klr.tumblr.com/post/174644368643/curated-work-can-help-develop-student) elaborating futher on opportunities specific to model work.
@@ -275,7 +283,7 @@ In our pilots, we’ve presented students with a mix of peer work and model work
  Vygotsky, L. S. (1934/1987). The collected works of L. S. Vygotsky. (Eds). R. Rieber & A. Carton. NY: Plenum.
 [/Citation][/Aside]
 
-Whether it’s peer work or model work, working with others’ ideas allows learners to access their [zone of proximal development](https://en.wikipedia.org/wiki/Zone_of_proximal_development): the region just outside of what they can achieve on their own. Lev Vygotsky put it best[CitationRef /]: "What a child is able to do in collaboration today he will be able to do independently tomorrow."
+Whether it’s with peer work or model work, working with others’ ideas allows learners to expand the kinds of thoughts they themselves can think. Lev Vygotsky put it best[CitationRef /]: "What a child is able to do in collaboration today he will be able to do independently tomorrow."
 
 ## Matchmaking
 
@@ -377,7 +385,7 @@ We created early sketches of a large variety of input modes: speech, stickers, h
 
 # 5. Designing for many contexts
 
-We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. Perhaps as a consequence of how burdensome they are to conduct, we heard many teachers say they often cram them in toward the end of the school year, in preparation for the exam. In this context, open-ended activities usual simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
+We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usual simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
 
 How might this change if open-ended activities were lighter, social, easier to run? When we showed teachers our prototype, they were full of ideas about how to use it. Teachers saw themselves running activities to preview a new topic; to check for understanding of the night’s reading; to run an end-of-class reflection; to practice essay-writing in smaller chunks. This diverse set of use cases inspired us to design a flexible system that can be run in-class or asynchronously at home; that can be as quick as a few minutes or take an hour; that can facilitate moderation but does not strictly require it.
 
@@ -385,7 +393,7 @@ Learn more about the process we used to identify teachers’ top challenges and 
 
 Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how such an online platform might be used to build bridges beyond classrooms, exposing students to a broader set of ideas and people. Interestingly, teachers shared this interest. With a common goal of setting their students up to become global citizens who can engage in civil discourse, many educators were eager for students to, as one teacher put it, "get out of their bubble."
 
-What follows is a summary of an observation we did with a pilot classroom. Rather than being representative of a particular use case, it aims instead to illustrate how fluid classroom environments can be, and how the online platform accommodates them.
+What follows is a summary of an observation we did with a pilot classroom (with names changed). Rather than being representative of a particular use case, it aims instead to illustrate how fluid classroom environments can be, and how the online platform accommodates them.
 
 Mr. Appleseed is an AP World History teacher at Mulligan High. He teaches AP World History to 150 students across 6 periods. 
 
@@ -433,7 +441,7 @@ What if online learning platforms could deliver rapid, reliable, and relevant fe
 
 With such a platform, students wouldn’t merely acquire the complex reasoning skills they need to pass the next test. Better: their schoolwork would emphasize original, creative thought. Every day, they would participate in lightweight, meaningful, and social discussion about open-ended questions. 
 
-In other words, their educational experience would look a lot like the experience of professionals in their fields.
+In other words—speaking more aspirationally—their educational experience would look a lot like the experience of professionals in their fields.
 
 Like mathematicians, math students would notice and communicate patterns underlying and connecting systems. Like scientists, science students would form conjectures and design experiments. And like historians, history students would analyze original documents to interpret the processes of civilization.  
 

@@ -362,7 +362,6 @@ const postProcessor = inputAST => {
 
   transformedAST = ast.modifyNodesByName(transformedAST, "img", node => {
     const hasBorder = !/-noborder/.test(ast.getProperty(node, "src"));
-    console.log(node, hasBorder, css(styles.imageBlock, hasBorder && styles.imageBlockBorder));
     node = ast.setProperty(node, "className", css(styles.imageBlock, hasBorder && styles.imageBlockBorder));
     return node;
   });
