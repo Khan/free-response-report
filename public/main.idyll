@@ -157,11 +157,11 @@ This platform provides students with rapid feedback by arranging scaffolded inte
 ![illustration of the spiraling design process](images/spiral-noborder.png)
 [/Aside]
 
-This platform is the result of many months of exploration. That exploration took the shape of a spiral: refining the question, exploring the landscape of past work, conducting user research, generating concepts, testing our ideas—then looping back around again to go deeper on promising directions. Throughout, we collaborated with educators who were generous with their time and expertise. We interviewed more than 50 educators in math, physics, humanities, and social sciences. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms, exposing students to a broader set of ideas and people.
+This platform is the result of many months of exploration. That exploration took the shape of a spiral: refining the question, exploring the landscape of past work, conducting user research, generating concepts, testing our ideas—then looping back around again to go deeper on promising directions. Throughout, we collaborated with educators who were generous with their time and expertise. We interviewed more than 50 educators in math, physics, humanitiesis exploring social sciences. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms, exposing students to a broader set of ideas and people.
 
-Our ideas began as simple paper prototypes, and blossomed into classroom pilots that we ran with more than 600 students across the country. 
+Our ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. Because this project explored such a large solution space, we used this data informally as an input to our iterative design process: a formal efficacy study was out of scope for our investigation.
 
-There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and underlying framework.
+Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and underlying framework.
 
 [TwoUpImage imageURL:"images/write.png"]
 ## Write: responding to open-ended problems
@@ -215,7 +215,7 @@ Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem solv
  Xun, G. E., & Land, S. M. (2004). A conceptual framework for scaffolding III-structured problem-solving processes using question prompts and peer interactions. Educational Technology Research and Development, 52(2), 5–22.
 [/Citation][/Aside]
 
-We experimented with a variety of structures which might push students to participate in thoughtful ways with peers’ and experts’ ideas. With open-ended questions like the ones we’re asking, students wrestle simultaneously with many different concepts, so it’s important that we offer some structured scaffolds[CitationRef /] to help guide their interactions. Xun Ge and Susan Land suggest that we can help students by asking "elaborative questions" like “Why is X important?” or “How does X affect Y?”. These types of questions “elicit explanatory responses and high-level thinking elaboration, and thus are effective in facilitating knowledge building of learners of various age groups.”[CitationRef /]
+We experimented with a variety of structures which might push students to participate in thoughtful ways with peers’ and experts’ ideas. With open-ended questions like the ones we’re asking, students wrestle simultaneously with many different concepts, so it’s important that we offer some structured scaffolds[CitationRef /] to help guide their interactions. Xun Ge and Susan Land suggest that we can help students by asking "elaborative questions" like “Why is X important?” or “How does X affect Y?” These types of questions “elicit explanatory responses and high-level thinking elaboration, and thus are effective in facilitating knowledge building of learners of various age groups.”[CitationRef /]
 
 These activities are meant to support specific complex reasoning skills, so we try to help students engage with others’ responses through the lens of those skills. We write elaborative questions which prompt students to do something with their peer’s answer which might reinforce procedural or conceptual knowledge relevant to the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to think about their peer’s claims through the lenses like the absence of alternative explanations.
 
@@ -429,7 +429,7 @@ We believe it’s possible for online learning platforms to support teachers and
 
 # 7. Acknowledgements
 
-Weʼd like to thank the following people for their valuable thoughts on this report or the investigation it describes: Ari Bader-Natal, Elena Glassman, Eli Luberoff, Ryan Mather, Dan Meyer, Michael Nielsen, Benjamin Reinhardt, Jack Schaedler.
+Weʼd like to thank the following people for their valuable thoughts on this report or the investigation it describes: Ari Bader-Natal, Elena Glassman, Eli Luberoff, Ryan Mather, Dan Meyer, Michael Nielsen, Benjamin Reinhardt, Jack Schaedler, Paul Simeon.
 
 We'd also like to extend our sincere gratitude to the many teachers and students who participated in our interviews, created activities with us, and used their valuable class time to run a pilot with us. While we can't thank them by name because we've promised them their privacy, we could not have done this work without them.
 
