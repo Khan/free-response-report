@@ -6,7 +6,7 @@
 [Abstract]
 Online learning platforms like Khan Academy help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling.
 
-To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
+To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond "right" or "wrong." *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
 
 We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
 
@@ -64,7 +64,7 @@ Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationR
 [/Citation]
 [/Aside]
 
-Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*, then deliver feeback that facilitates sense-making[CitationRef /]—helping them elaborate, connect, and revise their ideas.[CitationRef /]
+Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /]—helping students elaborate, connect, and revise their ideas.[CitationRef /]
 
 Current attempts at facilitating open-ended activities encounter a number of challenges.
 
@@ -337,7 +337,7 @@ Voting (currently "gold stars" and “thumbs down”) draws teachers’ attentio
 
 Confidence, which students report privately, helps teachers follow up with particular students who may be challenged in ways that are not immediately visible from their response.
 
-We found that teachers used the reports in multiple contexts. They used it in-class to monitor student participation. They skimmed it after class to ensure that students completed the activity, and to spot-check particular students’ responses. Pilot teachers tell us they’re not really interested in reading deeply into every students’ work in these kind of lightweight activities: they want some assurances that the activity will help students, they want to see that everyone actually completed it, and they want to focus on a few top highlights to steer their immediate actions.
+We found that teachers use the report in multiple contexts. They use it in-class to monitor student participation. They skim it after class to ensure that students completed the activity, and to spot-check particular students’ responses. Pilot teachers tell us they’re not really interested in reading deeply into every students’ work in these kind of lightweight activities: they want some assurances that the activity will help students, they want to see that everyone actually completed it, and they want to focus on a few top highlights to steer their immediate actions.
 
 There are opportunities for reports to further assist teacher facilitation: sorting functionality to surface responses that need intervention, or are particularly meaty for discussion; the ability for a teacher to "drop in" on any response and provide feedback of their own; lightweight text analysis to spot trends in class writing or surface problematic work. In all cases, we seek to make reports useful for facilitating activities and understanding how they’re going, rather than delivering individual grades for participants.
 
@@ -397,7 +397,7 @@ What follows is a summary of an observation we did with a pilot classroom (with 
 
 Mr. Appleseed is an AP World History teacher at Mulligan High. He teaches AP World History to 150 students across 6 periods. 
 
-With the AP exam looming, Mr. Appleseed is reviewing the big ideas from earlier periods with his class. In the final 30 minutes, Mr. Appleseed asks students open up a free response activity on their Chromebooks. The activity prompt asks:
+With the AP exam looming, Mr. Appleseed is reviewing the big ideas from earlier periods with his class. In the final 30 minutes, Mr. Appleseed asks students to open up a free response activity on their Chromebooks. The activity prompt asks:
 
 *Between 10,000 B.C.E. and 600 B.C.E., the adoption of agriculture had significant social, economic, and demographic effects.*
 
