@@ -159,7 +159,7 @@ This platform provides students with rapid feedback by arranging scaffolded inte
 
 This platform is the result of many months of exploration. That exploration took the shape of a spiral: refining the question, exploring the landscape of past work, conducting user research, generating concepts, testing our ideas—then looping back around again to go deeper on promising directions. Throughout, we collaborated with educators who were generous with their time and expertise. We interviewed more than 50 educators in math, physics, humanitiesis exploring social sciences. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms, exposing students to a broader set of ideas and people.
 
-Our ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. Because this project explored such a large solution space, we used this data informally as an input to our iterative design process: a formal efficacy study was out of scope for our investigation.
+Our ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country, focused on public middle and high schools. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. Because this project explored such a large solution space, we used this data informally as an input to our iterative design process: a formal efficacy study was out of scope for our investigation.
 
 Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and underlying framework.
 
@@ -168,12 +168,16 @@ Now that our latest pilots have received glowing reviews from teachers and stude
 
 Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/): accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
 
+The student context varied a great deal across our pilots: some teachers conducted these activities in class; others assigned them as homework. Sometimes students used school-provided laptops; others used a mobile interface on their personal smartphones. The core of the experience remained the same in all these cases.
+
 [/TwoUpImage]
 
 [TwoUpImage imageURL:"images/respond.png"]
 ## Respond: engaging with others’ ideas
 
-Once students have written an answer of their own, we help them develop their thinking by facilitating structured interactions with others’ ideas. The pedagogical principle is that students build their understanding of the skill by effortfully engaging with peers’ or experts’ use of that skill. To quote one middle school math student from our pilot:
+Once students have written an answer of their own, we help them develop their thinking by facilitating structured interactions with ideas written by both peers and experts. In most of our pilots, those peers were their familiar classmates (often simultaneously engaged in the same activity); in a few pilots, those peers were in different schools.
+
+The pedagogical principle is that students build their understanding of the skill by effortfully engaging with others' use of that skill. To quote one middle school math student from our pilot:
 
 > Seeing someone else’s work helped me realize how theirs was wrong—then I realized they did the same thing I did! Then I went back and fixed my work.
 
@@ -231,7 +235,11 @@ We solved this problem by offering several prompts to students and asking them t
 
 In the interface, our metaphor is that we "deal a hand" of sentence starters. Students “play a card,” choosing one challenge to tackle with their peer’s response. We experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
 
-We frame peer interactions as a *challenge for the explicit benefit of the response-writer*, rather than emphasizing it as an altruistic opportunity to help their fellow student, the response-receiver. Accordingly, our "sentence starters" focus on fostering interesting cognitive tasks for the response-writer. When possible, we offer sentence starters which we hope will create insightful comments for response-receivers’ benefit*,* but that’s a secondary goal.
+[Aside]
+Sentence starters like "another piece of evidence to support this argument is…" reinforce our "low floor, high ceilings, wide walls" goal: novice students and disciplinary experts could both fruitfully write sentences beginning that way, ranging from the naive to the striking.
+[/Aside]
+
+We frame peer interactions as a *challenge for the explicit benefit of the response-writer*, rather than emphasizing it as an altruistic opportunity to help their fellow student, the response-receiver. Accordingly, our "sentence starters" focus on fostering interesting cognitive tasks for the response-writer. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’ benefit*, but that’s a secondary goal.
 
 ## Peer work and model work
 
@@ -241,7 +249,7 @@ In our pilots, we had the most success when exposing students both to their clas
 See also [our blog post](http://klr.tumblr.com/post/174644368643/curated-work-can-help-develop-student) elaborating futher on opportunities specific to model work.
 [/Aside]
 
-Model work allows more control. For instance, we can make sure that students see great work—possibly even annotating it to call out what’s particularly strong:
+Model work allows more control. For instance, we can make sure that students see great work from an authentically engaged expert—possibly even annotating it to call out what’s particularly strong:
 
 ![Illustration of annotated model work](images/model_work_annotated-noborder.png)
 
@@ -261,7 +269,7 @@ Our observations in the pilot data and teachers’ responses in our interviews a
 
 As we changed the interface in various ways to make the social presence of classmates more apparent, we saw students drawn more deeply into the activity, and we’d hear them remarking on the social aspects of their interactions. We also saw an important feedback loop emerge: social pressure creates more student engagement, which leads to better work, which in turn creates more interesting social interactions, and so on.
 
-In our pilots, we’ve presented students with a mix of peer work and model work—usually one example of each. The proportion could be a knob we make available to the teacher, or to the activity creator, to the student themselves, or even to an algorithm, which might emphasize model work for struggling students.
+In our pilots, we’ve presented students with a mix of peer work and model work—usually one example of each. The proportion could be a knob we make available to the teacher, or to the activity creator, to the student themselves, or even to an algorithm, which might emphasize peer work for disengaged students or tactical model work selections for students struggling with specific parts of the skill.
 
 [Aside][Citation]
  Vygotsky, L. S. (1934/1987). The collected works of L. S. Vygotsky. (Eds). R. Rieber & A. Carton. NY: Plenum.
@@ -274,6 +282,10 @@ Whether it’s peer work or model work, working with others’ ideas allows lear
 Our design shows students work by their peers’ and experts—but *which* peers and which model work? We tried many approaches, but as we iterated, a few important requirements emerged.
 
 To promote an equitable experience, we try to ensure that every student’s work is shown to at least one other student. A simple "round robin" approach seems to satisfy that constraint, but some students inevitably need to leave the activity early—leaving their reviewees without replies. This reality forced us to add extra readers for students who have been waiting too long for replies—which in turn means we must ask some students to read more peer work.
+
+[Aside]
+We're also interested in exploring how matchmaking should vary based on students' level of mastery. For instance, is it better to show novices high-mastery students' work, or is low-mastery students' work more accessible and relatable? We haven't experimented with this axis yet, but it seems potentially fruitful.
+[/Aside]
 
 In some of our experiments, we matched students with peers who met certain special criteria. For example, we asked students to take a position on an issue, then prompted them to engage with a peer who disagreed with them (specifically, we asked them to suggest extra evidence for their peer’s argument!). This extra filter complicated the matchmaking system because the distributions of students were never uniform relative to the constraints. In the example where students took positions on an issue, some views would be particularly popular, meaning that too few students were available to disagree. We solved this type of issue by dynamically asking some students to engage with additional peers and by relaxing these special constraints when the groups became too imbalanced.
 
@@ -313,7 +325,7 @@ The report has a few key features:
 
 Highlighted revisions make student thought highly visible and easy to engage with. For many teachers, the change in understanding between when the student began the activity and when they finished it is the thing they want to see first. Scanning over the report, they can quickly spot where students made significant changes (and where other students may have made more perfunctory changes).
 
-Voting (currently "gold stars" and “thumbs down”) draws teachers’ attention to responses which may merit more attention. The “gold star” might highlight students whose work might be interesting to share with the class, while the “thumbs down” mechanism can quickly surface students who might benefit from 1:1 support.
+Voting (currently "gold stars" and “thumbs down”) draws teachers’ attention to responses which may merit more attention. The “gold star” might highlight students whose response to the prompt or reply to a peer might be interesting to share with the class, while the “thumbs down” mechanism can quickly surface students who might benefit from 1:1 support.
 
 Confidence, which students report privately, helps teachers follow up with particular students who may be challenged in ways that are not immediately visible from their response.
 
