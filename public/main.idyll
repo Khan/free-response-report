@@ -337,9 +337,13 @@ The report has a few key features:
 
 Highlighted revisions make student thought highly visible and easy to engage with. For many teachers, the change in understanding between when the student began the activity and when they finished it is the thing they want to see first. Scanning over the report, they can quickly spot where students made significant changes (and where other students may have made more perfunctory changes).
 
+[Aside]
+![Screenshot of teacher report, zoomed in on students' votes and confidence measures](images/report-zoom.png)
+[/Aside]
+
 Voting (currently "gold stars" and “thumbs down”) draws teachers’ attention to responses which may merit more attention. The “gold star” might highlight students whose response to the prompt or reply to a peer might be interesting to share with the class, while the “thumbs down” mechanism can quickly surface students who might benefit from 1:1 support.
 
-Confidence, which students report privately, helps teachers follow up with particular students who may be challenged in ways that are not immediately visible from their response.
+Confidence, which students report privately by selecting an emoji after submitting their draft and each revision, helps teachers follow up with particular students who may be challenged in ways that are not immediately visible from their response. The sequence of students' confidence ratings are displayed next to their names in the report.
 
 We found that teachers use the report in multiple contexts. They use it in-class to monitor student participation. They skim it after class to ensure that students completed the activity, and to spot-check particular students’ responses. Pilot teachers tell us they’re not really interested in reading deeply into every students’ work in these kind of lightweight activities: they want some assurances that the activity will help students, they want to see that everyone actually completed it, and they want to focus on a few top highlights to steer their immediate actions.
 
