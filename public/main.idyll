@@ -6,7 +6,7 @@
 [Abstract]
 Online learning platforms like Khan Academy help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling.
 
-To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
+To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond "right" or "wrong." *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
 
 We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
 
@@ -64,7 +64,7 @@ Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationR
 [/Citation]
 [/Aside]
 
-Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*, then deliver feeback that facilitates sense-making[CitationRef /]—helping them elaborate, connect, and revise their ideas.[CitationRef /]
+Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /]—helping students elaborate, connect, and revise their ideas.[CitationRef /]
 
 Current attempts at facilitating open-ended activities encounter a number of challenges.
 
