@@ -4,9 +4,9 @@
 /]
 
 [Abstract]
-Online learning platforms like Khan Academy help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. 
+Online learning platforms like Khan Academy help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling.
 
-*How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution. 
+To practice these skills, students must explain and justify their ideas—then receive meaningful feedback. *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
 
 We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
 
@@ -165,7 +165,7 @@ This platform is the result of many months of exploration. That exploration took
 
 Our ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country, focused on public middle and high schools. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. Because this project explored such a large solution space, we used this data informally as an input to our iterative design process: a formal efficacy study was out of scope for our investigation.
 
-Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and underlying framework.
+Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and its underlying framework.
 
 [TwoUpImage imageURL:"images/write.png"]
 ## Write: responding to open-ended problems
@@ -421,7 +421,7 @@ As students work through the activity, Mr. Appleseed splits his time between the
 
 As the period comes to an end, some students are still waiting for feedback, while others have completed multiple revisions. "Share whatever you have at this point," Mr. Appleseed advises. "This is just a working draft." Typing stops and Mr. Appleseed asks who can share how feedback changed their thinking. Hannah raises her hand:
 
-"Cheerios said: ‘This response could use the same evidence to support its thesis better by expanding on the ideas and explaining exactly how life changes as a result of Agriculture.’ So I added: ‘What allowed these cities to grow is that since they farmed, they had a surplus of food. With the surplus it allowed people not to become farmers and Start specializing in certain works. This led to technology advancements and a stronger economy. Since every civilization had different products they would trade with other civilizations.’"
+"My partner said: ‘This response could use the same evidence to support its thesis better by expanding on the ideas and explaining exactly how life changes as a result of Agriculture.’ So I added: ‘What allowed these cities to grow is that since they farmed, they had a surplus of food. With the surplus it allowed people not to become farmers and Start specializing in certain works. This led to technology advancements and a stronger economy. Since every civilization had different products they would trade with other civilizations.’"
 
 [Aside]
 ![Illustration of a teacher reading the report](images/teacher_reading_report-noborder.png)
