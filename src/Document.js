@@ -177,6 +177,13 @@ const styles = StyleSheet.create({
     [mobileQuery]: {
       hyphens: "auto"
     }
+  },
+  
+  hairline: {
+    height: 1,
+    backgroundColor: color.offBlack16,
+    marginTop: "1.5rem",
+    marginBottom: "1.5rem",
   }
 });
 
@@ -266,6 +273,10 @@ const InlineAside = ({ children }) => (
   <div className={css(textStyles.Footnote)}>{children}</div>
 );
 
+const Hairline = () => (
+<ClearDisplay>{() => (<div className={css(styles.hairline)} />)}</ClearDisplay>
+)
+
 const ClearDisplay = ({ children }) => (
   <MediaLayout>
     <div className={css(styles.clearContainer)}>{children()}</div>
@@ -324,6 +335,7 @@ const components = {
   Aside,
   Citation,
   CitationRef,
+  Hairline,
   InlineAside,
   Link,
   RawTable,
