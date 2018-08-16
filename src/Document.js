@@ -68,13 +68,13 @@ const styles = StyleSheet.create({
   },
 
   heroImage: {
-    marginTop: 16,
+    marginTop: 17,
     position: "absolute",
     left: 0,
     width: "100%",
     height: 470,
     background: "url(images/heading.png) no-repeat",
-    backgroundSize: "1079px 470px",
+    backgroundSize: "1089px 470px",
     backgroundPosition: "top center",
     zIndex: -1,
     [mobileQuery]: {
