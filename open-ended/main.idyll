@@ -226,32 +226,32 @@ Once students have responded to a few specifically-matched peers, we unlock a br
 [/Citation]
 [/Aside]
 
-We experimented with a variety of structures which might push students to participate in thoughtful ways with peers’ and experts’ ideas. With open-ended questions like the ones we’re asking, students wrestle simultaneously with many different concepts, so it’s important that we offer some structured scaffolds[CitationRef /] to help guide their interactions.
+With open-ended questions like the ones we’re asking, students wrestle simultaneously with many different concepts, so we need to offer some structured scaffolds[CitationRef /] to help guide their interactions. We experimented with a variety of structures which might push students to participate in thoughtful ways with peers’ and experts’ ideas. 
 
 [Aside]
 [Citation]
 [Xun, G. E., & Land, S. M. (2004). A conceptual framework for scaffolding ill-structured problem-solving processes using question prompts and peer interactions. Educational Technology Research and Development, 52(2), 5–22.](https://scholar.google.com/scholar?cluster=2788378003420792530&hl=en&as_sdt=0,5)
 [/Citation]
 [/Aside]
-Xun Ge and Susan Land suggest[CitationRef /] that we can help students by asking "elaborative questions" like “Why is X important?” or “How does X affect Y?” These types of questions “elicit explanatory responses and high-level thinking elaboration, and thus are effective in facilitating knowledge building of learners of various age groups.”
+Xun Ge and Susan Land suggest[CitationRef /] that we can help students by asking *elaborative questions* like “Why is X important?” or “How does X affect Y?” These types of questions “elicit explanatory responses and high-level thinking elaboration, and thus are effective in facilitating knowledge building of learners of various age groups.”
 
-These activities are meant to support specific complex reasoning skills, so we try to help students engage with others’ responses through the lens of those skills. We write elaborative questions which prompt students to do something with their peer’s answer which might reinforce procedural or conceptual knowledge relevant to the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to think about their peer’s claims through lenses like the absence of alternative explanations.
+Our open-ended activities are meant to help students develop specific complex reasoning skills. So when students engage with others’ responses, we help them view those responses *through the lens* of the relevant skills. That is: our elaborative questions prompt students to do something effortful with their peer’s answer which might support the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to consider whether their peer's argument includes anything about the absence of alternative causal explanations.
 
-In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?". These questions could access particularly focused ideas, but we felt an essential tension between the specificity of the question and the likelihood it would apply naturally to most peers’ answers. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
+In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?". Questions like these could access particularly focused ideas, but we felt a dififcult tension between the specificity of the question and the breadth of its applicability. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
 
 [Aside]
-Many of our pilot iterations also used sentence starters to support reflection activities in the final phase of the activity. Students were asked to write a summary of their experience using prompts like “Now I want to review…,” “Prior to this activity, I’d assumed that…,” or “I was surprised to learn that….” Reviewing students' work and speaking with teachers, these reflection activities didn't seem to be as helpful as the other interactions we're discussing, so we've deemphasized them for now.
+Many of our pilot iterations also used sentence starters to support *reflection* prompts in the final phase of the activity. Students were asked to write a summary of their experience using starters like “Now I want to review…” or “Prior to this activity, I’d assumed that….” These reflection activities didn't seem to be as helpful as the other interactions we're discussing, so we've deemphasized them for now.
 [/Aside]
 
-We solved this problem by offering several prompts to students and asking them to choose. We framed the questions as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. All the teachers we interviewed immediately understood this framing.
-
-*{todo: image of sentence starters chooser UI, showing lots of sentence starters}*
-
-In the interface, our metaphor is that we "deal a hand" of sentence starters. Students “play a card,” choosing one challenge to tackle with their peer’s response. We experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
+We solved this problem by offering *several* prompts to students and asking them to choose. We framed the questions as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. All the teachers we interviewed immediately understood this framing.
 
 [Aside]
+![screenshot of sentence starter selector](images/sentence-starters.png)
+
 Sentence starters like "another piece of evidence to support this argument is…" reinforce our "low floor, high ceilings, wide walls" goal: novice students and disciplinary experts could both fruitfully write sentences beginning that way, ranging from the naive to the striking.
 [/Aside]
+
+Our conceptual metaphor is that we "deal a hand" of sentence starters, though we don't render that visual idea literally in the interface. Students “play a card,” choosing one challenge to tackle with their peer’s response. Inspired by the physical metaphor, we experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
 
 We frame peer interactions as a *challenge for the explicit benefit of the response-writer*, rather than emphasizing it as an altruistic opportunity to help their fellow student, the response-receiver. Accordingly, our "sentence starters" focus on fostering interesting cognitive tasks for the response-writer. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’ benefit*, but that’s a secondary goal.
 
