@@ -423,18 +423,16 @@ const postProcessor = inputAST => {
   });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "Aside", node => {
-    /*let modifier;
-    modifier = innerNode => {
-      if (typeof innerNode === "string") {
-        innerNode = ast.createNode("p", {}, innerNode);
-      } else {
-        innerNode = ast.modifyChildren(innerNode, modifier);
-      }
-      return innerNode;
-    };
-    node = ast.modifyChildren(node, modifier);*/
     node[2] = ast.modifyNodesByName(node[2], "p", innerNode => {
       return ast.setProperty(innerNode, "className", "");
+    });
+    return node;
+  });
+
+  transformedAST = ast.modifyNodesByName(transformedAST, "Citation", node => {
+    console.log(node)
+    node[2] = ast.modifyNodesByName(node[2], "Link", innerNode => {
+      return ast.setProperty(innerNode, "kind", "secondary");
     });
     return node;
   });
