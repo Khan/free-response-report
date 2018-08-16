@@ -138,7 +138,7 @@ As a concrete example, here's one slice of the [SAT's writing rubric for "analys
 
 Imagine that you scored 2 points, but you want to build your analytical skills so that you’ll earn 3 points next time. What should you do? It’s not at all clear how to proceed.
 
-Some peer grading systems also ask peers to send their classmates explicit feedback or advice, like what the teacher would laboriously do themselves. External research and our own teacher interviews suggest that this approach sometimes yields useful feedback — but not reliably.
+Some peer grading systems also ask peers to send their classmates explicit feedback or advice, like what the teacher would laboriously do themselves. External research and our own teacher interviews suggest that this approach sometimes yields useful feedback—but not reliably.
 
 None of the solutions we surveyed reliably and rapidly help learners with the development of complex skills.
 
@@ -204,6 +204,8 @@ Just like in a good classroom discussion, students don’t listen passively to t
 ## Revise: refining ideas and assessing development
 
 Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned. The revision step offers students an opportunity to review and integrate new insights they’ve gained from the activity into what they already understand. Students can revise their work as many times as they like. Teachers and students together bound the activity’s duration and decide when to move on; revision is an opportunity to submit *another* draft—not a "final" draft.[CitationRef hidden:true /]
+
+While students do receive replies from their peers in this phase, our model doesn't rely exclusively on peer feedback to help students learn. In fact, our observations and teachers interviews suggest that the act of effortfully *writing* replies to others' work is more reliably helpful than *receiving* those responses from others. Peer feedback is *sometimes* helpful, of course—but even when it's not, those replies are still quite important for student engagement. Students tell us they take the activity more seriously because they know their classmates will be reading them.
 
 [Citation][Fitzgerald, J. (1987). Research on Revision in Writing. Review of Educational Research, 57(4), 481–506. http://doi.org/10.3102/00346543057004481](https://scholar.google.com/scholar?cluster=12711957255674593856&hl=en&as_sdt=0,5)
 [/Citation]
@@ -278,9 +280,9 @@ Here we illustrate more examples of how we create sentence starters from skills:
 
 
 
-Our conceptual metaphor is that we "deal a hand" of sentence starters, though we don't render that visual idea literally in the interface. Students “play a card,” choosing one challenge to tackle with their peer’s response. Inspired by the physical metaphor, we experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
+Conceptually, our working metaphor is that we "deal a hand" of sentence starters, though we don't render that visual idea literally in the interface. Students “play a card,” choosing one challenge to tackle with their peer’s response. Inspired by the physical metaphor, we experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
 
-We frame peer interactions as a *challenge for the explicit benefit of the response-writer*, rather than emphasizing it as an altruistic opportunity to help their fellow student, the response-receiver. Accordingly, our "sentence starters" focus on fostering interesting cognitive tasks for the response-writer. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’ benefit*, but that’s a secondary goal.
+As we mentioned earlier, we emphasize the learning opportunities involved for the student _giving_ feedback. That means we frame these sentence starters as a *challenge for the explicit benefit of the response-writer*, rather than as primarily an altruistic opportunity to help their fellow student. Accordingly, our "sentence starters" focus on fostering interesting cognitive tasks for the response-writer. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’* benefit, but our model does not *rely* on peer feedback being helpful to its recipient.
 
 ## Peer work and model work
 
@@ -304,9 +306,7 @@ By contrast, peer work is a bit of a lottery. The student might see some interes
 [Okita, S. Y., Bailenson, J., & Schwartz, D. L. (2008). The mere belief of social interaction improves learning. Proceedings of the 8th International Conference on International Conference for the Learning Sciences, 2, 132–139.](https://scholar.google.com/scholar?cluster=15733667543894408870&hl=en&as_sdt=0,5)
 [/Citation][/Aside]
 
-We wanted a social context to pervade the experience so that students would engage more deeply. We were inspired in part by Sandra Okita and colleagues’ memorably-named paper, "The mere belief of social interaction improves learning,"[CitationRef /] documenting a randomized controlled trial in which students who believed they were learning in a social context performed significantly better on a post-test.
-
-Our observations in the pilot data and teachers’ responses in our interviews all suggest that the act of *writing* responses to peer work is usually more directly helpful than *receiving* those responses from others. Even if the responses they receive from peers aren’t terribly helpful, it’s still quite important for engagement for students to receive those replies. Students tell us they take the activity more seriously because they know their classmates will be reading them.
+We wanted a social context to pervade the experience, motivating students to engage more deeply. We were inspired in part by Sandra Okita and colleagues’ memorably-named paper, "The mere belief of social interaction improves learning,"[CitationRef /] documenting a randomized controlled trial in which students who believed they were learning in a social context performed significantly better on a post-test.
 
 As we changed the interface in various ways to make the social presence of classmates more apparent, we saw students drawn more deeply into the activity, and we’d hear them remarking on the social aspects of their interactions. We also saw an important feedback loop emerge: social pressure creates more student engagement, which leads to better work, which in turn creates more interesting social interactions, and so on.
 
@@ -402,7 +402,7 @@ Though we haven’t tested it yet, we believe that it would be helpful to offer 
 
 One thing that prevents classrooms from running more free response activities is that it’s nearly impossible for teachers to deliver rapid feedback to all their students. We’ve shown how our learning framework helps solve that problem.
 
-Still another challenge is the difficulty of authoring activities in the first place. A good activity is carefully constructed to employ a particular skill around a given stimulus — something like a historical document, or a laboratory experiment. Many teachers rely on questions from standardized exams — but there are usually so few that they get saved for summative tests and quizzes.
+Still another challenge is the difficulty of authoring activities in the first place. A good activity is carefully constructed to employ a particular skill around a given stimulus—something like a historical document, or a laboratory experiment. Many teachers rely on questions from standardized exams—but there are usually so few that they get saved for summative tests and quizzes.
 
 Happily, we found that within our learning framework, free response activities can at once be rich and relatively cheap to author. 
 
@@ -470,7 +470,7 @@ This activity requires the application of complex skills. It requires students t
 
 Mr. Appleseed has students pair up to discuss the prompt. As they do so, he calls the class's attention to particular details: "A great response would include some proper nouns, like the Neolithic Revolution", or "I don't want to see any of that 'There were a variety of changes'... junk in your thesis."
 
-After a few minutes, Mr. Appleseed has the students begin writing their responses. He guides the class along the activity with lightweight time management: "Spend about 5-7 minutes drafting a response, just get something out there." "With your feedback, go above and beyond — you're doing them a big favor."
+After a few minutes, Mr. Appleseed has the students begin writing their responses. He guides the class along the activity with lightweight time management: "Spend about 5-7 minutes drafting a response, just get something out there." "With your feedback, go above and beyond—you're doing them a big favor."
 
 [Aside]
 ![Illustration of a teacher facilitating conversation](images/teacher_facilitating_conversation-noborder.png)
