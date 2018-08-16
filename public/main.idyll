@@ -235,9 +235,7 @@ With open-ended questions like the ones we’re asking, students wrestle simulta
 [/Aside]
 Xun Ge and Susan Land suggest[CitationRef /] that we can help students by asking *elaborative questions* like “Why is X important?” or “How does X affect Y?” These types of questions “elicit explanatory responses and high-level thinking elaboration, and thus are effective in facilitating knowledge building of learners of various age groups.”
 
-Our open-ended activities are meant to help students develop specific complex reasoning skills. So when students engage with others’ responses, we help them view those responses *through the lens* of the relevant skills. That is: our elaborative questions prompt students to do something effortful with their peer’s answer which might support the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to consider whether their peer's argument includes anything about the absence of alternative causal explanations.
-
-In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?". Questions like these could access particularly focused ideas, but we felt a dififcult tension between the specificity of the question and the breadth of its applicability. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
+In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?". Questions like these could access particularly focused ideas, but we felt a tension between the specificity of the question and the breadth of its applicability. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
 
 [Aside]
 Many of our pilot iterations also used sentence starters to support *reflection* prompts in the final phase of the activity. Students were asked to write a summary of their experience using starters like “Now I want to review…” or “Prior to this activity, I’d assumed that….” These reflection activities didn't seem to be as helpful as the other interactions we're discussing, so we've deemphasized them for now.
@@ -250,6 +248,39 @@ We solved this problem by offering *several* prompts to students and asking them
 
 Sentence starters like "another piece of evidence to support this argument is…" reinforce our "low floor, high ceilings, wide walls" goal: novice students and disciplinary experts could both fruitfully write sentences beginning that way, ranging from the naive to the striking.
 [/Aside]
+
+Our open-ended activities are meant to help students develop specific complex reasoning skills. So when students engage with others’ responses, we help them view those responses *through the lens* of the relevant skills. That is: sentence starters prompt students to do something effortful with their peer’s answer which might support the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to consider whether their peer's argument includes anything about the absence of alternative causal explanations. 
+
+Further examples are illustrated below:
+
+[RawTable]
+  [tr]
+    [td][strong]Skill[/strong][/td]
+    [td][strong]Sentence Starter[/strong][/td]
+  [/tr]
+  [tr]
+    [td]Contextualization[/td]
+    [td]A significant event that influenced this is......[/td]
+  [/tr]
+  [tr]
+    [td]Argument development[/td]
+    [td]Someone might disagree, saying...[/td]
+  [/tr]
+  [tr]
+    [td]Analysis[/td]
+    [td]This claim is influenced by...[/td]
+  [/tr]
+  [tr]
+    [td]Analysis[/td]
+    [td]This claim is influenced by...[/td]
+  [/tr]
+  [tr]
+    [td]Planning[/td]
+    [td]Another way to run this experiment might be...[/td]
+  [/tr]
+[/RawTable]
+
+
 
 Our conceptual metaphor is that we "deal a hand" of sentence starters, though we don't render that visual idea literally in the interface. Students “play a card,” choosing one challenge to tackle with their peer’s response. Inspired by the physical metaphor, we experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
 
