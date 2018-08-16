@@ -63,7 +63,8 @@ const styles = StyleSheet.create({
     marginTop: 96,
     height: 486,
     [mobileQuery]: {
-      marginTop: 72
+      marginTop: 72,
+      height: 382,
     }
   },
 
@@ -78,7 +79,12 @@ const styles = StyleSheet.create({
     backgroundPosition: "top center",
     zIndex: -1,
     [mobileQuery]: {
-      backgroundPosition: "top left"
+      backgroundPosition: "top center",
+      backgroundSize: "680px 294px",
+      marginTop: 100
+    },
+    "@media (max-width: 650px)": {
+      backgroundPosition: "top left",
     }
   },
 
@@ -88,7 +94,11 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 0,
     width: "100%",
-    marginTop: -56
+    marginTop: -56,
+    [mobileQuery]: {
+      marginTop: -23,
+      height: 35,
+    }
   },
 
   heroTitle: {
