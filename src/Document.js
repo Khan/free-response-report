@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
 
   authorsDisclaimer: {
-    opacity: 0.32
+    opacity: 0.32,
   },
 
   logoContainer: {
@@ -195,7 +195,7 @@ const Logo = () => (
   />
 );
 
-const Title = ({ title, authors }) => (
+const Title = ({ title, authors, date }) => (
   <div className={css(styles.titleContainer)}>
     <div className={css(styles.logoContainer)}>
       <Logo />
@@ -207,7 +207,7 @@ const Title = ({ title, authors }) => (
         {authors}
       </div>
       <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>
-        (authors listed alphabetically)
+        Authors listed alphabetically. {date}.
       </div>
     </div>
     <div className={css(styles.heroBanner)} />
