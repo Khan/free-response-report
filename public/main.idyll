@@ -237,16 +237,12 @@ In early iterations, we asked students specific questions about their peer’s w
 We solved this problem by offering *several* prompts to students and asking them to choose. We framed the prompts as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. 
 
 [Aside]
-Many of our pilot iterations also used sentence starters to support *reflection* prompts in the final phase of the activity. Students were asked to write a summary of their experience using starters like “Now I want to review…” or “Prior to this activity, I’d assumed that….” These reflection activities didn't seem to be as helpful as the other interactions we're discussing, so we've deemphasized them for now.
-[/Aside]
-
-Our open-ended activities are meant to help students develop specific complex reasoning skills. So when students engage with others’ responses, we help them view those responses *through the lens* of the relevant skills. That is: sentence starters prompt students to do something effortful with their peer’s answer which might support the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to consider whether their peer's argument includes anything about the absence of alternative causal explanations. 
-
-[Aside]
 ![screenshot of sentence starter selector](images/sentence-starters.png)
 
 Sentence starters like "another piece of evidence to support this argument is…" reinforce our "low floor, high ceilings, wide walls" goal: novice students and disciplinary experts could both fruitfully write sentences beginning that way, ranging from the naive to the striking.
 [/Aside]
+
+Our open-ended activities are meant to help students develop specific complex reasoning skills. So when students engage with others’ responses, we help them view those responses *through the lens* of the relevant skills. That is: sentence starters prompt students to do something effortful with their peer’s answer which might support the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to consider whether their peer's argument includes anything about the absence of alternative causal explanations. 
 
 Here we illustrate more examples of how we create sentence starters from skills:
 
@@ -273,11 +269,13 @@ Here we illustrate more examples of how we create sentence starters from skills:
   [/tr]
 [/RawTable]
 
-
-
 Conceptually, our working metaphor is that we "deal a hand" of sentence starters, though we don't render that visual idea literally in the interface. Students “play a card,” choosing one challenge to tackle with their peer’s response. Inspired by the physical metaphor, we experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
 
 As we mentioned earlier, we emphasize the learning opportunities involved for the student _giving_ feedback. That means we frame these sentence starters as a *challenge for the explicit benefit of the response-writer*, rather than as primarily an altruistic opportunity to help their fellow student. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’* benefit, but our model does not *rely* on peer feedback being helpful to its recipient.
+
+[Aside]
+Many of our pilot iterations also used sentence starters to support *reflection* prompts in the final phase of the activity. Students wrote a summary of their experience using starters like “Now I want to review…” or “Prior to this activity, I’d assumed that….” These reflection activities didn't seem to be as helpful as other interactions we're discussing, so we've deemphasized them for now.
+[/Aside]
 
 ## Peer work and model work
 
