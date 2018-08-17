@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Document from './Document';
+import { unregister } from "./utils/registerServiceWorker";
 import './styles.css';
 
 const webpackRequireContext = require.context('!raw-loader!../public', false, /\.idyll$/,)
@@ -19,3 +20,4 @@ const documents = webpackRequireContext
 
 ReactDOM.render(
     <Document documents={documents}/>, document.getElementById('idyll-mount'));
+unregister();
