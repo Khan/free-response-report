@@ -5,7 +5,7 @@
 /]
 
 [Abstract]
-On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond "right" or "wrong." 
+On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond a simple grade to guide their revision and iteration.
 
 *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
 
@@ -15,16 +15,15 @@ We've created a learning platform that offers students rapid feedback by choreog
 
 # 1. Rich activities require rich feedback 
 
-[p]*"Why is there a big spike in our data here?"*[/p]
+[p]*"Why is there a big spike in our data on this plot?"*[/p]
 
 [p]*"Since globalization, what's changed? What's stayed the same?"* [/p
 ]
 [p]*"What are the most important causes of structural inequality?"*[/p]
 
-[p]*“How might we design an experiment to understand this fabric’s durability?”* [/p]
+[p]*“How does water quality affect fish populations?”* [/p]
 
-
-The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined" [CitationRef /], and answering them requires complex reasoning skills like literary analysis, scientific experiment design, critical thinking, or mathematical modeling. 
+The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined" [CitationRef /], and answering them requires complex reasoning skills like literary analysis, scientific inquiry, or mathematical modeling. Morever, and in all subjects, answers require independent thought, creativity, and critical thinking.
 
 [Aside][Citation]
  [Chi, M. T. H., & Glaser, R. (1985). Problem-solving ability. In R. J. Sternberg (Ed.), Human abilities (pp. 227–250). New York: W. H. Freeman and Company.](https://chilab.asu.edu/sites/all/themes/chilab/public/publication_files/ChiGlaser10.pdf)
@@ -46,9 +45,9 @@ The academic literature refers to right–wrong feedback as "knowledge of result
 [/Citation]
 [/Aside]
 
-Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place. 
+Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their thinking never got recorded in the first place. 
 
-Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /]—helping students elaborate, connect, and revise their ideas.[CitationRef /]
+Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /]—helping students elaborate, validate, and ultimately revise their ideas.[CitationRef /]
 
 [Aside]
 [Citation]
@@ -59,7 +58,7 @@ Instead, students need *open-ended activities* that ask them to *explain and jus
 [/Citation]
 [/Aside]
 
-Current attempts at facilitating open-ended activities encounter a number of challenges.
+Unfortunately, today's solutions for facilitating these kinds of activities all present significant challenges, which we'll now describe.
 
 # 2. Today’s solutions and their challenges
 
@@ -76,9 +75,9 @@ Proficient educators with small class sizes orchestrate group discussions to dev
 [/Citation]
 [/Aside]
 
-> The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion, emphasizing key concepts and connecting them to broader ideas.
+> The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion on the board, emphasizing key concepts and connecting them to broader ideas.
 
-At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Because the facilitated discussion mostly involves the teacher and a sequence of individual speakers, many students may not be engaged during that segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
+At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate. The environment does little to structure the discussion: teachers must create structure and establish discussion norms themselves. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Facilitated conversation mostly engages one speaker at a time; other students may readily disengage. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
 
 Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This asynchronous environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because forums have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
 
@@ -96,7 +95,7 @@ Some teachers try to mitigate these challenges through online forum software.[Ci
 One teacher we visited gestured to a huge stack of papers he’d just finished reading. “I have 196 students. That’s 16 hours right there.”
 [/Aside]
 
-Another way learners might develop complex skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours, so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve totally forgotten about their project.
+Another way learners might develop complex skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours, so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve totally forgotten about their project—so they focus on their grade instead of considering the feedback.
 
 Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is that each student grades a couple other students’ work (typically using a rubric), then later receives a grade of their own from their peers. Systems like [PeerStudio](https://www.peerstudio.org) have established methods[CitationRef /] for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives.
 
@@ -156,7 +155,7 @@ Our design is the result of many months of exploration. Throughout, we collabora
 
 Our ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country, focused on public middle and high schools. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. We used this data informally as an input to our iterative design process; a formal efficacy study was out of scope for our investigation.
 
-Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the platform and how it works. We'll walk through the learner experience, in which students _write_, _react_, and _revise_. And we'll discuss the core features designed to help students develop complex reasoning skills. 
+Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the platform and how it works. We'll first walk through the learner experience, in which students _write_, _react_, and _revise_. Then we'll discuss the core features designed to help students develop complex reasoning skills. 
 
 [TwoUpImage imageURL:"images/write.png" heading:"Write: responding to open-ended problems"]
 
@@ -230,16 +229,12 @@ In early iterations, we asked students specific questions about their peer’s w
 We solved this problem by offering *several* prompts to students and asking them to choose. We framed the prompts as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. 
 
 [Aside]
-Many of our pilot iterations also used sentence starters to support *reflection* prompts in the final phase of the activity. Students were asked to write a summary of their experience using starters like “Now I want to review…” or “Prior to this activity, I’d assumed that….” These reflection activities didn't seem to be as helpful as the other interactions we're discussing, so we've deemphasized them for now.
-[/Aside]
-
-Our open-ended activities are meant to help students develop specific complex reasoning skills. So when students engage with others’ responses, we help them view those responses *through the lens* of the relevant skills. That is: sentence starters prompt students to do something effortful with their peer’s answer which might support the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to consider whether their peer's argument includes anything about the absence of alternative causal explanations. 
-
-[Aside]
 ![screenshot of sentence starter selector](images/sentence-starters.png)
 
 Sentence starters like "another piece of evidence to support this argument is…" reinforce our "low floor, high ceilings, wide walls" goal: novice students and disciplinary experts could both fruitfully write sentences beginning that way, ranging from the naive to the striking.
 [/Aside]
+
+Our open-ended activities are meant to help students develop specific complex reasoning skills. So when students engage with others’ responses, we help them view those responses *through the lens* of the relevant skills. That is: sentence starters prompt students to do something effortful with their peer’s answer which might support the activity’s target skills. For instance, if we’re trying to help a student understand historical causation, we might want them to consider whether their peer's argument includes anything about the absence of alternative causal explanations. 
 
 Here we illustrate more examples of how we create sentence starters from skills:
 
@@ -266,11 +261,13 @@ Here we illustrate more examples of how we create sentence starters from skills:
   [/tr]
 [/RawTable]
 
-
-
 Conceptually, our working metaphor is that we "deal a hand" of sentence starters, though we don't render that visual idea literally in the interface. Students “play a card,” choosing one challenge to tackle with their peer’s response. Inspired by the physical metaphor, we experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
 
 As we mentioned earlier, we emphasize the learning opportunities involved for the student _giving_ feedback. That means we frame these sentence starters as a *challenge for the explicit benefit of the response-writer*, rather than as primarily an altruistic opportunity to help their fellow student. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’* benefit, but our model does not *rely* on peer feedback being helpful to its recipient.
+
+[Aside]
+Many of our pilot iterations also used sentence starters to support *reflection* prompts in the final phase of the activity. Students wrote a summary of their experience using starters like “Now I want to review…” or “Prior to this activity, I’d assumed that….” These reflection activities didn't seem to be as helpful as other interactions we're discussing, so we've deemphasized them for now.
+[/Aside]
 
 ## Peer work and model work
 
@@ -388,11 +385,11 @@ Though we haven’t tested it yet, we believe that it would be helpful to offer 
 
 ## Activities that scale
 
-One thing that prevents classrooms from running more free response activities is that it’s nearly impossible for teachers to deliver rapid feedback to all their students. We’ve shown how our learning framework helps solve that problem.
+One thing that prevents classrooms from running more free response activities is that it’s nearly impossible for teachers to deliver rapid feedback to all their students. We’ve shown how our learning framework helps solve that problem through peer interactions and the teacher report.
 
 Still another challenge is the difficulty of authoring activities in the first place. A good activity is carefully constructed to employ a particular skill around a given stimulus—something like a historical document, or a laboratory experiment. Many teachers rely on questions from standardized exams—but there are usually so few that they get saved for summative tests and quizzes.
 
-Happily, we found that within our learning framework, free response activities can at once be rich and relatively cheap to author. 
+Happily, we found that within our learning framework, free response activities can at once be rich and relatively inexpensive to author. 
 
 At first glance, this seems unlikely. The activities in our framework require more content than a typical exam question, since they make use of model work and sentence starters. 
 
@@ -430,7 +427,7 @@ We created early sketches of a large variety of input modes: speech, stickers, h
 
 # 5. In class, after class, and at home: a vignette
 
-We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usual simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
+We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usually simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
 
 How might this change if open-ended activities were lighter, social, easier to run? When we showed teachers our prototype, they were full of ideas about how to use it. Teachers saw themselves running activities to preview a new topic; to check for understanding of the night’s reading; to run an end-of-class reflection; to practice essay-writing in smaller chunks. This diverse set of use cases inspired us to design a flexible system that can be run in-class or asynchronously at home; that can be as quick as a few minutes or take an hour; that can facilitate moderation but does not strictly require it.
 
@@ -490,7 +487,7 @@ Students shouldn’t have to wait until their adulthood to pursue open-ended pro
 
 What if online learning platforms could deliver rapid, reliable, and relevant feedback to students on complex open-ended activities, the way they already do on simpler multiple-choice exercises? What if these activities could facilitate thoughtful and energetic discourse between students and their differing ideas?
 
-With such a platform, students wouldn’t merely acquire the complex reasoning skills they need to pass the next test. Better: their schoolwork would emphasize original, creative thought. Every day, they would participate in lightweight, meaningful, and social discussion about open-ended questions. 
+With such a platform, students wouldn’t merely acquire the complex reasoning skills they need to pass the next test. Better: their schoolwork would emphasize original, creative, critical thought. Every day, they would participate in lightweight, meaningful, and social discussion about open-ended questions. 
 
 In other words—speaking more aspirationally—their educational experience would look a lot like the experience of professionals in their fields.
 
@@ -498,7 +495,7 @@ In other words—speaking more aspirationally—their educational experience wou
 ![illustration of student thinking in many disciplines /](images/in-the-discipline-noborder.png)
 [/Aside]
 
-Like mathematicians, math students would notice and communicate patterns underlying and connecting systems. Like scientists, science students would form conjectures and design experiments. And like historians, history students would analyze original documents to interpret the processes of civilization.  
+Like mathematicians, math students would notice and communicate patterns underlying and connecting systems. Like scientists, science students would form conjectures and create models. And like historians, history students would analyze original documents to interpret the processes of civilization.  
 
 We believe it’s possible for online learning platforms to support teachers and students in open-ended inquiry. We’re excited to have illustrated some possible paths with our experiments thus far, and we’re looking forward to developing these ideas further in future projects.
 
