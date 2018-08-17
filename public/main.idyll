@@ -23,7 +23,7 @@ We've created a learning platform that offers students rapid feedback by choreog
 
 [p]*“How does water quality affect fish populations?”* [/p]
 
-The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined" [CitationRef /], and answering them requires complex reasoning skills like literary analysis, scientific experiment design, critical thinking, or mathematical modeling. 
+The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined" [CitationRef /], and answering them requires complex reasoning skills like literary analysis, scientific inquiry, or mathematical modeling. Morever, and in all subjects, answers require independent thought, creativity, and critical thinking.
 
 [Aside][Citation]
  [Chi, M. T. H., & Glaser, R. (1985). Problem-solving ability. In R. J. Sternberg (Ed.), Human abilities (pp. 227–250). New York: W. H. Freeman and Company.](https://chilab.asu.edu/sites/all/themes/chilab/public/publication_files/ChiGlaser10.pdf)
@@ -393,11 +393,11 @@ Though we haven’t tested it yet, we believe that it would be helpful to offer 
 
 ## Activities that scale
 
-One thing that prevents classrooms from running more free response activities is that it’s nearly impossible for teachers to deliver rapid feedback to all their students. We’ve shown how our learning framework helps solve that problem.
+One thing that prevents classrooms from running more free response activities is that it’s nearly impossible for teachers to deliver rapid feedback to all their students. We’ve shown how our learning framework helps solve that problem through peer interactions and the teacher report.
 
 Still another challenge is the difficulty of authoring activities in the first place. A good activity is carefully constructed to employ a particular skill around a given stimulus—something like a historical document, or a laboratory experiment. Many teachers rely on questions from standardized exams—but there are usually so few that they get saved for summative tests and quizzes.
 
-Happily, we found that within our learning framework, free response activities can at once be rich and relatively cheap to author. 
+Happily, we found that within our learning framework, free response activities can at once be rich and relatively inexpensive to author. 
 
 At first glance, this seems unlikely. The activities in our framework require more content than a typical exam question, since they make use of model work and sentence starters. 
 
@@ -435,7 +435,7 @@ We created early sketches of a large variety of input modes: speech, stickers, h
 
 # 5. In class, after class, and at home: a vignette
 
-We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usual simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
+We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usually simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
 
 How might this change if open-ended activities were lighter, social, easier to run? When we showed teachers our prototype, they were full of ideas about how to use it. Teachers saw themselves running activities to preview a new topic; to check for understanding of the night’s reading; to run an end-of-class reflection; to practice essay-writing in smaller chunks. This diverse set of use cases inspired us to design a flexible system that can be run in-class or asynchronously at home; that can be as quick as a few minutes or take an hour; that can facilitate moderation but does not strictly require it.
 
@@ -495,7 +495,7 @@ Students shouldn’t have to wait until their adulthood to pursue open-ended pro
 
 What if online learning platforms could deliver rapid, reliable, and relevant feedback to students on complex open-ended activities, the way they already do on simpler multiple-choice exercises? What if these activities could facilitate thoughtful and energetic discourse between students and their differing ideas?
 
-With such a platform, students wouldn’t merely acquire the complex reasoning skills they need to pass the next test. Better: their schoolwork would emphasize original, creative thought. Every day, they would participate in lightweight, meaningful, and social discussion about open-ended questions. 
+With such a platform, students wouldn’t merely acquire the complex reasoning skills they need to pass the next test. Better: their schoolwork would emphasize original, creative, critical thought. Every day, they would participate in lightweight, meaningful, and social discussion about open-ended questions. 
 
 In other words—speaking more aspirationally—their educational experience would look a lot like the experience of professionals in their fields.
 
@@ -503,7 +503,7 @@ In other words—speaking more aspirationally—their educational experience wou
 ![illustration of student thinking in many disciplines /](images/in-the-discipline-noborder.png)
 [/Aside]
 
-Like mathematicians, math students would notice and communicate patterns underlying and connecting systems. Like scientists, science students would form conjectures and design experiments. And like historians, history students would analyze original documents to interpret the processes of civilization.  
+Like mathematicians, math students would notice and communicate patterns underlying and connecting systems. Like scientists, science students would form conjectures and create models. And like historians, history students would analyze original documents to interpret the processes of civilization.  
 
 We believe it’s possible for online learning platforms to support teachers and students in open-ended inquiry. We’re excited to have illustrated some possible paths with our experiments thus far, and we’re looking forward to developing these ideas further in future projects.
 
