@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
     marginTop: 36,
     width: "100%",
     [mobileQuery]: {
-      marginTop: 0,
+      marginTop: 0
     }
   },
 
@@ -164,6 +164,13 @@ const styles = StyleSheet.create({
     marginTop: -4
   },
 
+  asideParagraph: {
+    [mobileQuery]: {
+      marginLeft: 32,
+      opacity: 0.66,
+    }
+  },
+
   citationContainer: {
     opacity: 0.66,
     marginBottom: 8
@@ -180,7 +187,8 @@ const styles = StyleSheet.create({
     marginBottom: "calc(1rem - 16px)",
     [mobileQuery]: {
       margin: -16,
-      borderSpacing: 16
+      borderSpacing: 16,
+      marginBottom: "calc(1rem - 16px)",
     }
   },
 
@@ -280,7 +288,7 @@ const Abstract = ({ children }) => (
 const Aside = ({ children }) => (
   <div
     style={{ position: "absolute", width: "100%", zIndex: -1, left: 0 }}
-    className={css(textStyles.Footnote)}
+    className={css(textStyles.Footnote, styles.hideOnMobile)}
   >
     <MediaLayout>
       <Row style={styles.noPosition}>
@@ -293,8 +301,14 @@ const Aside = ({ children }) => (
   </div>
 );
 
+const MobileAside = ({children}) => (
+  <div className={css(textStyles.Footnote, styles.hideUnlessMobile)}>
+  {children}
+</div>
+);
+
 const Citation = ({ number, children }) => (
-  <div className={css(textStyles.Footnote, styles.citationContainer)}>
+  <div className={css(textStyles.Footnote, styles.citationContainer, styles.hideOnMobile)}>
     <div className={css(styles.asideCitation)}>{number}</div>
     {children}
   </div>
@@ -356,7 +370,9 @@ const TwoUpImage = ({ heading, imageURL, altText, children }) => (
           {children}
         </Cell>
         <Cell largeCols={6} mediumCols={4} smallCols={4}>
-          <h2 className={css(textStyles.HeadingMedium, styles.hideUnlessMobile)}>
+          <h2
+            className={css(textStyles.HeadingMedium, styles.hideUnlessMobile)}
+          >
             {heading}
           </h2>
           <img
@@ -368,7 +384,9 @@ const TwoUpImage = ({ heading, imageURL, altText, children }) => (
               styles.imageBlockBorder
             )}
           />
-          <div className={css(textStyles.HeadingMedium, styles.hideUnlessMobile)}>
+          <div
+            className={css(textStyles.HeadingMedium, styles.hideUnlessMobile)}
+          >
             {children}
           </div>
         </Cell>
@@ -394,6 +412,7 @@ const components = {
   Hairline,
   InlineAside,
   Link,
+  MobileAside,
   RawTable,
   Title,
   TwoUpImage
@@ -413,8 +432,6 @@ const postProcessor = inputAST => {
     citationCount++;
     return node;
   });
-
-  console.log(citationContents);
 
   citationCount = 1;
   transformedAST = ast.modifyNodesByName(
@@ -502,11 +519,38 @@ const postProcessor = inputAST => {
   });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "Aside", node => {
-    node[2] = ast.modifyNodesByName(node[2], "p", innerNode => {
-      return ast.setProperty(innerNode, "className", "");
-    });
+    if (node[2].length === 1 && typeof node[2][0] === "string") {
+      node[2][0] = ast.createNode("p", {className: css(styles.asideParagraph)}, [node[2][0]]);
+    } else {
+      node[2] = ast.modifyNodesByName(node[2], "p", innerNode => {
+        return ast.setProperty(innerNode, "className", css(styles.asideParagraph));
+      });
+    }
     return node;
   });
+
+  let swapAsides;
+  swapAsides = (childrenList) => {
+    if (!childrenList) { return childrenList }
+    const output = [];
+    for (let index = 0; index < childrenList.length; index++) {
+      const child = childrenList[index];
+      if (ast.getChildren(child).length > 0) {
+        child[2] = swapAsides(child[2]);
+      }
+
+      if (Array.isArray(child) && child[0] === "Aside") {
+        output.splice(output.length - 1, 0, child);
+        const mobileAside = [...child];
+        mobileAside[0] = "MobileAside";
+        output.push(mobileAside);
+      } else {
+        output.push(child);
+      }
+    }
+    return output;
+  }
+  transformedAST[0][2] = swapAsides(transformedAST[0][2]);
 
   transformedAST = ast.modifyNodesByName(transformedAST, "Citation", node => {
     node[2] = ast.modifyNodesByName(node[2], "Link", innerNode => {
