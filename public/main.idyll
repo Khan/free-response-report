@@ -168,8 +168,7 @@ Our ideas began as simple paper prototypes and blossomed into classroom pilots t
 
 Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and its underlying framework.
 
-[TwoUpImage imageURL:"images/write.png"]
-## Write: responding to open-ended problems
+[TwoUpImage imageURL:"images/write.png" heading:"Write: responding to open-ended problems"]
 
 Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/)[CitationRef /]: accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
 
@@ -181,8 +180,7 @@ The student context varied a great deal across our pilots: some teachers conduct
 
 [/TwoUpImage]
 
-[TwoUpImage imageURL:"images/respond.png"]
-## Respond: engaging with others’ ideas
+[TwoUpImage imageURL:"images/respond.png" heading:"Respond: engaging with others’ ideas"]
 
 Once students have written an answer of their own, we help them develop their thinking by facilitating structured interactions with ideas written by both peers and experts. In most of our pilots, those peers were their familiar classmates (often simultaneously engaged in the same activity); in a few pilots, those peers were in different schools.
 
@@ -200,8 +198,7 @@ Just like in a good classroom discussion, students don’t listen passively to t
 
 [/TwoUpImage]
 
-[TwoUpImage imageURL:"images/revise.png"]
-## Revise: refining ideas and assessing development
+[TwoUpImage imageURL:"images/revise.png" heading:"Revise: refining ideas and assessing development"]
 
 Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned. The revision step offers students an opportunity to review and integrate new insights they’ve gained from the activity into what they already understand. Students can revise their work as many times as they like. Teachers and students together bound the activity’s duration and decide when to move on; revision is an opportunity to submit *another* draft—not a "final" draft.[CitationRef hidden:true /]
 

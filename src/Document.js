@@ -131,7 +131,10 @@ const styles = StyleSheet.create({
 
   twoUpImage: {
     marginTop: 36,
-    width: "100%"
+    width: "100%",
+    [mobileQuery]: {
+      marginTop: 0,
+    }
   },
 
   citationNumber: {
@@ -342,14 +345,20 @@ const RawTable = ({ children }) => (
   <table className={css(styles.table)}>{children}</table>
 );
 
-const TwoUpImage = ({ imageURL, altText, children }) => (
+const TwoUpImage = ({ heading, imageURL, altText, children }) => (
   <ClearDisplay>
     {() => (
       <Row style={styles.noPosition}>
         <Cell largeCols={6} mediumCols={4} smallCols={0}>
+          <h2 className={css(textStyles.HeadingMedium, styles.hideOnMobile)}>
+            {heading}
+          </h2>
           {children}
         </Cell>
         <Cell largeCols={6} mediumCols={4} smallCols={4}>
+          <h2 className={css(textStyles.HeadingMedium, styles.hideUnlessMobile)}>
+            {heading}
+          </h2>
           <img
             src={imageURL}
             alt={altText}
@@ -359,6 +368,9 @@ const TwoUpImage = ({ imageURL, altText, children }) => (
               styles.imageBlockBorder
             )}
           />
+          <div className={css(textStyles.HeadingMedium, styles.hideUnlessMobile)}>
+            {children}
+          </div>
         </Cell>
       </Row>
     )}
