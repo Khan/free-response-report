@@ -4,6 +4,7 @@ import color from "@khanacademy/wonder-blocks-color";
 import IdyllDocument from "idyll-document";
 import Link from "@khanacademy/wonder-blocks-link";
 import React, { Fragment } from "react";
+import Tooltip from "@khanacademy/wonder-blocks-tooltip";
 import { MediaLayout } from "@khanacademy/wonder-blocks-core";
 import { Row, Cell } from "@khanacademy/wonder-blocks-grid";
 import { StyleSheet, css } from "aphrodite";
@@ -22,9 +23,9 @@ const styles = StyleSheet.create({
 
   imageBlock: {
     width: "100%",
-    marginBottom: "1rem",
+    marginBottom: "1rem"
   },
-  
+
   imageBlockBorder: {
     borderRadius: 4,
     border: `1px solid ${color.offBlack16}`
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
   },
 
   authorsDisclaimer: {
-    opacity: 0.32,
+    opacity: 0.32
   },
 
   logoContainer: {
@@ -64,7 +65,7 @@ const styles = StyleSheet.create({
     height: 486,
     [mobileQuery]: {
       marginTop: 72,
-      height: 382,
+      height: 382
     }
   },
 
@@ -84,7 +85,7 @@ const styles = StyleSheet.create({
       marginTop: 100
     },
     "@media (max-width: 650px)": {
-      backgroundPosition: "top left",
+      backgroundPosition: "top left"
     }
   },
 
@@ -97,7 +98,7 @@ const styles = StyleSheet.create({
     marginTop: -56,
     [mobileQuery]: {
       marginTop: -23,
-      height: 35,
+      height: 35
     }
   },
 
@@ -166,7 +167,7 @@ const styles = StyleSheet.create({
   },
 
   blockquote: {
-    marginLeft: 32,
+    marginLeft: 32
   },
 
   table: {
@@ -176,7 +177,7 @@ const styles = StyleSheet.create({
     marginBottom: "calc(1rem - 16px)",
     [mobileQuery]: {
       margin: -16,
-      borderSpacing: 16, 
+      borderSpacing: 16
     }
   },
 
@@ -188,14 +189,34 @@ const styles = StyleSheet.create({
       hyphens: "auto"
     }
   },
-  
+
   hairline: {
     height: 1,
     backgroundColor: color.offBlack16,
     marginTop: "1.5rem",
-    marginBottom: "1.5rem",
+    marginBottom: "1.5rem"
+  },
+
+  hideOnMobile: {
+    [mobileQuery]: {
+      display: "none"
+    }
+  },
+
+  hideUnlessMobile: {
+    display: "none",
+    [mobileQuery]: {
+      display: "unset"
+    }
   }
 });
+
+const MobileDesktopVariant = ({ mobileChildren, desktopChildren }) => (
+  <Fragment>
+    <div className={css(styles.hideOnMobile)}>{desktopChildren}</div>
+    <div className={css(styles.hideUnlessMobile)}>{mobileChildren}</div>
+  </Fragment>
+);
 
 const Logo = () => (
   <div
@@ -276,16 +297,25 @@ const Citation = ({ number, children }) => (
   </div>
 );
 
-const CitationRef = ({ number, children, hidden }) =>
-  !hidden && <div className={css(styles.citationNumber)}>{number}</div>;
+const CitationRef = ({ number, hidden, citationText }) =>
+  !hidden && (
+    <div className={css(styles.citationNumber)}>
+      <MobileDesktopVariant
+        mobileChildren={
+          <Tooltip content={citationText}>{number.toString()}</Tooltip>
+        }
+        desktopChildren={number}
+      />
+    </div>
+  );
 
 const InlineAside = ({ children }) => (
   <div className={css(textStyles.Footnote)}>{children}</div>
 );
 
 const Hairline = () => (
-<ClearDisplay>{() => (<div className={css(styles.hairline)} />)}</ClearDisplay>
-)
+  <ClearDisplay>{() => <div className={css(styles.hairline)} />}</ClearDisplay>
+);
 
 const ClearDisplay = ({ children }) => (
   <MediaLayout>
@@ -323,7 +353,11 @@ const TwoUpImage = ({ imageURL, altText, children }) => (
           <img
             src={imageURL}
             alt={altText}
-            className={css(styles.twoUpImage, styles.imageBlock, styles.imageBlockBorder)}
+            className={css(
+              styles.twoUpImage,
+              styles.imageBlock,
+              styles.imageBlockBorder
+            )}
           />
         </Cell>
       </Row>
@@ -360,11 +394,15 @@ const postProcessor = inputAST => {
   let transformedAST = inputAST;
 
   let citationCount = 1;
+  let citationContents = {};
   transformedAST = ast.modifyNodesByName(transformedAST, "Citation", node => {
     node = ast.setProperty(node, "number", citationCount);
+    citationContents[citationCount] = node[2];
     citationCount++;
     return node;
   });
+
+  console.log(citationContents);
 
   citationCount = 1;
   transformedAST = ast.modifyNodesByName(
@@ -372,19 +410,34 @@ const postProcessor = inputAST => {
     "CitationRef",
     node => {
       node = ast.setProperty(node, "number", citationCount);
+      node = ast.setProperty(
+        node,
+        "citationText",
+        citationContents[citationCount][0][2].reduce((acc, current) => {
+          if (typeof current === "string") {
+            return acc + current;
+          } else {
+            return acc + current[2][0];
+          }
+        }, "")
+      );
       citationCount++;
       return node;
     }
   );
 
   transformedAST = ast.modifyNodesByName(transformedAST, "a", node => {
-    node[0] = "Link"
+    node[0] = "Link";
     return node;
   });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "img", node => {
     const hasBorder = !/-noborder/.test(ast.getProperty(node, "src"));
-    node = ast.setProperty(node, "className", css(styles.imageBlock, hasBorder && styles.imageBlockBorder));
+    node = ast.setProperty(
+      node,
+      "className",
+      css(styles.imageBlock, hasBorder && styles.imageBlockBorder)
+    );
     return node;
   });
 
@@ -394,7 +447,11 @@ const postProcessor = inputAST => {
   });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "blockquote", node => {
-    node = ast.setProperty(node, "className", css(textStyles.Body, styles.blockquote));
+    node = ast.setProperty(
+      node,
+      "className",
+      css(textStyles.Body, styles.blockquote)
+    );
     return node;
   });
 
@@ -440,7 +497,6 @@ const postProcessor = inputAST => {
   });
 
   transformedAST = ast.modifyNodesByName(transformedAST, "Citation", node => {
-    console.log(node)
     node[2] = ast.modifyNodesByName(node[2], "Link", innerNode => {
       return ast.setProperty(innerNode, "kind", "secondary");
     });
