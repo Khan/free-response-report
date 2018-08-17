@@ -5,9 +5,9 @@
 /]
 
 [Abstract]
-Online learning platforms like Khan Academy help students build skills through practice using interactive exercises with instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling.
+On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond "right" or "wrong." 
 
-To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond "right" or "wrong." *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
+*How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
 
 We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
 
@@ -88,7 +88,7 @@ Proficient educators with small class sizes orchestrate group discussions to dev
 
 At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Because the facilitated discussion mostly involves the teacher and a sequence of individual speakers, many students may not be engaged during that segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
 
-Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This _asynchronous_ environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because forums have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
+Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This asynchronous environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because forums have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
 
 [Aside]
 [Citation]
@@ -160,15 +160,11 @@ We’ve developed an online platform to help students develop complex reasoning 
 
 This platform provides students with rapid feedback by arranging scaffolded interactions between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. 
 
-Our design is the result of many months of exploration. That exploration took the shape of a spiral: refining the question, exploring the landscape of past work, conducting user research, generating concepts, testing our ideas—then looping back around again to go deeper on promising directions. Throughout, we collaborated with educators who were generous with their time and expertise. We interviewed more than 50 educators in math, physics, humanitiesis exploring social sciences. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms, exposing students to a broader set of ideas and people.
+Our design is the result of many months of exploration. Throughout, we collaborated with educators who were generous with their time and expertise. We interviewed more than 50 educators in math, physics, humanities, and social sciences. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms, exposing students to a broader set of ideas and people.
 
-[Aside]
-![illustration of the spiraling design process](images/spiral-noborder.png)
-[/Aside]
+Our ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country, focused on public middle and high schools. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. We used this data informally as an input to our iterative design process; a formal efficacy study was out of scope for our investigation.
 
-These ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country, focused on public middle and high schools. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. Because this project explored such a large solution space, we used this data informally as an input to our iterative design process: a formal efficacy study was out of scope for our investigation.
-
-Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the learner experience and its underlying framework.
+Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the platform and how it works. We'll walk through the learner experience, in which students _write_, _react_, and _revise_. And we'll discuss the core features designed to help students develop complex reasoning skills. 
 
 [TwoUpImage imageURL:"images/write.png" heading:"Write: responding to open-ended problems"]
 
@@ -182,9 +178,9 @@ The student context varied a great deal across our pilots: some teachers conduct
 
 [/TwoUpImage]
 
-[TwoUpImage imageURL:"images/respond.png" heading:"Respond: engaging with others’ ideas"]
+[TwoUpImage imageURL:"images/respond.png" heading:"React: engaging with others’ ideas"]
 
-Once students have written an answer of their own, we help them develop their thinking by facilitating structured interactions with ideas written by both peers and experts. In most of our pilots, those peers were their familiar classmates (often simultaneously engaged in the same activity); in a few pilots, those peers were in different schools.
+Once students have written a response of their own, we help them develop their thinking by facilitating structured interactions with ideas written by both peers and experts. In most of our pilots, those peers were their familiar classmates (often simultaneously engaged in the same activity); in a few pilots, those peers were in different schools.
 
 The pedagogical principle is that students build their understanding of the skill by effortfully engaging with others' use of that skill. To quote one middle school math student from our pilot:
 
@@ -204,7 +200,7 @@ Just like in a good classroom discussion, students don’t listen passively to t
 
 Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned. The revision step offers students an opportunity to review and integrate new insights they’ve gained from the activity into what they already understand. Students can revise their work as many times as they like. Teachers and students together bound the activity’s duration and decide when to move on; revision is an opportunity to submit *another* draft—not a "final" draft.[CitationRef hidden:true /]
 
-While students do receive replies from their peers in this phase, our model doesn't rely exclusively on peer feedback to help students learn. In fact, our observations and teachers interviews suggest that the act of effortfully *writing* replies to others' work is more reliably helpful than *receiving* those responses from others. Peer feedback is *sometimes* helpful, of course—but even when it's not, those replies are still quite important for student engagement. Students tell us they take the activity more seriously because they know their classmates will be reading them.
+While students do receive replies from their peers in this phase, our model doesn't rely exclusively on peer feedback to help students learn. In fact, our observations and interviews suggest that the act of effortfully *writing* replies to others' work is more reliably helpful than *receiving* replies from others. Peer feedback is *sometimes* helpful, of course—but even when it's not, those replies are still quite important for student engagement. Students tell us they take the activity more seriously because they know their classmates will be reading them.
 
 [Citation][Fitzgerald, J. (1987). Research on Revision in Writing. Review of Educational Research, 57(4), 481–506. http://doi.org/10.3102/00346543057004481](https://scholar.google.com/scholar?cluster=12711957255674593856&hl=en&as_sdt=0,5)
 [/Citation]
@@ -213,7 +209,7 @@ While students do receive replies from their peers in this phase, our model does
 
 # 4. Core features
 
-## Scaffolding peer interactions with sentence starters
+## Sentence starters
 
 [em]"Where before there was a spectator, let there now be a participant." —Jerome Bruner[CitationRef /][/em]
 
@@ -239,7 +235,7 @@ Xun Ge and Susan Land suggest[CitationRef /] that we can help students by asking
 
 In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?". Questions like these could access particularly focused ideas, but we felt a tension between the specificity of the question and the breadth of its applicability. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
 
-We solved this problem by offering *several* prompts to students and asking them to choose. We framed the questions as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. All the teachers we interviewed immediately understood this framing.
+We solved this problem by offering *several* prompts to students and asking them to choose. We framed the prompts as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. 
 
 [Aside]
 Many of our pilot iterations also used sentence starters to support *reflection* prompts in the final phase of the activity. Students were asked to write a summary of their experience using starters like “Now I want to review…” or “Prior to this activity, I’d assumed that….” These reflection activities didn't seem to be as helpful as the other interactions we're discussing, so we've deemphasized them for now.
@@ -257,7 +253,7 @@ Here we illustrate more examples of how we create sentence starters from skills:
 
 [RawTable]
   [tr]
-    [td][strong]Skill[/strong][/td]
+    [td][strong]Focus skill[/strong][/td]
     [td][strong]Example sentence starter[/strong][/td]
   [/tr]
   [tr]
@@ -282,7 +278,7 @@ Here we illustrate more examples of how we create sentence starters from skills:
 
 Conceptually, our working metaphor is that we "deal a hand" of sentence starters, though we don't render that visual idea literally in the interface. Students “play a card,” choosing one challenge to tackle with their peer’s response. Inspired by the physical metaphor, we experimented with the notion of “scarcity”—perhaps once a sentence starter is used once, it can’t be used again, or perhaps particularly odd sentence starters appear occasionally. We can also vary the distribution of “cards” with students’ proficiency, pushing for more nuance or precision when appropriate.
 
-As we mentioned earlier, we emphasize the learning opportunities involved for the student _giving_ feedback. That means we frame these sentence starters as a *challenge for the explicit benefit of the response-writer*, rather than as primarily an altruistic opportunity to help their fellow student. Accordingly, our "sentence starters" focus on fostering interesting cognitive tasks for the response-writer. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’* benefit, but our model does not *rely* on peer feedback being helpful to its recipient.
+As we mentioned earlier, we emphasize the learning opportunities involved for the student _giving_ feedback. That means we frame these sentence starters as a *challenge for the explicit benefit of the response-writer*, rather than as primarily an altruistic opportunity to help their fellow student. When possible, we offer sentence starters which we hope will create insightful comments for *response-receivers’* benefit, but our model does not *rely* on peer feedback being helpful to its recipient.
 
 ## Peer work and model work
 
@@ -318,7 +314,7 @@ Whether it’s with peer work or model work, working with others’ ideas allows
 [Vygotsky, L. S. (1934). Thinking and speech (p. 210).](https://www.marxists.org/archive/vygotsky/works/words/Thinking-and-Speech.pdf)
 [/Citation][/Aside]
 
-## Matchmaking
+## Dynamic matchmaking
 
 Our design shows students work by their peers’ and experts—but *which* peers and which model work? We tried many approaches, but as we iterated, a few important requirements emerged.
 
@@ -338,7 +334,7 @@ Early on, we found that students quickly disengaged anytime we made them *wait*.
 
 We contended with a similar problem with the transition to the "revise" phase: some students won’t have received any replies yet!  But as as we noted earlier, we believe much of the pedagogical value comes from writing replies to peers, not receiving them, so now a student can revise their work even if no one else has seen it. Students who arrive at this stage early can usefully spend their time engaging with others’ work or revising their own work based on what they’ve learned so far. We show students incoming replies live; they can always write another revision based on new replies they receive.
 
-## Managing the social environment
+## Social interactions
 
 While the social engagement between students really does encourage students to participate more deeply, a social environment can also have a profoundly negative effect on students. Bullying or abuse can ruin the experience; an encounter with an apathetic peer can dampen one’s own excitement. Within our pilots, we relied on teachers to set social norms and moderate interactions, but we’ll need to develop systems to address these problems more seriously indeed as we scale up—particularly when opening the door to learners outside classrooms.
 
@@ -346,23 +342,23 @@ While the social engagement between students really does encourage students to p
 While it was not the focus of our investigation to date, we've also begun thinking about how we might extend this framework to people studying independently of a formal classroom environment. Our pilot independent learners valued the exposure to others' ideas, but we'll want to carefully and deeply investigate how we might build a successful shared social environment for independent learners tackling these activities. You can read some early thinking [on our blog](http://klr.tumblr.com/post/158814741858/safely-showing-students-how-others-see-their-work).
 [/Aside]
 
-Besides the deeper interactions involving sentence starters, we gave students simple reactions like "gold stars" (to give a peer props for great work) and “thumbs down” (to indicate that a response might need a teacher’s attention). Students used these interactions frequently as soon we introduced them. In the future, we’re excited to explore richer ways for students to respond to each other: stickers that can be placed contextually within a peer’s work; inline commenting; highlighters, perhaps with special meaning for each color.
+Besides the deeper interactions involving sentence starters, we gave students simple reactions like a "gold star" (to give a peer props for great work) and “thumbs down” (to indicate that a response might need a teacher’s attention). Students used these interactions frequently as soon we introduced them. In the future, we’re excited to explore richer ways for students to respond to each other: stickers that can be placed contextually within a peer’s work; inline commenting; highlighters, perhaps with special meaning for each color.
 
 [Aside]
 ![screenshot of tooltip on thumbs down button](images/voting.png)
 [/Aside]
 
-One important question here has been: should students remain anonymous, or not? We’ve heard conflicting answers from teachers and students. The reality is probably fluid and context-sensitive. For instance, students tell us they’re more comfortable writing critical feedback (and receiving it!) when they know they’re anonymous. Many teachers have told us that anonymity can help avoid abusive or disruptive situations. On the other hand, some teachers have noted that sometimes de-anonymizing can imbue a helpful sense of accountability and responsibility. We'll likely end up letting teachers choose on the fly.
+One important question here has been: should students remain anonymous, or not? We’ve heard conflicting answers from teachers and students. The reality is probably fluid and context-sensitive. For instance, students tell us they’re more comfortable writing critical feedback (and receiving it!) when they know they’re anonymous. Many teachers have told us that anonymity can help avoid abusive or disruptive situations. On the other hand, some teachers have noted that sometimes de-anonymizing can imbue a helpful sense of accountability and responsibility. Our pilots made use of breakfast foods as pseudonyms; in the future, we'll likely end up letting teachers choose whether to show student names.
 
-We hope that as we continue improving the structured discourse we foster in these activities, we’ll help students build important metacognitive skills while they build topical reasoning skills[CitationRef /]: giving and receiving feedback, interpreting others’ ideas, revising work iteratively.
+The social environment lives on once the activity’s nominally over. We invite students to continue the conversation indefinitely if they like—we thought of this phase like an afterparty. We saw some of our pilot students take us up on that offer, interacting with each others’ ideas long after their class was over.
 
 [Aside][Citation]
 [Slavin, R. E. (1996). Research on cooperative learning and achievement: What we know, what we need to know. Contemporary Educational Psychology, 21, 43–69.](https://scholar.google.com/scholar?cluster=7317953963464845567&hl=en&as_sdt=0,5)
 [/Citation][/Aside]
 
-The social environment lives on once the activity’s nominally over. We invite students to continue the conversation indefinitely if they like—we thought of this phase like an afterparty. We saw some of our pilot students take us up on that offer, interacting with each others’ ideas long after their class was over.
+We hope that as we continue improving the structures for discourse in these activities, we’ll help students build important metacognitive skills while they build topical reasoning skills[CitationRef /]: giving and receiving feedback, interpreting others’ ideas, revising work iteratively.
 
-## Supporting teacher intervention
+## Real-time reports for teachers
 
 In addition to directly supporting students in building their understanding, elements of our activities also offer insights to teachers about their students’ thinking. Teachers might use that information in 1:1 coaching, when forming small groups, or to guide whole-class instruction.
 
@@ -382,7 +378,7 @@ The report has a few key features:
 
 Highlighted revisions make student thought highly visible and easy to engage with. For many teachers, the change in understanding between when the student began the activity and when they finished it is the thing they want to see first. Scanning over the report, they can quickly spot where students made significant changes (and where other students may have made more perfunctory changes).
 
-Voting (currently "gold stars" and “thumbs down”) draws teachers’ attention to responses which may merit more attention. The “gold star” might highlight students whose response to the prompt or reply to a peer might be interesting to share with the class, while the “thumbs down” mechanism can quickly surface students who might benefit from 1:1 support.
+Social interactions in aggregate draw teachers’ attention to responses which may merit more attention. The “gold star” might highlight students whose response to the prompt or reply to a peer might be interesting to share with the class, while the “thumbs down” mechanism can quickly surface students who might benefit from 1:1 support.
 
 [Aside]
 ![Screenshot of teacher report, zoomed in on students' votes and confidence measures](images/report-zoom.png)
@@ -398,7 +394,7 @@ AP teachers routinely involve rubrics in their class activities—not to provide
 
 Though we haven’t tested it yet, we believe that it would be helpful to offer students a "checklist" they can use to evaluate their own work or others’. This might even feed into the sentence starters. For instance, if a student says they think they’ve appropriately contextualized their evidence, it’s interesting for a peer to consider what else might be added to the contextualization—not so much to validate the score as to foster useful thought.
 
-## Activities at scale
+## Activities that scale
 
 One thing that prevents classrooms from running more free response activities is that it’s nearly impossible for teachers to deliver rapid feedback to all their students. We’ve shown how our learning framework helps solve that problem.
 
@@ -450,21 +446,21 @@ How might this change if open-ended activities were lighter, social, easier to r
 Learn more about the process we used to identify teachers’ top challenges and connect them to concept generation through "baseball cards" [on our blog](http://klr.tumblr.com/post/174256565853/sorting-product-baseball-cards).
 [/Aside]
 
-Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how such an online platform might be used to build bridges beyond classrooms, exposing students to a broader set of ideas and people. Interestingly, teachers shared this interest. With a common goal of setting their students up to become global citizens who can engage in civil discourse, many educators were eager for students to—as one teacher put it—"get out of their bubble."
+Teachers shared our interest in using online activities to expose students to voices and ideas outside their classroom, neighborhood, even country.  With a common goal of setting their students up to become global citizens who can engage in civil discourse, many educators were eager for students to—as one teacher put it—"get out of their bubble."
 
-What follows is a summary of an observation we did with a pilot classroom (with names changed). Rather than being representative of a particular use case, it aims instead to illustrate how fluid classroom environments can be, and how the online platform accommodates them.
+What follows is a summary of an observation we did with a pilot classroom (with names changed). Rather than being representative of a particular use case, it aims instead to illustrate how fluid classroom environments can be, and how our solution accommodates them.
 
-Mr. Appleseed is an AP World History teacher at Mulligan High. He teaches AP World History to 150 students across 6 periods. 
+Mr. Appleseed is an AP World History teacher at Monterey High. He teaches AP World History to 150 students across 6 periods. 
 
 With the AP exam looming, Mr. Appleseed is reviewing the big ideas from earlier periods with his class. In the final 30 minutes, Mr. Appleseed asks students to open up a free response activity on their Chromebooks. The activity prompt asks:
 
 *Between 10,000 B.C.E. and 600 B.C.E., the adoption of agriculture had significant social, economic, and demographic effects.*
 
-*In 5–8 sentences, develop an argument that evaluates how the adoption of agriculture in this time period affected the development of human societies. Be sure to include specific factual evidence supporting both what changed and what stayed the same.*
+*In 5–8 sentences, develop an argument that evaluates how the adoption of agriculture in this time period affected the development of human societies. Be sure to include specific factual evidence supporting both what changed and what stayed the same*.
 
 This activity requires the application of complex skills. It requires students to develop an argument, which they'll need to do for essay portion of the upcoming exam. And it asks for the reasoning skill of *Continuity and change over time*, a key disciplinary practice in the AP Histories that underpins the entire course.
 
-Mr. Appleseed has students pair up to discuss the prompt. As they do so, he calls the class's attention to particular details: "A great response would include some proper nouns, like the Neolithic Revolution", or "I don't want to see any of that 'There were a variety of changes'... junk in your thesis."
+Mr. Appleseed has students pair up to discuss the prompt. As they do so, he calls their attention to particular details: "A great response would include some proper nouns, like the Neolithic Revolution", or "I don't want to see any of that 'There were a variety of changes'... junk in your thesis."
 
 [Aside]
 ![Illustration of students writing responses](images/students_writing_responses-noborder.png)
@@ -472,7 +468,7 @@ Mr. Appleseed has students pair up to discuss the prompt. As they do so, he call
 
 After a few minutes, Mr. Appleseed has the students begin writing their responses. He guides the class along the activity with lightweight time management: "Spend about 5-7 minutes drafting a response, just get something out there." "With your feedback, go above and beyond—you're doing them a big favor."
 
-As students work through the activity, Mr. Appleseed splits his time between the projector, where he is browsing student responses, and roaming the class, where he occasionally asks a student a question or provides help where it's needed. Struck by something he's noticed, he pulls up one student's response on the projector and calls the class's attention to it. "Let's see a thumbs up or down: is this a specific enough historical claim?" The quick consensus is that it is. Mr. Appleseed agrees, and encourages the class to make sure they substantiate their claim in their response.
+As students work through the activity, Mr. Appleseed splits his time between the projector, where he is browsing student responses, and roaming the class, where he occasionally asks a student a question or provides help where it's needed. Struck by something he's noticed, he pulls up one student's response on the projector and asks the class to weigh in on it. "Let's see a thumbs up or down: is this a specific enough historical claim?" The quick consensus is that it is. Mr. Appleseed agrees, and encourages the class to make sure they substantiate their claim in their response.
 
 [Aside]
 ![Illustration of a teacher facilitating conversation](images/teacher_facilitating_conversation-noborder.png)
@@ -480,7 +476,7 @@ As students work through the activity, Mr. Appleseed splits his time between the
 
 As the period comes to an end, some students are still waiting for feedback, while others have completed multiple revisions. "Share whatever you have at this point," Mr. Appleseed advises. "This is just a working draft." Typing stops and Mr. Appleseed asks who can share how feedback changed their thinking. Hannah raises her hand:
 
-"My partner said: ‘This response could use the same evidence to support its thesis better by expanding on the ideas and explaining exactly how life changes as a result of Agriculture.’ So I added: ‘What allowed these cities to grow is that since they farmed, they had a surplus of food. With the surplus it allowed people not to become farmers and Start specializing in certain works. This led to technology advancements and a stronger economy. Since every civilization had different products they would trade with other civilizations.’"
+"My partner said: ‘This response could use the same evidence to support its thesis better by expanding on the ideas and explaining exactly how life changes as a result of Agriculture.’ So I added: ‘What allowed these cities to grow is that since they farmed, they had a surplus of food. With the surplus it allowed people not to become farmers and start specializing in certain works. This led to technology advancements and a stronger economy. Since every civilization had different products they would trade with other civilizations.’"
 
 Immediately after class, Mr. Appleseed spends some time spot-checking the report and reminding students who didn’t yet revise their response to do so. Later, he tells us: "I'm noticing more nuances. For instance, I need to train students that the reply, "a critic of this argument..." is meant to challenge the substance of an argument and help students engage in a scholarly discussion rather than simply writing, "a critic of this argument would note that you did not use enough evidence." Many of my students were using the latter type of response without really engaging in argumentation. This is already providing great data on my students strengths & areas of growth."
 
@@ -488,9 +484,9 @@ Immediately after class, Mr. Appleseed spends some time spot-checking the report
 ![Illustration of a teacher reading the report](images/teacher_reading_report-noborder.png)
 [/Aside]
 
-Feedback from pilot teachers like "Mr. Appleseed," along with our own explorations, provided us with an exciting number of possibilities to further extend the platform. Some particularly exciting avenues are discussed below.
+Feedback from pilot teachers like "Mr. Appleseed," along with our own explorations, provided us with an exciting number of possibilities to further extend the platform.
 
-# 6. Thinking in the discipline
+# 6. Open-ended inquiry, every day
 
 We aspire to support students as they develop into critical thinkers and empowered practitioners, ready to contend with vivid challenges in their disciplines and their societies. Yes, they’ll need facts, and yes, they’ll need to perform routine procedures—but they’ll also bring independent thought and creativity to questions with no straightforward answers. With any luck, they’ll not tackle those future problems alone: as practitioners, our students will exchange ideas fluidly with others in their discipline, including with others who might challenge their own perspectives and strategies.
 
