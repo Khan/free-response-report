@@ -5,7 +5,7 @@
 /]
 
 [Abstract]
-On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond "right" or "wrong." 
+On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific experiment design, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond a simple grade to guide their revision and iteration.
 
 *How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom trials and to iterate on our solution.
 
@@ -15,14 +15,13 @@ We've created a learning platform that offers students rapid feedback by choreog
 
 # 1. Rich activities require rich feedback 
 
-[p]*"Why is there a big spike in our data here?"*[/p]
+[p]*"Why is there a big spike in our data on this plot?"*[/p]
 
 [p]*"Since globalization, what's changed? What's stayed the same?"* [/p
 ]
 [p]*"What are the most important causes of structural inequality?"*[/p]
 
-[p]*“How might we design an experiment to understand this fabric’s durability?”* [/p]
-
+[p]*“How does water quality affect fish populations?”* [/p]
 
 The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined" [CitationRef /], and answering them requires complex reasoning skills like literary analysis, scientific experiment design, critical thinking, or mathematical modeling. 
 
@@ -54,9 +53,9 @@ The academic literature refers to right–wrong feedback as "knowledge of result
 [/Citation]
 [/Aside]
 
-Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their ideas never got recorded in the first place. 
+Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their thinking never got recorded in the first place. 
 
-Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /]—helping students elaborate, connect, and revise their ideas.[CitationRef /]
+Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /]—helping students elaborate, validate, and ultimately revise their ideas.[CitationRef /]
 
 [Aside]
 [Citation]
@@ -67,7 +66,7 @@ Instead, students need *open-ended activities* that ask them to *explain and jus
 [/Citation]
 [/Aside]
 
-Current attempts at facilitating open-ended activities encounter a number of challenges.
+Unfortunately, today's solutions for facilitating these kinds of activities all present significant challenges, which we'll now describe.
 
 # 2. Today’s solutions and their challenges
 
