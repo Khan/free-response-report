@@ -189,15 +189,12 @@ const styles = StyleSheet.create({
   },
 
   table: {
-    borderSpacing: "32px 16px",
+    borderSpacing: "16px 16px",
     borderCollapse: "separate",
-    margin: "-16px -32px",
-    marginBottom: "calc(1rem - 16px)",
-    [mobileQuery]: {
-      margin: -16,
-      borderSpacing: 16,
-      marginBottom: "calc(1rem - 16px)",
-    }
+    margin: "0px -16px 1rem -16px",
+    borderRadius: 4,
+    backgroundColor: color.offWhite,
+    width: "calc(100% + 16px * 2)",
   },
 
   tableCell: {
@@ -205,7 +202,9 @@ const styles = StyleSheet.create({
     padding: 0,
     verticalAlign: "top",
     [mobileQuery]: {
-      hyphens: "auto"
+      hyphens: "auto",
+      fontSize: 12,
+      lineHeight: "1.5",
     }
   },
 
