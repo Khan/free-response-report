@@ -4,7 +4,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,hgroup,blockquote,
-ul,ol,dd,
+ul,ol,dd,li,
 p,figure,
 pre,table,fieldset,hr{
     margin-bottom: 1rem;
