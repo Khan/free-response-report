@@ -23,7 +23,10 @@ const styles = StyleSheet.create({
 
   imageBlock: {
     width: "100%",
-    marginBottom: "1rem"
+    marginBottom: "1rem",
+    [mobileQuery]: {
+      maxWidth: 640,
+    }
   },
 
   imageBlockBorder: {
@@ -166,9 +169,14 @@ const styles = StyleSheet.create({
 
   asideParagraph: {
     [mobileQuery]: {
-      marginLeft: 32,
       opacity: 0.66,
     }
+  },
+
+  mobileAside: {
+    maxWidth: 352,
+    marginLeft: "auto",
+    marginRight: "auto",
   },
 
   citationContainer: {
@@ -217,7 +225,7 @@ const styles = StyleSheet.create({
   hideUnlessMobile: {
     display: "none",
     [mobileQuery]: {
-      display: "unset"
+      display: "block"
     }
   }
 });
@@ -302,7 +310,7 @@ const Aside = ({ children }) => (
 );
 
 const MobileAside = ({children}) => (
-  <div className={css(textStyles.Footnote, styles.hideUnlessMobile)}>
+  <div className={css(textStyles.Footnote, styles.mobileAside, styles.hideUnlessMobile)}>
   {children}
 </div>
 );
