@@ -35,7 +35,7 @@ The most challenging and meaningful questions have no straightforward answers. T
 
 Such skills are part of every core subject's curricular standards, but exam results indicate that students are struggling to develop these complex reasoning skills.
 
-* [Math students must](http://www.corestandards.org/Math/Content/HSM/) develop modeling skills like "choosing and using appropriate mathematics and statistics … to improve decisions." But only 59% of California’s 11th graders [could reliably demonstrate this type of skill](https://caaspp.cde.ca.gov/sb2017/ViewReport?ps=true&lstTestYear=&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000) on 2017's state test.
+* [Math students must](http://www.corestandards.org/Math/Content/HSM/) develop modeling skills like "choosing and using appropriate mathematics and statistics … to improve decisions." But 41% of California’s 11th graders [could not reliably demonstrate this type of skill](https://caaspp.cde.ca.gov/sb2017/ViewReport?ps=true&lstTestYear=&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000) on 2017's state test.
 * [Science students must](http://www.nap.edu/read/13165/page/69) “construct their own explanations of phenomena.” But [58% of students got 0/7 points](https://twitter.com/AP_Trevor/status/1007321796784345089) on this type of task on 2018's AP Physics 1 test.
 * [English Language Arts and social sciences students must](http://www.corestandards.org/ELA-Literacy/RH/11-12) "assess  authors' claims, reasoning, and evidence." But in the 2017 AP US History exam, [49% of students failed](https://apscore.collegeboard.org/scores/about-ap-scores/score-distributions/), with this skill [cited](https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap17-chief-reader-report-united-states-history.pdf) as a common knowledge gap.
 
@@ -87,7 +87,7 @@ Proficient teachers with small class sizes orchestrate group discussions to deve
 
 > The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion on the board, emphasizing key concepts and connecting them to broader ideas.
 
-At their best, these activities are engaging and effective, but many teachers tell us they are a challenge to orchestrate. The environment does little to structure the discussion: teachers must create structure and establish discussion norms themselves. Many students’ work will only be seen by one other student, so they may not receive much direct feedback. Facilitated conversation mostly engages one speaker at a time; other students may readily disengage. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
+These activities are a challenge to orchestrate. Teachers must devote considerable energy to maintaining discussion norms and facilitating conversational structures. These conversations mostly engage one speaker at a time; other students may readily disengage. Most students' ideas won't be discussed in the whole-class setting: they'll only be seen by one other student during the paired segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
 
 Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This asynchronous environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because forums have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
 
@@ -115,9 +115,9 @@ Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is th
 [/Citation]
 [/Aside]
 
-But *assessing* a skill is different from *developing* a skill.
+But peer grading is all about assessing skills, and *assessing* a skill is different from *developing* a skill.
 
-As a concrete example, here's one slice of the [SAT's writing rubric for "analysis"](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay):
+To understand the distinction, take a look at one slice of the [SAT's writing rubric for "analysis"](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay):
 
 
 [AcrossAllColumns]
@@ -137,9 +137,11 @@ As a concrete example, here's one slice of the [SAT's writing rubric for "analys
 [/RawTable]
 [/AcrossAllColumns]
 
-Imagine that you scored 2 points, but you want to build your analytical skills so that you’ll earn 3 points next time. What should you do? It’s not at all clear how to proceed.
+Imagine that you're told you scored 2 points, but you want to build your analytical skills so that you’ll earn 3 points next time. What should you do? It’s not at all clear how to proceed.
 
-Some peer grading systems also ask peers to send their classmates explicit feedback or advice, like what the teacher would laboriously do themselves. External research and our own teacher interviews suggest that this approach sometimes yields useful feedback—but not reliably.
+Some peer grading systems do ask peers to send their classmates explicit feedback or advice, like what the teacher would laboriously do themselves. External research and our own teacher interviews suggest that this approach sometimes yields useful feedback—but not reliably.
+
+[SemiHairline /]
 
 None of the solutions we surveyed reliably and rapidly help students with the development of complex reasoning skills.
 
@@ -167,7 +169,9 @@ Now that our latest pilots have received glowing reviews from teachers and stude
 
 [TwoUpImage imageURL:"images/write.png" heading:"Write: responding to open-ended problems"]
 
-Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/)[CitationRef /]: accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
+Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. 
+
+At this point, we're just asking for a first draft; we encourage students to capture their rough thinking quickly; they'll iterate later. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/)[CitationRef /]: accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
 
 The student context varied a great deal across our pilots: some teachers conducted these activities in class; others assigned them as homework. Sometimes students used school-provided laptops; others used a mobile interface on their personal smartphones. The core of the experience remained the same in all these cases.
 
@@ -179,7 +183,7 @@ The student context varied a great deal across our pilots: some teachers conduct
 
 [TwoUpImage imageURL:"images/respond.png" heading:"React: engaging with others’ ideas"]
 
-Once students have written a response of their own, we help them develop their thinking by facilitating structured interactions with ideas written by both peers and experts. In most of our pilots, those peers were their familiar classmates (often simultaneously engaged in the same activity); in a few pilots, those peers were in different schools.
+Once students have written a response of their own, we help them develop their thinking by facilitating structured interactions with ideas written by both peers and experts. Those peers might be their familiar classmates, or they might be students at different schools; they might be tackling the activity simultaneously, or they might engage asynchronously across a few days.
 
 The pedagogical principle is that students build their understanding of the skill by effortfully engaging with others' use of that skill. To quote one middle school math student from our pilot:
 
@@ -197,7 +201,9 @@ Just like in a good classroom discussion, students don’t listen passively to t
 
 [TwoUpImage imageURL:"images/revise.png" heading:"Revise: refining ideas and assessing development"]
 
-Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned. The revision step offers students an opportunity to review and integrate new insights they’ve gained from the activity into what they already understand. Students can revise their work as many times as they like. Teachers and students together bound the activity’s duration and decide when to move on; revision is an opportunity to submit *another* draft—not a "final" draft.[CitationRef hidden:true /]
+Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned.
+
+The revision step offers students an opportunity to review and integrate new insights they’ve gained from the activity into what they already understand. Plus, students can revise their work as many times as they like. Teachers and students together bound the activity’s duration and decide when to move on; revision is an opportunity to submit *another* draft—not a "final" draft.[CitationRef hidden:true /]
 
 While students do receive replies from their peers in this phase, our model doesn't rely exclusively on peer feedback to help students learn. In fact, our observations and interviews suggest that the act of effortfully *writing* replies to others' work is more reliably helpful than *receiving* replies from others. Peer feedback is *sometimes* helpful, of course—but even when it's not, those replies are still quite important for student engagement. Students tell us they take the activity more seriously because they know their classmates will be reading them.
 
@@ -401,7 +407,7 @@ First, a single stimulus can be "pivoted" to create multiple activities, each on
 
 ![Screenshot of AP US History skills applied to a stimulus](images/progressivism-noborder.png)
 
-In this way, we are able to construct four activities for the price of one. 
+In this way, we are able to construct four activities at once, all based on the same historical document.
 
 Exemplary responses are relatively easy for our instructional designers to author. But we can envision a solution where exemplary responses emerge organically from students themselves; peer work that received many upvotes could potentially be "promoted" to model work and be seen by more students.
 
@@ -440,6 +446,8 @@ Learn more about the process we used to identify teachers’ top challenges and 
 Teachers shared our interest in using online activities to expose students to voices and ideas outside their classroom, neighborhood, even country.  With a common goal of setting their students up to become global citizens who can engage in civil discourse, many teachers were eager for students to—as one put it—"get out of their bubble."
 
 What follows is a summary of an observation we did with a pilot classroom (with names changed). Rather than being representative of a particular use case, it aims instead to illustrate how fluid classroom environments can be, and how our solution accommodates them.
+
+[SemiHairline /]
 
 Mr. Appleseed is an AP World History teacher at Monterey High. He teaches AP World History to 150 students across 6 periods. 
 

@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     width: "100%",
     marginBottom: "1rem",
     [mobileQuery]: {
-      maxWidth: 640,
+      maxWidth: 640
     }
   },
 
@@ -169,14 +169,14 @@ const styles = StyleSheet.create({
 
   asideParagraph: {
     [mobileQuery]: {
-      opacity: 0.66,
+      opacity: 0.66
     }
   },
 
   mobileAside: {
     maxWidth: 352,
     marginLeft: "auto",
-    marginRight: "auto",
+    marginRight: "auto"
   },
 
   citationContainer: {
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
     margin: "0px -16px 1rem -16px",
     borderRadius: 4,
     backgroundColor: color.offWhite,
-    width: "calc(100% + 16px * 2)",
+    width: "calc(100% + 16px * 2)"
   },
 
   tableCell: {
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     [mobileQuery]: {
       hyphens: "auto",
       fontSize: 12,
-      lineHeight: "1.5",
+      lineHeight: "1.5"
     }
   },
 
@@ -308,14 +308,26 @@ const Aside = ({ children }) => (
   </div>
 );
 
-const MobileAside = ({children}) => (
-  <div className={css(textStyles.Footnote, styles.mobileAside, styles.hideUnlessMobile)}>
-  {children}
-</div>
+const MobileAside = ({ children }) => (
+  <div
+    className={css(
+      textStyles.Footnote,
+      styles.mobileAside,
+      styles.hideUnlessMobile
+    )}
+  >
+    {children}
+  </div>
 );
 
 const Citation = ({ number, children }) => (
-  <div className={css(textStyles.Footnote, styles.citationContainer, styles.hideOnMobile)}>
+  <div
+    className={css(
+      textStyles.Footnote,
+      styles.citationContainer,
+      styles.hideOnMobile
+    )}
+  >
     <div className={css(styles.asideCitation)}>{number}</div>
     {children}
   </div>
@@ -337,9 +349,9 @@ const InlineAside = ({ children }) => (
   <div className={css(textStyles.Footnote)}>{children}</div>
 );
 
-const Hairline = () => (
-  <ClearDisplay>{() => <div className={css(styles.hairline)} />}</ClearDisplay>
-);
+const SemiHairline = () => <div className={css(styles.hairline)} />;
+
+const Hairline = () => <ClearDisplay>{() => <SemiHairline />}</ClearDisplay>;
 
 const ClearDisplay = ({ children }) => (
   <MediaLayout>
@@ -421,6 +433,7 @@ const components = {
   Link,
   MobileAside,
   RawTable,
+  SemiHairline,
   Title,
   TwoUpImage
   /* Add any custom components you want to use here. */
@@ -527,18 +540,28 @@ const postProcessor = inputAST => {
 
   transformedAST = ast.modifyNodesByName(transformedAST, "Aside", node => {
     if (node[2].length === 1 && typeof node[2][0] === "string") {
-      node[2][0] = ast.createNode("p", {className: css(styles.asideParagraph)}, [node[2][0]]);
+      node[2][0] = ast.createNode(
+        "p",
+        { className: css(styles.asideParagraph) },
+        [node[2][0]]
+      );
     } else {
       node[2] = ast.modifyNodesByName(node[2], "p", innerNode => {
-        return ast.setProperty(innerNode, "className", css(styles.asideParagraph));
+        return ast.setProperty(
+          innerNode,
+          "className",
+          css(styles.asideParagraph)
+        );
       });
     }
     return node;
   });
 
   let swapAsides;
-  swapAsides = (childrenList) => {
-    if (!childrenList) { return childrenList }
+  swapAsides = childrenList => {
+    if (!childrenList) {
+      return childrenList;
+    }
     const output = [];
     for (let index = 0; index < childrenList.length; index++) {
       const child = childrenList[index];
@@ -556,7 +579,7 @@ const postProcessor = inputAST => {
       }
     }
     return output;
-  }
+  };
   transformedAST[0][2] = swapAsides(transformedAST[0][2]);
 
   transformedAST = ast.modifyNodesByName(transformedAST, "Citation", node => {
