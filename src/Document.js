@@ -245,6 +245,18 @@ const styles = StyleSheet.create({
     [mobileQuery]: {
       display: "block"
     }
+  },
+
+  hairlineDashes: {
+    backgroundImage: "url(images/hairline.svg)",
+    height: 65,
+    marginTop: "1.5rem",
+    marginBottom: "0rem",
+
+    [mobileQuery]: {
+      marginTop: 0,
+      marginBottom: -20,
+    }
   }
 });
 
@@ -392,7 +404,11 @@ const InlineAside = ({ children }) => (
 
 const SemiHairline = () => <div className={css(styles.hairline)} />;
 
-const Hairline = () => <ClearDisplay>{() => <SemiHairline />}</ClearDisplay>;
+const Hairline = () => (
+  <AcrossAllColumns>
+    {() => <div className={css(styles.imageBlock, styles.hairlineDashes)} />}
+  </AcrossAllColumns>
+);
 
 const ClearDisplay = ({ children }) => (
   <MediaLayout>
@@ -405,8 +421,12 @@ const ClearDisplay = ({ children }) => (
 
 const MobileAltImage = ({ desktopURL, mobileURL, alt }) => (
   <MobileDesktopVariant
-    mobileChildren={<img src={mobileURL} alt={alt} className={css(styles.imageBlock)} />}
-    desktopChildren={<img src={desktopURL} alt={alt} className={css(styles.imageBlock)}  />}
+    mobileChildren={
+      <img src={mobileURL} alt={alt} className={css(styles.imageBlock)} />
+    }
+    desktopChildren={
+      <img src={desktopURL} alt={alt} className={css(styles.imageBlock)} />
+    }
   />
 );
 
