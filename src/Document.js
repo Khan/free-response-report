@@ -43,6 +43,15 @@ const styles = StyleSheet.create({
     opacity: 0.32
   },
 
+  authorLink: {
+    textDecoration: "none",
+    color: color.offBlack,
+
+    [":hover"]: {
+      textDecoration: "underline",
+    }
+  },
+
   logoContainer: {
     top: 32,
     position: "absolute",
@@ -286,7 +295,7 @@ const Title = ({ title, authors, date }) => (
           <div className={css(styles.heroImage)} />
           <div className={css(textStyles.Title, styles.heroTitle)}>{title}</div>
           <div className={css(styles.authors, textStyles.LabelMedium)}>
-            {authors.map(({name, link}, index) => <Fragment>{index > 0 ? ", " : ""}<Link kind="secondary" href={link}>{name}</Link></Fragment>)}
+            {authors.map(({name, link}, index) => <Fragment>{index > 0 ? ", " : ""}<a href={link} className={css(styles.authorLink)}>{name}</a></Fragment>)}
           </div>
           <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>
             Authors listed alphabetically. {date}.
