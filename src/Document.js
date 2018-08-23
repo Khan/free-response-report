@@ -286,7 +286,7 @@ const Title = ({ title, authors, date }) => (
           <div className={css(styles.heroImage)} />
           <div className={css(textStyles.Title, styles.heroTitle)}>{title}</div>
           <div className={css(styles.authors, textStyles.LabelMedium)}>
-            {authors}
+            {authors.map(({name, link}, index) => <Fragment>{index > 0 ? ", " : ""}<Link kind="secondary" href={link}>{name}</Link></Fragment>)}
           </div>
           <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>
             Authors listed alphabetically. {date}.
