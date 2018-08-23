@@ -174,7 +174,7 @@ Our ideas began as simple paper prototypes and blossomed into classroom pilots t
 
 Now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share the platform and how it works. We'll first walk through the student experience: _write_, _react_, then _revise_. Then we'll discuss the core features designed to help students develop complex reasoning skills. 
 
-[TwoUpImage imageURL:"images/write.png" heading:"Write: responding to open-ended problems"]
+[TwoUpImage imageURL:"images/write.png" heading:"A. Write: responding to open-ended problems"]
 
 Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. 
 
@@ -188,7 +188,7 @@ The student context varied a great deal across our pilots: some teachers conduct
 
 [/TwoUpImage]
 
-[TwoUpImage imageURL:"images/respond.png" heading:"React: engaging with others’ ideas"]
+[TwoUpImage imageURL:"images/respond.png" heading:"B. React: engaging with others’ ideas"]
 
 Once students have written a response of their own, we help them develop their thinking by facilitating structured interactions with ideas written by both peers and experts. Those peers might be their familiar classmates, or they might be students at different schools; they might be tackling the activity simultaneously, or they might engage asynchronously across a few days.
 
@@ -206,7 +206,7 @@ Just like in a good classroom discussion, students don’t listen passively to t
 
 [/TwoUpImage]
 
-[TwoUpImage imageURL:"images/revise.png" heading:"Revise: refining ideas and assessing development"]
+[TwoUpImage imageURL:"images/revise.png" heading:"C. Revise: refining ideas and assessing development"]
 
 Once students have responded to a few specifically-matched peers, we unlock a broader experience focused on reflection and revision. At this point, students can browse their whole class’s work, read the replies they’ve received from peers, and revise their original answer based on what they’ve learned.
 
