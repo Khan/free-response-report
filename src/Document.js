@@ -64,16 +64,25 @@ const styles = StyleSheet.create({
   },
 
   heroContainer: {
+    width: 600,
+    marginLeft: "auto",
+    marginRight: "auto",
+    textAlign: "center",
+
     marginTop: 96,
-    height: 430,
+    height: 467,
     [mobileQuery]: {
       marginTop: 72,
-      height: 355,
+      height: 375,
+      width: "calc(100% - 32px)",
+      marginLeft: 16,
+      marginRight: 16,
+      textAlign: "left",
     }
   },
 
   heroImage: {
-    marginTop: 17,
+    marginTop: 55,
     position: "absolute",
     left: 0,
     width: "100%",
@@ -85,11 +94,11 @@ const styles = StyleSheet.create({
     [mobileQuery]: {
       backgroundPosition: "top center",
       backgroundSize: "680px 258px",
-      marginTop: 100
+      marginTop: 120
     },
     "@media (max-width: 1060px)": {
       backgroundPosition: "top left"
-    },
+    }
   },
 
   heroBanner: {
@@ -106,7 +115,8 @@ const styles = StyleSheet.create({
   },
 
   heroTitle: {
-    marginBottom: "0.5em"
+    marginBottom: "0.5em",
+    [mobileQuery]: {}
   },
 
   clearContainer: {
@@ -245,22 +255,26 @@ const Logo = () => (
 );
 
 const Title = ({ title, authors, date }) => (
-  <div className={css(styles.titleContainer)}>
-    <div className={css(styles.logoContainer)}>
-      <Logo />
-    </div>
-    <div className={css(styles.heroContainer)}>
-      <div className={css(styles.heroImage)} />
-      <div className={css(textStyles.Title, styles.heroTitle)}>{title}</div>
-      <div className={css(styles.authors, textStyles.LabelMedium)}>
-        {authors}
+  <ClearDisplay>
+    {() => (
+      <div className={css(styles.titleContainer)}>
+        <div className={css(styles.logoContainer)}>
+          <Logo />
+        </div>
+        <div className={css(styles.heroContainer)}>
+          <div className={css(styles.heroImage)} />
+          <div className={css(textStyles.Title, styles.heroTitle)}>{title}</div>
+          <div className={css(styles.authors, textStyles.LabelMedium)}>
+            {authors}
+          </div>
+          <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>
+            Authors listed alphabetically. {date}.
+          </div>
+        </div>
+        <div className={css(styles.heroBanner)} />
       </div>
-      <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>
-        Authors listed alphabetically. {date}.
-      </div>
-    </div>
-    <div className={css(styles.heroBanner)} />
-  </div>
+    )}
+  </ClearDisplay>
 );
 
 const Abstract = ({ children }) => (
