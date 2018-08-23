@@ -120,8 +120,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
     [mobileQuery]: {
       marginTop: 0,
-      marginBottom: "2.5rem",
-    },
+      marginBottom: "2.5rem"
+    }
   },
 
   keyQuote: {
@@ -323,7 +323,9 @@ const KeyQuote = ({ children }) => (
           <Cell largeCols={2} mediumCols={1} smallCols={0} />
           <Cell largeCols={8} mediumCols={6} smallCols={4}>
             <h2 className={css(textStyles.HeadingSmall)}>Our challenge:</h2>
-            <div className={css(textStyles.Tagline, styles.keyQuote)}>{children}</div>
+            <div className={css(textStyles.Tagline, styles.keyQuote)}>
+              {children}
+            </div>
           </Cell>
         </Row>
       </div>
@@ -401,6 +403,13 @@ const ClearDisplay = ({ children }) => (
   </MediaLayout>
 );
 
+const MobileAltImage = ({ desktopURL, mobileURL, alt }) => (
+  <MobileDesktopVariant
+    mobileChildren={<img src={mobileURL} alt={alt} className={css(styles.imageBlock)} />}
+    desktopChildren={<img src={desktopURL} alt={alt} className={css(styles.imageBlock)}  />}
+  />
+);
+
 const AcrossAllColumns = ({ children }) => (
   <ClearDisplay>
     {() => (
@@ -475,7 +484,8 @@ const components = {
   RawTable,
   SemiHairline,
   Title,
-  TwoUpImage
+  TwoUpImage,
+  MobileAltImage
   /* Add any custom components you want to use here. */
 };
 
