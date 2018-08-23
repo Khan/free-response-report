@@ -34,10 +34,6 @@ const styles = StyleSheet.create({
     border: `1px solid ${color.offBlack16}`
   },
 
-  titleContainer: {
-    marginBottom: 32
-  },
-
   authors: {
     opacity: 0.66,
     marginBottom: 2
@@ -63,6 +59,10 @@ const styles = StyleSheet.create({
     }
   },
 
+  // titleContainer: {
+  //   marginBottom: 32,
+  // },
+
   heroContainer: {
     width: 600,
     marginLeft: "auto",
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
       width: "calc(100% - 32px)",
       marginLeft: 16,
       marginRight: 16,
-      textAlign: "left",
+      textAlign: "left"
     }
   },
 
@@ -107,16 +107,25 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 0,
     width: "100%",
-    marginTop: 0,
-    [mobileQuery]: {
-      // marginTop: -23,
-      // height: 35
-    }
+    marginTop: 0
   },
 
   heroTitle: {
-    marginBottom: "0.5em",
-    [mobileQuery]: {}
+    marginBottom: "0.5em"
+  },
+
+  keyQuoteContainer: {
+    marginTop: "1rem",
+    marginBottom: "4rem",
+    textAlign: "center",
+    [mobileQuery]: {
+      marginTop: 0,
+      marginBottom: "2.5rem",
+    },
+  },
+
+  keyQuote: {
+    lineHeight: 1.38
   },
 
   clearContainer: {
@@ -306,6 +315,22 @@ const Abstract = ({ children }) => (
   </MediaLayout>
 );
 
+const KeyQuote = ({ children }) => (
+  <ClearDisplay>
+    {() => (
+      <div className={css(styles.keyQuoteContainer)}>
+        <Row style={styles.noPosition}>
+          <Cell largeCols={2} mediumCols={1} smallCols={0} />
+          <Cell largeCols={8} mediumCols={6} smallCols={4}>
+            <h2 className={css(textStyles.HeadingSmall)}>Our challenge:</h2>
+            <div className={css(textStyles.Tagline, styles.keyQuote)}>{children}</div>
+          </Cell>
+        </Row>
+      </div>
+    )}
+  </ClearDisplay>
+);
+
 const Aside = ({ children }) => (
   <div
     style={{ position: "absolute", width: "100%", zIndex: -1, left: 0 }}
@@ -443,6 +468,7 @@ const components = {
   Citation,
   CitationRef,
   Hairline,
+  KeyQuote,
   InlineAside,
   Link,
   MobileAside,

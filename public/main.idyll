@@ -4,14 +4,19 @@
   date:"August 24, 2018"
 /]
 
-[Abstract]
+# Abstract
+
 On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific inquiry, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond a simple grade to guide their revision and iteration.
 
-*How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?* The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom pilots and to iterate on our solution.
+[Aside]
+![illustration of complex forms of thought](images/complex-thought-noborder.png)
+[/Aside]
+
+[KeyQuote]How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?[/KeyQuote]
+
+The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom pilots and to iterate on our solution.
 
 We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
-
-[/Abstract]
 
 # 1. Rich activities require rich feedback 
 
