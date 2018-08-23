@@ -65,10 +65,10 @@ const styles = StyleSheet.create({
 
   heroContainer: {
     marginTop: 96,
-    height: 486,
+    height: 430,
     [mobileQuery]: {
       marginTop: 72,
-      height: 382
+      height: 355,
     }
   },
 
@@ -77,31 +77,31 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 0,
     width: "100%",
-    height: 470,
+    height: 413,
     background: "url(images/heading.png) no-repeat",
-    backgroundSize: "1089px 470px",
+    backgroundSize: "1089px 413px",
     backgroundPosition: "top center",
     zIndex: -1,
     [mobileQuery]: {
       backgroundPosition: "top center",
-      backgroundSize: "680px 294px",
+      backgroundSize: "680px 258px",
       marginTop: 100
     },
-    "@media (max-width: 650px)": {
+    "@media (max-width: 1060px)": {
       backgroundPosition: "top left"
-    }
+    },
   },
 
   heroBanner: {
-    height: 57,
+    height: 3,
     backgroundColor: "#FA50AE",
     position: "absolute",
     left: 0,
     width: "100%",
-    marginTop: -56,
+    marginTop: 0,
     [mobileQuery]: {
-      marginTop: -23,
-      height: 35
+      // marginTop: -23,
+      // height: 35
     }
   },
 
