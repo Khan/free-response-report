@@ -444,10 +444,16 @@ We created early sketches of a large variety of input modes: speech, stickers, h
 
 We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usually simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
 
+[Aside]
+![drawing of timeline depicting teachers pushing open-ended work to the end of the year](images/open-ended-timeline-noborder.png)
+[/Aside]
+
 How might this change if open-ended activities were lighter, social, easier to run? When we showed teachers our prototype, they were full of ideas about how to use it. Teachers saw themselves running activities to preview a new topic; to check for understanding of the night’s reading; to run an end-of-class reflection; to practice essay-writing in smaller chunks. This diverse set of use cases inspired us to design a flexible system that can be run in-class or asynchronously at home; that can be as quick as a few minutes or take an hour; that can facilitate moderation but does not strictly require it.
 
 [Aside]
 Learn more about the process we used to identify teachers’ top challenges and connect them to concept generation through "baseball cards" [on our blog](http://klr.tumblr.com/post/174256565853/sorting-product-baseball-cards).
+
+![drawing of students talking to people outside their bubble](images/break-bubble-noborder.png)
 [/Aside]
 
 Teachers shared our interest in using online activities to expose students to voices and ideas outside their classroom, neighborhood, even country.  With a common goal of setting their students up to become global citizens who can engage in civil discourse, many teachers were eager for students to—as one put it—"get out of their bubble."
@@ -457,6 +463,10 @@ What follows is a summary of an observation we did with a pilot classroom (with 
 [SemiHairline /]
 
 Mr. Appleseed is an AP World History teacher at Monterey High. He teaches AP World History to 150 students across 6 periods. 
+
+[Aside]
+![drawing of Mr. Appleseed at the front of his class](images/mr-appleseed-noborder.png)
+[/Aside]
 
 With the AP exam looming, Mr. Appleseed is reviewing the big ideas from earlier periods with his class. In the final 30 minutes, Mr. Appleseed asks students to open up an open-ended activity on their Chromebooks. The activity's prompt asks:
 
@@ -469,7 +479,7 @@ This activity requires the application of complex reasoning skills. It requires 
 Mr. Appleseed has students pair up to discuss the prompt. As they do so, he calls their attention to particular details: "A great response would include some proper nouns, like the Neolithic Revolution", or "I don't want to see any of that 'There were a variety of changes'... junk in your thesis."
 
 [Aside]
-![Illustration of students writing responses](images/students_writing_responses-noborder.png)
+![drawing of Mr. Appleseed at the front of his class](images/student-pairs-noborder.png)
 [/Aside]
 
 After a few minutes, Mr. Appleseed has the students begin writing their responses. He guides the class along the activity with lightweight time management: "Spend about 5-7 minutes drafting a response, just get something out there." "With your replies to other students, go above and beyond—you're doing them a big favor."
@@ -477,17 +487,21 @@ After a few minutes, Mr. Appleseed has the students begin writing their response
 As students work through the activity, Mr. Appleseed splits his time between the projector, where he is browsing student responses, and roaming the class, where he occasionally asks a student a question or provides help where it's needed. Struck by something he's noticed, he pulls up one student's response on the projector and asks the class to weigh in on it. "Let's see a thumbs up or down: is this a specific enough historical claim?" The quick consensus is that it is. Mr. Appleseed agrees, and encourages the class to make sure they substantiate their claim in their response.
 
 [Aside]
-![Illustration of a teacher facilitating conversation](images/teacher_facilitating_conversation-noborder.png)
+![Illustration of a teacher monitoring student work on their machine](images/appleseed-monitoring-noborder.png)
 [/Aside]
 
 As the period comes to an end, some students are still waiting for replies, while others have completed multiple revisions. "Share whatever you have at this point," Mr. Appleseed advises. "This is just a working draft." Typing stops and Mr. Appleseed asks who can share how feedback changed their thinking. Hannah raises her hand:
+
+[Aside]
+![Illustration of a student reading a note their partner sent them](images/partner-commentary-noborder.png)
+[/Aside]
 
 "My partner said: ‘This response could use the same evidence to support its thesis better by expanding on the ideas and explaining exactly how life changes as a result of Agriculture.’ So I added: ‘What allowed these cities to grow is that since they farmed, they had a surplus of food. With the surplus it allowed people not to become farmers and start specializing in certain works. This led to technology advancements and a stronger economy. Since every civilization had different products they would trade with other civilizations.’"
 
 Immediately after class, Mr. Appleseed spends some time spot-checking the report and reminding students who didn’t yet revise their response to do so. Later, he tells us: "I'm noticing more nuances. For instance, I need to train students that the reply, "a critic of this argument..." is meant to challenge the substance of an argument and help students engage in a scholarly discussion rather than simply writing, "a critic of this argument would note that you did not use enough evidence." Many of my students were using the latter type of reply without really engaging in argumentation. This is already providing great data on my students strengths & areas of growth."
 
 [Aside]
-![Illustration of a teacher reading the report](images/teacher_reading_report-noborder.png)
+![Illustration of Mr. Appleseed checking over the report after class](images/appleseed-checks-report-noborder.png)
 [/Aside]
 
 Feedback from pilot teachers like "Mr. Appleseed," along with our own explorations, provided us with an exciting number of possibilities to further extend the platform.
