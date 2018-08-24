@@ -110,15 +110,6 @@ const styles = StyleSheet.create({
     }
   },
 
-  heroBanner: {
-    height: 3,
-    backgroundColor: "#FA50AE",
-    position: "absolute",
-    left: 0,
-    width: "100%",
-    marginTop: 0
-  },
-
   heroTitle: {
     marginBottom: "0.5em"
   },
@@ -301,7 +292,6 @@ const Title = ({ title, authors, date }) => (
             Authors listed alphabetically. {date}.
           </div>
         </div>
-        <div className={css(styles.heroBanner)} />
       </div>
     )}
   </ClearDisplay>
