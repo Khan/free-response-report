@@ -100,11 +100,17 @@ const styles = StyleSheet.create({
     backgroundSize: "1089px 413px",
     backgroundPosition: "top center",
     zIndex: -1,
+    ["@media (max-width: 1070px)"]: {
+      backgroundPosition: "top left",
+    },
     [mobileQuery]: {
       backgroundPosition: "top center",
       backgroundSize: "680px 258px",
       marginTop: 120
     },
+    ["@media (max-width: 650px)"]: {
+      backgroundPosition: "top left"
+    }
   },
 
   heroTitle: {
