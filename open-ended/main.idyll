@@ -6,7 +6,7 @@
 
 # Abstract
 
-On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. These activities work well for factual and procedural knowledge, but students also need to learn complex reasoning skills: literary analysis, scientific inquiry, critical thinking, mathematical modeling. To practice these skills, students must explain and justify their ideas, then receive rich feedback beyond a simple grade to guide their revision and iteration.
+On Khan Academy and other online learning platforms, students build skills by practicing with interactive exercises that deliver instant feedback. While these activities work well for factual and procedural knowledge, students also need to learn complex reasoning skills, including: literary analysis, scientific inquiry, critical thinking, mathematical modeling. To develop these skills, students need practice explaining and justifying their ideas. They also need feedback beyond a grade; they need specific, actionable feedback to guide their revision and iteration.
 
 [Aside]
 ![illustration of complex forms of thought](images/complex-thought-noborder.png)
@@ -14,9 +14,9 @@ On Khan Academy and other online learning platforms, students build skills by pr
 
 [KeyQuote]How might we design open-ended activities for online platforms which help students develop complex reasoning skills while still delivering rapid feedback?[/KeyQuote]
 
-The Early Product Development group at Khan Academy began investigating that question in early 2017. Since then, we’ve worked with teachers across the country to run classroom pilots and to iterate on our solution.
+The Early Product Development group at Khan Academy began investigating this question in early 2017. Since then, we’ve worked with teachers across the country to run classroom pilots and to iterate on our solution.
 
-We've created a learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
+We've created a prototype learning platform that offers students rapid feedback by choreographing an intricate dance between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. There’s still much to do, but now that our latest pilots have received glowing reviews from teachers and students, we’re thrilled to share our approach.
 
 [Hairline /]
 
@@ -30,7 +30,7 @@ We've created a learning platform that offers students rapid feedback by choreog
 
 [p]*“How does water quality affect fish populations?”* [/p]
 
-The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined,"[CitationRef /] and answering them requires *complex reasoning skills*: proficiencies built on extended inquiry, creativity, and critical thinking[CitationRef /].
+The most challenging and meaningful questions have no straightforward answers. They don't come with a simple set of rules that always yields a solution. These open-ended problems are "ill-defined,"[CitationRef /] and answering them requires *complex reasoning skills*: skills that build on extended inquiry, creativity, and critical thinking[CitationRef /].
 
 [Aside][Citation]
  [Chi, M. T. H., & Glaser, R. (1985). Problem-solving ability. In R. J. Sternberg (Ed.), Human abilities (pp. 227–250). New York: W. H. Freeman and Company.](https://chilab.asu.edu/sites/all/themes/chilab/public/publication_files/ChiGlaser10.pdf)
@@ -40,11 +40,11 @@ The most challenging and meaningful questions have no straightforward answers. T
 [/Citation]
 [/Aside]
 
-Such skills are part of every core subject's curricular standards, but exam results indicate that students are struggling to develop these complex reasoning skills.
+Such skills are part of every core subject's curricular standards, but exam results indicate students struggle to develop these complex reasoning skills.
 
 * [Math students must](http://www.corestandards.org/Math/Content/HSM/) develop modeling skills like "choosing and using appropriate mathematics and statistics … to improve decisions." But 41% of California’s 11th graders [could not reliably demonstrate this type of skill](https://caaspp.cde.ca.gov/sb2017/ViewReport?ps=true&lstTestYear=&lstTestType=B&lstCounty=00&lstDistrict=00000&lstSchool=0000000) on 2017's state test.
 * [Science students must](http://www.nap.edu/read/13165/page/69) “construct their own explanations of phenomena.” But [58% of students got 0/7 points](https://twitter.com/AP_Trevor/status/1007321796784345089) on this type of task on 2018's AP Physics 1 test.
-* [English Language Arts and social sciences students must](http://www.corestandards.org/ELA-Literacy/RH/11-12) "assess  authors' claims, reasoning, and evidence." But in the 2017 AP US History exam, [49% of students failed](https://apscore.collegeboard.org/scores/about-ap-scores/score-distributions/), with this skill [cited](https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap17-chief-reader-report-united-states-history.pdf) as a common knowledge gap.
+* [Social studies students must](http://www.corestandards.org/ELA-Literacy/RH/11-12) "assess  authors' claims, reasoning, and evidence." But in the 2017 AP US History exam, [49% of students failed](https://apscore.collegeboard.org/scores/about-ap-scores/score-distributions/), with this skill [cited](https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap17-chief-reader-report-united-states-history.pdf) as a common knowledge gap.
 
 [Aside]
 A complex reasoning skill—the ability to *construct and critique arguments using evidence*—is the only skill shared between all core subjects' standards: [Common Core Math](http://www.corestandards.org/Math/Practice/MP3/), [Common Core English Language Arts](http://www.corestandards.org/ELA-Literacy/CCRA/W/), and [Next Generation Science](http://www.nap.edu/read/13165/page/69).
@@ -62,9 +62,9 @@ The academic literature refers to right–wrong feedback as "knowledge of result
 [/Citation]
 [/Aside]
 
-Here, simpler tasks like multiple-choice with right vs. wrong feedback[CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their thinking never got recorded in the first place. 
+When it comes to developing complex reasoning skills, simpler tasks like multiple-choice with right vs. wrong feedback[CitationRef /] fall short. They capture only an answer, not the nuanced thought which produced it. That means these types of exercises can't possibly give detailed feedback on the student’s thought processes: their thinking never got recorded in the first place. 
 
-Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /]—helping students elaborate, validate, and ultimately revise their ideas.[CitationRef /]
+Instead, students need *open-ended activities* that ask them to *explain and justify their ideas*. Those activities must *deliver rapid feeback* that facilitates sense-making[CitationRef /] by asking students to elaborate, validate, and ultimately revise their ideas.[CitationRef /]
 
 [Aside]
 [Citation]
@@ -94,9 +94,9 @@ Proficient teachers with small class sizes orchestrate group discussions to deve
 
 > The teacher begins class discussion: "What are the most significant causes of structural inequality?" Students write briefly on their own as she peppers in advice: “Draw evidence to support your argument from the primary sources in your packets.” Then the teacher has each person share with their neighbor, focusing their attention: “Which evidence did your partner use? How did they build their argument from it?” The teacher invites pairs to share their ideas, lightly prompting them to draw out certain points and disagreements. She summarizes the discussion on the board, emphasizing key concepts and connecting them to broader ideas.
 
-These activities are a challenge to orchestrate. Teachers must devote considerable energy to maintaining discussion norms and facilitating conversational structures. These conversations mostly engage one speaker at a time; other students may readily disengage. Most students' ideas won't be discussed in the whole-class setting: they'll only be seen by one other student during the paired segment. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
+In our time spent with teachers, we've learned just how challenging it can be to successfully orchestrate these activities. Teachers must devote considerable energy to maintaining discussion norms and facilitating conversational structures. These conversations mostly engage one speaker at a time; other students may disengage. While students share individually during the paired segment, most students' ideas won't be shared or discussed in the whole-class setting. And since every student is participating in the same discussion, it can be challenging to create enough differentiation to accommodate widely-varying student abilities.
 
-Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This asynchronous environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to think more carefully before speaking. Unfortunately, because forums have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
+Some teachers try to mitigate these challenges through online forum software.[CitationRef /] This asynchronous environment has some advantages: every student has the opportunity to speak; students can explore and engage with more ideas; and students have time to formulate their thoughts before speaking. Unfortunately, because forums have no structure to shape discussion pedagogically, they often fail to help students think more deeply[CitationRef /]—even when teachers intervene with occasional replies[CitationRef /].
 
 [Aside]
 [Citation]
@@ -112,9 +112,9 @@ Some teachers try to mitigate these challenges through online forum software.[Ci
 One teacher we visited gestured to a huge stack of papers he’d just finished reading. “I have 196 students. That’s 16 hours right there.”
 [/Aside]
 
-Another way students might develop complex reasoning skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours, so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve totally forgotten about their project—so they focus on their grade instead of considering the feedback.
+Another way students might develop complex reasoning skills is through writing activities. The teacher collects student work (an essay, a project, a poster) then returns it with detailed feedback later. This way, teachers can assign different tasks to students of different proficiency, and each student ultimately receives direct feedback on their work. Unfortunately, teachers tell us this process consumes untold hours, so they can’t often give individualized feedback on these burdensome open-ended activities. Worse: students may wait weeks to receive feedback, by which time they’ve moved on to their next project. As such, they focus on their grade instead of considering and implementing the delayed feedback.
 
-Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is that each student grades a couple other students’ work (typically using a rubric), then later receives a grade of their own from their peers. Systems like [PeerStudio](https://www.peerstudio.org) have established methods[CitationRef /] for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives.
+Peer grading can deliver feedback more rapidly. Peer grading asks students to evaluate each others' work, often using a rubric, then delivers a grade to each student based on those peer assessments. Systems like [PeerStudio](https://www.peerstudio.org) have established methods[CitationRef /] for ensuring that student-generated grades are reasonably accurate. These evaluations can help students assess their progress, and a good rubric can help students understand the activity’s learning objectives.
 
 [Aside]
 [Citation]
@@ -122,9 +122,9 @@ Peer grading can deliver feedback more rapidly. Broadly speaking, the idea is th
 [/Citation]
 [/Aside]
 
-But peer grading is all about assessing skills, and *assessing* a skill is different from *developing* a skill.
+But peer grading is limited to *assessing* skills. As expert teachers know, *assessing* a skill is different from *developing* a skill.
 
-To understand the distinction, take a look at one slice of the [SAT's writing rubric for "analysis"](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay):
+To understand the distinction, look at the following section of the [SAT's writing rubric for "analysis"](https://collegereadiness.collegeboard.org/sat/scores/understanding-scores/essay):
 
 
 [AcrossAllColumns]
@@ -144,9 +144,9 @@ To understand the distinction, take a look at one slice of the [SAT's writing ru
 [/RawTable]
 [/AcrossAllColumns]
 
-Imagine that you're told you scored 2 points, but you want to build your analytical skills so that you’ll earn 3 points next time. What should you do? It’s not at all clear how to proceed.
+Imagine that you're told you scored 2 points, but you want to build your analytical skills so that you’ll earn 3 points next time. What should you do? Because this rubric only *assesses* skills, but doesn't give feedback on how to *develop* them, the steps needed to improve are unclear.
 
-Some peer grading systems do ask peers to send their classmates explicit feedback or advice, like what the teacher would laboriously do themselves. External research and our own teacher interviews suggest that this approach sometimes yields useful feedback—but not reliably.
+Some peer grading systems do ask peers to send their classmates explicit feedback or advice, like what the teachers often do themselves, if they can find enough time. External research and our own teacher interviews suggest that this approach sometimes yields useful feedback—but not consistently.
 
 [SemiHairline /]
 
@@ -164,11 +164,11 @@ Practice activities and assessments can feel isolated or alienating; a better so
 ![illustration of student and teacher interactions](images/our-solution-noborder.png)
 [/Aside]
 
-We’ve developed an online platform to help students develop complex reasoning skills through open-ended activities that feel *light*, *meaningful*, and *social*.
+We’ve developed a prototype for an online platform to help students develop complex reasoning skills through open-ended activities that feel *light*, *meaningful*, and *social*.
 
 This platform provides students with rapid feedback by arranging scaffolded interactions between students, their respective ideas, expert-authored model work, and lightweight teacher facilitation. 
 
-Our design is the result of many months of exploration. Throughout, we collaborated with teachers who were generous with their time and expertise. We interviewed more than 50 educators in math, physics, humanities, and social sciences. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms, exposing students to a broader set of ideas and people.
+Our design is the result of many months of exploration. Throughout, we collaborated with teachers who were generous with their time and expertise. We interviewed more than 50 educators in social studies, English language arts, math, and science. Even as we drew inspiration from classroom practices and ran classroom pilots, we remained interested in how our work might build bridges between and beyond classrooms and disciplines, exposing students to a broader set of ideas and people.
 
 Our ideas began as simple paper prototypes and blossomed into classroom pilots that we ran with more than 600 students across the country, focused on public middle and high schools. We tracked the progress of each iteration based on quantitative survey data and qualitative feedback from pilot teachers and students, as well as by reading through logs of students' experiences to trace the evolution of their thinking as they moved through the activities. We used this data informally as an input to our iterative design process; a formal efficacy study was out of scope for our investigation.
 
@@ -178,7 +178,7 @@ Now that our latest pilots have received glowing reviews from teachers and stude
 
 Students begin by taking a few minutes to draft a response to an open-ended question. There is no single best answer to the question in that image—and that’s exactly why it’s interesting. Rich questions draw out the nuances in student thought. By making more of that thought visible, we begin to empower peers, teachers, or even the student themselves to react and extend it. 
 
-At this point, we're just asking for a first draft; we encourage students to capture their rough thinking quickly; they'll iterate later. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/)[CitationRef /]: accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
+At this point, we're just asking students for a first draft. We encourage students to capture their rough thinking quickly; they'll iterate later. We build a space with [low floors, high ceilings, and wide walls](https://design.blog/2016/08/25/mitchel-resnick-designing-for-wide-walls/)[CitationRef /]: accessible for students with little proficiency, intriguing even for professionals in the field, and open to a variety of approaches.
 
 The student context varied a great deal across our pilots: some teachers conducted these activities in class; others assigned them as homework. Sometimes students used school-provided laptops; others used a mobile interface on their personal smartphones. The core of the experience remained the same in all these cases.
 
@@ -196,7 +196,7 @@ The pedagogical principle is that students build their understanding of the skil
 
 > Seeing someone else’s work helped me realize how theirs was wrong—then I realized they did the same thing I did! Then I went back and fixed my work.
 
-Just like in a good classroom discussion, students don’t listen passively to their peer’s ideas: they respond, elaborate, and synthesize them. We ignite conversation between students that highlights connections and clarifies conceptions. Mary Kay Stein and her collaborators depict the classroom inspiration[CitationRef /]:
+Just like in a good classroom discussion, students don’t listen passively to their peer’s ideas: they respond, elaborate, and synthesize them. We ignite conversation between students that highlights connections and clarifies conceptions. In so doing, we hope to echo the  classroom inspiration described by Mary Kay Stein and her collaborators[CitationRef /]:
 
 > Sometimes two students find that they agree with each other. At other times, their ways of reasoning may differ, but both are correct. This experience provides an opportunity to find out how two different pathways can lead to the same understanding or solution. Finally, students can find that their reasoning differs from that of other students and that they disagree on a fundamental idea or a solution to a problem, thus revealing the need to figure out whose reasoning is correct. All of these scenarios offer opportunities for students to enhance their understanding…
 
@@ -245,7 +245,7 @@ Xun Ge and Susan Land suggest[CitationRef /] that we can help students by asking
 [/Citation]
 [/Aside]
 
-In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?". Questions like these could access particularly focused ideas, but we felt a tension between the specificity of the question and the breadth of its applicability. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
+In early iterations, we asked students specific questions about their peer’s work, like "what would happen if you applied this peer’s argument to the Korean War instead of World War I?" Questions like these could access particularly focused ideas, but we felt a tension between the specificity of the question and the breadth of its applicability. If we got too specific, the questions wouldn’t naturally apply to many peers’ answers; if we made them universal, they would fail to scaffold specific aspects of reasoning skills.
 
 We solved this problem by offering *several* prompts to students and asking them to choose. We framed the prompts as "sentence starters," inspired by [a common classroom practice](http://www.multibriefs.com/briefs/exclusive/using_sentence_frames.html#.Wx79B2RKjDU) in language arts and social studies classrooms. Students choose a sentence prefix like “Another geographical detail which would support this argument might be…” from a set of 3–5 and then complete the sentence. 
 
@@ -308,7 +308,7 @@ We can also use model work to scaffold specific tasks, like fixing a carefully c
 [MobileAltImage desktopURL:"images/scaffolded_tasks-noborder.png" mobileURL:"images/scaffolded_tasks-mobile-noborder.png" alt: "Illustration of questions like 'Which points would this answer lose?" /]
 [/AcrossAllColumns]
 
-By contrast, peer work is a bit of a lottery. The student might see some interesting ideas, or they might see nonsense. But peer work is *alive:* it situates the exchange of ideas in a social context which creates meaning for the whole activity. Interaction with peer work also creates the possibility for students *receiving* interesting personal feedback from those peers.
+By contrast, peer work is a bit of a lottery. The student might see some interesting ideas, or they might see nonsense. But peer work is *alive:* it situates the exchange of ideas in a social context which creates meaning for the whole activity. Interaction with peer work also creates the possibility for students to *receive* interesting personal feedback from those peers.
 
 We wanted a social context to pervade the experience, motivating students to engage more deeply. We were inspired in part by Sandra Okita and colleagues’ memorably-named paper, "The mere belief of social interaction improves learning,"[CitationRef /] documenting a randomized controlled trial in which students who believed they were learning in a social context performed significantly better on a post-test.
 
@@ -400,7 +400,7 @@ We found that teachers use the report in multiple contexts. They use it in-class
 
 There are opportunities for reports to further assist teacher facilitation: sorting functionality to surface responses that need intervention, or are particularly meaty for discussion; the ability for a teacher to "drop in" on any response to provide feedback of their own; lightweight text analysis to spot trends in class writing or surface problematic work. In all cases, we seek to make reports useful for facilitating activities and understanding how they’re going, rather than delivering individual grades for participants.
 
-AP teachers routinely involve rubrics in their class activities—not to provide students with a grade, but to offer a scaffold. The rubrics help students understand what’s expected of them and function like a checklist, a series of lenses they can use to think about their ideas or others’.
+Teachers of Advanced Placement (AP) courses routinely involve rubrics in their class activities—not to provide students with a grade, but to offer a scaffold. The rubrics help students understand what’s expected of them and function like a checklist, a series of lenses they can use to think about their ideas or others’.
 
 Though we haven’t tested it yet, we believe that it would be helpful to offer students a "checklist" they can use to evaluate their own work or others’. This might even feed into the sentence starters. For instance, if a student says they think they’ve appropriately contextualized their evidence, it’s interesting for a peer to consider what else might be added to the contextualization—not so much to validate the score as to foster useful thought.
 
@@ -408,7 +408,7 @@ Though we haven’t tested it yet, we believe that it would be helpful to offer 
 
 One thing that prevents classrooms from running more open-ended activities is that it’s nearly impossible for teachers to deliver rapid feedback to all their students. We’ve shown how our platform helps solve that problem through peer interactions and the teacher report.
 
-Still another challenge is the difficulty of authoring activities in the first place. A good activity is carefully constructed to employ a particular skill around a given stimulus—something like a historical document, or a laboratory experiment. Many teachers rely on questions from standardized exams—but there are usually so few that they get saved for summative tests and quizzes.
+Still another challenge is the difficulty of authoring activities in the first place. A good activity is carefully constructed to employ a particular skill around a given stimulus—something like a historical source, graph, or laboratory experiment. Many teachers rely on questions from standardized exams—but there are usually so few that they get saved for summative tests and quizzes.
 
 Happily, we found that within our prototype platform, open-ended activities can at once be rich and relatively inexpensive to author. At first glance, this seems unlikely. The activities in our framework require more content than a typical exam question, since they make use of model work and sentence starters. But because the activities focus on a reasonably small number of complex reasoning skills, they can be created at scale.
 
@@ -444,13 +444,13 @@ We created early sketches of a large variety of input modes: speech, stickers, h
 
 # 5. In class, after class, and at home: a vignette
 
-We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usually simulate the conditions of the free response portions of the exam. They’re likely timed, and conducted in isolation.
+We interviewed teachers to understand how they currently find the time in their school year to run open-ended activities. In large part because they're so burdensome to conduct, we heard many teachers say they often cram them in toward the end of the school year, when preparing for exams. In this context, open-ended activities usually simulate the conditions of the free response portions of the exam. They’re likely timed and conducted in isolation.
 
 [Aside]
 ![drawing of timeline depicting teachers pushing open-ended work to the end of the year](images/open-ended-timeline-noborder.png)
 [/Aside]
 
-How might this change if open-ended activities were lighter, social, easier to run? When we showed teachers our prototype, they were full of ideas about how to use it. Teachers saw themselves running activities to preview a new topic; to check for understanding of the night’s reading; to run an end-of-class reflection; to practice essay-writing in smaller chunks. This diverse set of use cases inspired us to design a flexible system that can be run in-class or asynchronously at home; that can be as quick as a few minutes or take an hour; that can facilitate moderation but does not strictly require it.
+How might this change if open-ended activities were lighter, social, and easier to run? When we showed teachers our prototype, they were full of ideas about how to use it. Teachers saw themselves running activities to preview a new topic; to check for understanding of the night’s reading; to run an end-of-class reflection; to practice essay-writing in smaller chunks. This diverse set of use cases inspired us to design a flexible system that can be run in-class or asynchronously at home; that can be as quick as a few minutes or take an hour; that can facilitate moderation but does not strictly require it.
 
 [Aside]
 Learn more about the process we used to identify teachers’ top challenges and connect them to concept generation through "baseball cards" [on our blog](http://klr.tumblr.com/post/174256565853/sorting-product-baseball-cards).
@@ -540,7 +540,7 @@ Weʼd like to thank the following people for their valuable thoughts on this rep
 
 So many of our colleagues at Khan Academy helped us during this project, but we'd like to express particular gratitude to   contributions from Sean Boston, Cam Christenson, Kim Kutz Elliott, Dave Herron, Jason Hovey, Sal Khan, Ginny Lee, Sarah Lim, Leah Marquez, Caroline Pritchard, David Rheinstrom, April Russell, and Allison Zimmerman.
 
-We'd also like to extend our sincere gratitude to the many teachers and students who participated in our interviews, created activities with us, and used their valuable class time to run a pilot with us. We promised all participants their privacy by default, but these teachers gave us permission to acknowledge them by name, which we'll do now with much appreciation: Christina Braswell, Neal Cates, Tracey Delyea, Andrea Glenn, Nathan Gong, Jacqueline McNeilly, Olivia Morales, Diane Morey, Timothy Mulvehill, Cara Rosenthal, Paul Sargent, Jason Searle, Jenna Wright.
+We'd also like to extend our sincere gratitude to the many teachers and students who participated in our interviews, created activities with us, and used their valuable class time to run a pilot with us. We promised all participants their privacy by default, but these teachers gave us permission to acknowledge them by name, which we'll do now with much appreciation: Christina Braswell, Neal Cates, Tracey Delyea, Andrea Glenn, Nathan Gong, Jacqueline McNeilly, Olivia Morales, Diane Morey, Timothy Mulvehill, Cara Rosenthal, Paul Sargent, Jason Searle, Jah-Yee Woo, Jenna Wright.
 
 While comments from these people have hugely improved this report, any remaining deficiencies in this work should be attributed to the authors alone. The people listed here should not necessarily be construed as endorsing this report.
 
