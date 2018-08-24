@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     color: color.offBlack,
 
     [":hover"]: {
-      textDecoration: "underline",
+      textDecoration: "underline"
     }
   },
 
@@ -105,9 +105,6 @@ const styles = StyleSheet.create({
       backgroundSize: "680px 258px",
       marginTop: 120
     },
-    "@media (max-width: 1060px)": {
-      backgroundPosition: "top left"
-    }
   },
 
   heroTitle: {
@@ -118,6 +115,8 @@ const styles = StyleSheet.create({
     marginTop: "1rem",
     marginBottom: "4rem",
     textAlign: "center",
+    marginLeft: 32,
+    marginRight: 32,
     [mobileQuery]: {
       marginTop: 0,
       marginBottom: "2.5rem"
@@ -255,7 +254,7 @@ const styles = StyleSheet.create({
 
     [mobileQuery]: {
       marginTop: 0,
-      marginBottom: -20,
+      marginBottom: -20
     }
   }
 });
@@ -286,7 +285,14 @@ const Title = ({ title, authors, date }) => (
           <div className={css(styles.heroImage)} />
           <div className={css(textStyles.Title, styles.heroTitle)}>{title}</div>
           <div className={css(styles.authors, textStyles.LabelMedium)}>
-            {authors.map(({name, link}, index) => <Fragment>{index > 0 ? ", " : ""}<a href={link} className={css(styles.authorLink)}>{name}</a></Fragment>)}
+            {authors.map(({ name, link }, index) => (
+              <Fragment>
+                {index > 0 ? ", " : ""}
+                <a href={link} className={css(styles.authorLink)}>
+                  {name}
+                </a>
+              </Fragment>
+            ))}
           </div>
           <div className={css(styles.authorsDisclaimer, textStyles.Caption)}>
             Authors listed alphabetically. {date}.
@@ -327,21 +333,10 @@ const Abstract = ({ children }) => (
 );
 
 const KeyQuote = ({ children }) => (
-  <ClearDisplay>
-    {() => (
-      <div className={css(styles.keyQuoteContainer)}>
-        <Row style={styles.noPosition}>
-          <Cell largeCols={2} mediumCols={1} smallCols={0} />
-          <Cell largeCols={8} mediumCols={6} smallCols={4}>
-            <h2 className={css(textStyles.HeadingSmall)}>Our challenge:</h2>
-            <div className={css(textStyles.Tagline, styles.keyQuote)}>
-              {children}
-            </div>
-          </Cell>
-        </Row>
-      </div>
-    )}
-  </ClearDisplay>
+  <div className={css(styles.keyQuoteContainer)}>
+    <h2 className={css(textStyles.HeadingSmall)}>Our challenge:</h2>
+    <div className={css(textStyles.Tagline, styles.keyQuote)}>{children}</div>
+  </div>
 );
 
 const Aside = ({ children }) => (
